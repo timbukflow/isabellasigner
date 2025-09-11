@@ -218,6 +218,14 @@ header {
   padding-top: 250px;
 }
 
+.gap-termin {
+  padding-top: 10px;
+}
+
+.gap-middle {
+  padding-top: 100px;
+}
+
 .teaser-angebot {
   display: flex;
   justify-content: center;
@@ -266,6 +274,9 @@ header {
   width: 100%;
 }
 
+.c-dark {background-color: #9171d6;}
+.c-light {background-color: #ccbfea;}
+
 .termine h3 {
   font-size: 32px;
   border-bottom: 1px solid rgba(255,255,255,.5);
@@ -290,12 +301,16 @@ header {
   font-size: var(--fontsmall);
 }
 
-
 .termine li,
 .termine h3,
 .termine p {
   color: white;
   text-align: left;
+}
+
+.stern p {
+  color: white;
+  margin-top: 50px;
 }
 
 /*----------------------------------
@@ -414,6 +429,70 @@ header {
 .side-menu.open {
   left: 0;
 }
+
+/*----------------------------------
+    Kontakt & Form
+-----------------------------------*/
+
+
+.kontakt { 
+  max-width: 900px; 
+  margin: 60px auto; 
+  padding: 0 20px; 
+}
+.grid { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 18px; 
+}
+.grid .full { grid-column: 1 / -1; }
+label { 
+  display:block; 
+  font-size:18px; 
+  color:var(--green); 
+}
+input, textarea { 
+  width:100%; 
+  padding:12px 14px; 
+  border:1px solid #ddd; 
+  border-radius:10px; 
+  font-size:16px; 
+}
+.btn { 
+  background: var(--purple); 
+  color:#fff; 
+  padding:12px 24px; 
+  border-radius:10px; 
+  border:0; cursor:pointer; 
+}
+.form-hint { 
+  margin-top:10px; 
+  opacity:.7; }
+
+/* Honeypot ausblenden */
+.hp { position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden; }
+
+/* Modal */
+.modal { position:fixed; 
+  inset:0; 
+  background:rgba(0,0,0,.45); 
+  display:grid; 
+  place-items:center; 
+  z-index:9999; }
+
+.modal[hidden] { 
+  display:none; 
+}
+
+.modal-box { 
+  background:#fff; 
+  color:#333; 
+  padding:24px 28px; 
+  border-radius:12px; 
+  max-width: 420px; 
+  text-align:center; 
+}
+
 
 /*----------------------------------
     Footer

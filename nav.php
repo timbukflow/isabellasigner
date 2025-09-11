@@ -5,10 +5,10 @@
 
 <nav class="side-menu" id="sideMenu">
   <ul>
-    <li><a href="portfolio">Portfolio</a></li>
-    <li><a href="event-press">Event/Press</a></li>
-    <li><a href="about">About</a></li>
-    <li><a href="contact">Contact</a></li>
+    <li><a href="ueber-mich">Über mich</a></li>
+    <li><a href="angebot">Angebot</a></li>
+    <li><a href="termin">Termin</a></li>
+    <li><a href="kontakt">Kontakt</a></li>
   </ul>
 </nav>
 

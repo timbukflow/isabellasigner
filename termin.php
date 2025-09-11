@@ -2,11 +2,11 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Isabella Signer | Mein Angebot Ayurveda, Atmen & Coaching </title>
+    <title>Isabella Signer | Termin Buchen für Ayurveda, Atmen & Coaching </title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="..." />
     <meta name="author" content="Isabella Signer" />
-    <link rel="canonical" href="https://isabella-signer.ch/angebot" />
+    <link rel="canonical" href="https://isabella-signer.ch/termin" />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="cache-control" content="public, max-age=3600" />
     <meta http-equiv="pragma" content="cache" />
@@ -20,16 +20,16 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Mein Angebot Ayurveda, Atmen & Coaching" />
+    <meta property="og:title" content="Isabella Signer | Termin Buchen für Ayurveda, Atmen & Coaching" />
     <meta property="og:description" content="..." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://isabella-signer.ch/angebot" />
+    <meta property="og:url" content="https://isabella-signer.ch/termin" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
     <meta property="og:locale" content="de_CH" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mein Angebot Ayurveda, Atmen & Coaching" />
+    <meta name="twitter:title" content="Isabella Signer | Termin Buchen für Ayurveda, Atmen & Coaching" />
     <meta name="twitter:description" content="..." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
@@ -76,80 +76,11 @@
     <?php require_once 'nav.php'; ?>
 
     <header>
-        <h3>Mein Angebot</h3>
-        <h1>Schritt für Schritt begleite ich dich auf deinem Weg zu mehr Klarheit, Leichtigkeit und gelebter Weiblichkeit.</h1>
+        <h3>Termin Buchen</h3>
+        <h2 class="sub">Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden – ich verbinde diese Qualitaten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
     </header>
 
-    
-    <h2 class="fullscreen-text">Ayurveda</h2>
-    <section class="cont-50-50">
-        <div class="photo parallax" data-speed="0.025">
-            <img
-            src="img/isabella-signer-ayurveda.webp"
-            alt="Isabella Signer lächelnd im Atelier"
-            loading="lazy"
-            />
-        </div>
-
-        <div class="copy parallax" data-speed="0.05">
-            <h2 class="sub t-a-left">Ayurveda bringt dich zurück zu dir.</h2>
-            <p class="t-a-left">
-                Es lehrt dich, dich selbst wieder wahrzunehmen, mit allem, was du bist und brauchst.
-            </p>
-            <p class="t-a-left">
-                Mit seiner Einfachheit, Tiefe und Weisheit begleitet es zu mehr Balance, Lebendigkeit und weiblicher Gesundheit.
-            </p>
-            <p class="t-a-left">
-                Es betrachtet jeden Menschen als Ganzes, holistisch und individuell. Der Fokus liegt auf der Erhaltung der Gesundheit und nicht auf der Bekämpfung von Symptomen.
-            </p>
-        </div>
-    </section>
-
-    <h2 class="fullscreen-text purple" >Breathwork</h2>
-    <section class="cont-50-50">
-        <div class="copy parallax" data-speed="0.05">
-            <h2 class="sub t-a-left purple">Atmen ist die ehrlichste Verbindung zu dir selbst.</h2>
-            <p class="t-a-left purple">
-                Breathwork berührt Ebenen, die Worte nicht erreichen. Dort, wo Erfahrungen, Emotionen und Blockaden tiefer sitzen.
-            </p>
-            <p class="t-a-left purple">
-                In dieser Stille geschieht oft das Größte: Loslassen, Verstehen, Aufblühen.
-            </p>
-        </div>
-        <div class="photo parallax" data-speed="0.025">
-            <img
-            src="img/isabella-signer-breathwork.webp"
-            alt="Isabella Signer lächelnd im Atelier"
-            loading="lazy"
-            />
-        </div>
-    </section>
-
-    <h2 class="fullscreen-text bronze">Coaching</h2>
-    <section class="cont-50-50">
-        <div class="photo parallax" data-speed="0.025">
-            <img
-            src="img/isabella-signer-coaching.webp"
-            alt="Isabella Signer lächelnd im Atelier"
-            loading="lazy"
-            />
-        </div>
-
-        <div class="copy parallax" data-speed="0.05">
-            <h2 class="sub t-a-left bronze">Manchmal braucht es jemanden, der dich daran erinnert, wer du wirklich bist.</h2>
-            <p class="t-a-left bronze">
-                Ein Gegenüber, das die richtigen Fragen stellt, damit du deine Antworten in dir findest.
-            </p>
-            <p class="t-a-left bronze">
-                Coaching schafft neue Sichtweisen, innere Klarheit und mutige Schritte in dein eigenes Leben.
-            </p>
-        </div>
-    </section>
-
-    <section class="ta-cont gap-small">
-        <div class="container">
-            <h2 class="white sub">Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden, ich verbinde diese Qualitaten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
-        </div>
+    <section class="ta-cont gap-termin">
 
         <div class="termin-angebot">
             <div class="termine c-light " data-speed="-0.025">
@@ -205,9 +136,23 @@
                 *Buchung ist verbindlich. Absagen bis 24h vorher kostenlos, danach voller Betrag
             </p>
         </div>
-    </section>
 
-    
+        <div class="container gap-middle">
+            <h2 class="white">Gönnst du dir nur etwas, wenn du es dir „verdient“ hast?</h2>
+            <div class="question-sec">
+                <p class="white">
+                    Erst wenn alles erledigt ist. Erst wenn du doppelt geleistet hast. 
+                    Erst wenn du dich selbst rechtfertigen kannst. 
+                    Kennst du das?
+                </p>
+                <p class="white">
+                    In unserer Zusammenarbeit darfst du loslassen, dass Selbstfürsorge eine Belohnung sein muss.
+                    Sie ist dein Ursprung – kein Bonus.
+                    Du musst nichts leisten, um dich spüren zu dürfen.
+                </p>
+            </div>
+        </div>
+    </section>
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>
