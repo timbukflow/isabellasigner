@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Isabella Signer | Über mich </title>
+    <title>Über mich – Isabella Signer | Ayurveda, Breathwork &amp; Coaching in Steinach (SG)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="..." />
+    <meta name="description" content="Lerne Isabella Signer kennen – Ayurveda, Breathwork &amp; Coaching in Steinach (SG). Persönlich, einfühlsam und mit Erfahrung begleitet sie Frauen in ihr echtes Frausein." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/ueber-mich" />
     <meta name="robots" content="index, follow" />
@@ -21,7 +21,7 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="Isabella Signer | Über mich" />
-    <meta property="og:description" content="..." />
+    <meta property="og:description" content="Über mich: Isabella Signer – Ayurveda Lifestyle- &amp; Ernährungscoach, Breathwork &amp; Coaching in Steinach (SG). Frauen ganzheitlich begleiten." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/ueber-mich" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -30,7 +30,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isabella Signer | Über mich" />
-    <meta name="twitter:description" content="..." />
+    <meta name="twitter:description" content="Isabella Signer stellt sich vor – Ayurveda, Breathwork &amp; Coaching in Steinach (SG). Erlebe persönliche Begleitung mit Herz &amp; Erfahrung." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -41,34 +41,29 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="main.css" />
-    
 
-    <!-- <script type="application/ld+json">
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Kathrina Looser",
-      "url": "https://kathrinalooser.ch",
-      "description": "Kathrina Looser verbindet Fotografie und Siebdruck – A thought takes form, a feeling becomes image.",
-      "inLanguage": "de",
-      "author": {
+      "@type": "AboutPage",
+      "name": "Über mich – Isabella Signer",
+      "url": "https://isabella-signer.ch/ueber-mich",
+      "inLanguage": "de-CH",
+      "description": "Über mich: Isabella Signer – Ayurveda Lifestyle- & Ernährungscoach, Breathwork & Coaching in Steinach (SG). Frauen ganzheitlich begleiten.",
+      "mainEntity": {
         "@type": "Person",
-        "name": "Kathrina Looser",
-        "email": "mailto:hallo@kathrinalooser.ch",
+        "name": "Isabella Signer",
+        "url": "https://isabella-signer.ch",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Herrenberg 37",
-          "addressLocality": "Rapperswil",
-          "postalCode": "8640",
+          "streetAddress": "Kornfeldstrasse 17b",
+          "addressLocality": "Steinach",
+          "postalCode": "9323",
           "addressCountry": "CH"
         }
-      },
-      "publisher": {
-        "@type": "Person",
-        "name": "Kathrina Looser"
       }
     }
-    </script> -->
+    </script>
 
 </head>
 
@@ -84,7 +79,7 @@
         <div class="photo parallax" data-speed="0.05">
             <img
             src="img/isabella-signer-ueber-mich-01.webp"
-            alt="Isabella Signer lächelnd im Atelier"
+            alt="Isabella Signer – Portrait im Atelier, Ayurveda & Coaching"
             loading="lazy"
             />
         </div>
@@ -113,7 +108,7 @@
         <div class="photo parallax" data-speed="0.1">
             <img
             src="img/isabella-signer-ueber-mich-02.webp"
-            alt="Isabella Signer lächelnd im Atelier"
+            alt="Isabella Signer – Begleitung von Frauen, Breathwork & Coaching"
             loading="lazy"
             />
         </div>
@@ -139,19 +134,19 @@
 
         <div class="teaser-angebot">
             <div class="angebot parallax" data-speed="0.01">
-                <img src="img/isabella-signer-teaser-ayurveda.webp" alt="Ayurveda" loading="lazy" />
+                <img src="img/isabella-signer-teaser-ayurveda.webp" alt="Ayurveda Angebot – Balance finden mit Isabella Signer" loading="lazy" />
                 <h3>Ayurveda</h3>
                 <p>Ayurveda bringt dich zurück in deine Balance.</p>
             </div>
 
             <div class="angebot parallax" data-speed="-0.01">
-                <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork" loading="lazy" />
+                <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork Angebot – Klarheit & Atemarbeit mit Isabella Signer" loading="lazy" />
                 <h3>Breathwork</h3>
                 <p>Breathwork öffnet dir den Zugang zu tiefer Klarheit.</p>
             </div>
 
             <div class="angebot parallax" data-speed="0.01">
-                <img src="img/isabella-signer-teaser-coaching.webp" alt="Coaching" loading="lazy" />
+                <img src="img/isabella-signer-teaser-coaching.webp" alt="Coaching Angebot – Persönliche Entwicklung mit Isabella Signer" loading="lazy" />
                 <h3>Coaching</h3>
                 <p>Coaching unterstützt dich, dein Selbst zu erkennen.</p>
             </div>

@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Isabella Signer | Kontakt </title>
+    <title>Kontakt – Isabella Signer | Ayurveda, Breathwork &amp; Coaching in Steinach (SG)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="..." />
+    <meta name="description" content="Kontaktiere Isabella Signer in Steinach (SG) – Ayurveda, Breathwork &amp; Coaching. Schreibe mir für Fragen oder eine Anfrage, ich melde mich zeitnah." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/kontakt" />
     <meta name="robots" content="index, follow" />
@@ -21,7 +21,7 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="Isabella Signer | Kontakt" />
-    <meta property="og:description" content="..." />
+    <meta property="og:description" content="Kontakt &amp; Anfrage: Isabella Signer – Ayurveda, Breathwork &amp; Coaching in Steinach (SG). Ich freue mich auf deine Nachricht." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/kontakt" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -30,7 +30,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isabella Signer | Kontakt" />
-    <meta name="twitter:description" content="..." />
+    <meta name="twitter:description" content="Schreibe Isabella Signer – Ayurveda, Breathwork &amp; Coaching in Steinach (SG). Persönlich, einfühlsam, zuverlässig." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -41,34 +41,37 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="main.css" />
-    
 
-    <!-- <script type="application/ld+json">
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Kathrina Looser",
-      "url": "https://kathrinalooser.ch",
-      "description": "Kathrina Looser verbindet Fotografie und Siebdruck – A thought takes form, a feeling becomes image.",
-      "inLanguage": "de",
-      "author": {
+      "@type": "ContactPage",
+      "name": "Kontakt – Isabella Signer",
+      "url": "https://isabella-signer.ch/kontakt",
+      "inLanguage": "de-CH",
+      "description": "Kontakt für Ayurveda, Breathwork und Coaching in Steinach (SG).",
+      "mainEntity": {
         "@type": "Person",
-        "name": "Kathrina Looser",
-        "email": "mailto:hallo@kathrinalooser.ch",
+        "name": "Isabella Signer",
+        "url": "https://isabella-signer.ch",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Herrenberg 37",
-          "addressLocality": "Rapperswil",
-          "postalCode": "8640",
+          "streetAddress": "Kornfeldstrasse 17b",
+          "addressLocality": "Steinach",
+          "postalCode": "9323",
           "addressCountry": "CH"
-        }
-      },
-      "publisher": {
-        "@type": "Person",
-        "name": "Kathrina Looser"
+        },
+        "contactPoint": [{
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "info@isabella-signer.ch",
+          "telephone": "+41 71 446 44 36",
+          "areaServed": "CH",
+          "availableLanguage": ["de-CH", "de"]
+        }]
       }
     }
-    </script> -->
+    </script>
 
 </head>
 

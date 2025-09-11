@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Isabella Signer | Termin Buchen für Ayurveda, Atmen & Coaching </title>
+    <title>Termin buchen – Isabella Signer | Ayurveda, Breathwork &amp; Coaching in Steinach (SG)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="..." />
+    <meta name="description" content="Buche deinen Termin bei Isabella Signer in Steinach (SG) – Ayurveda, Breathwork oder Coaching. Persönlich, einfühlsam &amp; klar begleitet." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/termin" />
     <meta name="robots" content="index, follow" />
@@ -20,8 +20,8 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Isabella Signer | Termin Buchen für Ayurveda, Atmen & Coaching" />
-    <meta property="og:description" content="..." />
+    <meta property="og:title" content="Termin buchen – Isabella Signer | Ayurveda, Breathwork &amp; Coaching" />
+    <meta property="og:description" content="Buche deinen Termin – Ayurveda, Breathwork &amp; Coaching mit Isabella Signer in Steinach (SG). Wähle Kennenlernen, Einzel‑Session oder Monatsbegleitung." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/termin" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -29,8 +29,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Isabella Signer | Termin Buchen für Ayurveda, Atmen & Coaching" />
-    <meta name="twitter:description" content="..." />
+    <meta name="twitter:title" content="Termin buchen – Isabella Signer | Ayurveda, Breathwork &amp; Coaching" />
+    <meta name="twitter:description" content="Termin vereinbaren bei Isabella Signer – Ayurveda, Breathwork &amp; Coaching in Steinach (SG). Persönlich &amp; einfühlsam." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -41,34 +41,38 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="main.css" />
-    
 
-    <!-- <script type="application/ld+json">
+
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Kathrina Looser",
-      "url": "https://kathrinalooser.ch",
-      "description": "Kathrina Looser verbindet Fotografie und Siebdruck – A thought takes form, a feeling becomes image.",
-      "inLanguage": "de",
-      "author": {
+      "@type": "ContactPage",
+      "name": "Termin buchen – Isabella Signer",
+      "url": "https://isabella-signer.ch/termin",
+      "inLanguage": "de-CH",
+      "description": "Buche deinen Termin bei Isabella Signer in Steinach (SG) für Ayurveda, Breathwork oder Coaching.",
+      "mainEntity": {
         "@type": "Person",
-        "name": "Kathrina Looser",
-        "email": "mailto:hallo@kathrinalooser.ch",
+        "name": "Isabella Signer",
+        "url": "https://isabella-signer.ch",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Herrenberg 37",
-          "addressLocality": "Rapperswil",
-          "postalCode": "8640",
+          "streetAddress": "Kornfeldstrasse 17b",
+          "addressLocality": "Steinach",
+          "postalCode": "9323",
           "addressCountry": "CH"
-        }
-      },
-      "publisher": {
-        "@type": "Person",
-        "name": "Kathrina Looser"
+        },
+        "contactPoint": [{
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "info@isabella-signer.ch",
+          "telephone": "+41 71 446 44 36",
+          "areaServed": "CH",
+          "availableLanguage": ["de-CH", "de"]
+        }]
       }
     }
-    </script> -->
+    </script>
 
 </head>
 

@@ -15,6 +15,30 @@
           </a>
       </div>
     </div>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie läuft ein erstes Gespräch ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Im kostenlosen Kennenlern-Call klären wir dein Anliegen und schauen, welches Angebot passt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Online-Sessions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Coachings und Breathwork biete ich auch online an."
+          }
+        }
+      ]
+    }
+    </script>
     
     <div class="faq">
       <p class="faq-intro">Antworten auf das, was dich beschäftigt</p>

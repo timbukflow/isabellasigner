@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Isabella Signer | Mein Angebot Ayurveda, Atmen & Coaching </title>
+    <title>Isabella Signer – Ayurveda, Breathwork &amp; Coaching Angebote</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="..." />
+    <meta name="description" content="Ayurveda, Breathwork und Coaching in Steinach (SG). Wähle zwischen Kennenlern-Call, Einzel-Session oder Monatsbegleitung – individuell, weiblich, klar." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/angebot" />
     <meta name="robots" content="index, follow" />
@@ -21,7 +21,7 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="Mein Angebot Ayurveda, Atmen & Coaching" />
-    <meta property="og:description" content="..." />
+    <meta property="og:description" content="Individuelle Begleitung mit Ayurveda, Breathwork und Coaching in Steinach (SG): Kennenlernen, Einzel-Session oder Monatsbegleitung." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/angebot" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -30,7 +30,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Mein Angebot Ayurveda, Atmen & Coaching" />
-    <meta name="twitter:description" content="..." />
+    <meta name="twitter:description" content="Ayurveda, Breathwork &amp; Coaching: Kennenlern-Call, Einzel-Session oder Monatsbegleitung – persönlich &amp; einfühlsam in Steinach (SG)." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -41,34 +41,71 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="main.css" />
-    
 
-    <!-- <script type="application/ld+json">
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Kathrina Looser",
-      "url": "https://kathrinalooser.ch",
-      "description": "Kathrina Looser verbindet Fotografie und Siebdruck – A thought takes form, a feeling becomes image.",
-      "inLanguage": "de",
-      "author": {
+      "@type": "WebPage",
+      "name": "Angebot – Ayurveda, Breathwork & Coaching",
+      "url": "https://isabella-signer.ch/angebot",
+      "inLanguage": "de-CH",
+      "description": "Ayurveda, Breathwork und Coaching in Steinach (SG). Kennenlern-Call, Einzel-Session oder Monatsbegleitung – individuell und einfühlsam.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Isabella Signer",
+        "url": "https://isabella-signer.ch"
+      },
+      "about": {
         "@type": "Person",
-        "name": "Kathrina Looser",
-        "email": "mailto:hallo@kathrinalooser.ch",
+        "name": "Isabella Signer",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Herrenberg 37",
-          "addressLocality": "Rapperswil",
-          "postalCode": "8640",
+          "streetAddress": "Kornfeldstrasse 17b",
+          "addressLocality": "Steinach",
+          "postalCode": "9323",
           "addressCountry": "CH"
         }
       },
-      "publisher": {
-        "@type": "Person",
-        "name": "Kathrina Looser"
+      "mainEntity": {
+        "@type": "OfferCatalog",
+        "name": "Begleitungs-Angebote",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Kennenlern-Call",
+            "price": "0",
+            "priceCurrency": "CHF",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Unverbindliches Kennenlernen",
+              "areaServed": "CH"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Einzel-Session",
+            "price": "125.00",
+            "priceCurrency": "CHF",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Einzelsitzung Breathwork / Coaching",
+              "areaServed": "CH",
+              "duration": "PT1H"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Monatsbegleitung",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monatliche Begleitung",
+              "areaServed": "CH"
+            }
+          }
+        ]
       }
     }
-    </script> -->
+    </script>
 
 </head>
 
@@ -86,7 +123,7 @@
         <div class="photo parallax" data-speed="0.025">
             <img
             src="img/isabella-signer-ayurveda.webp"
-            alt="Isabella Signer lächelnd im Atelier"
+            alt="Ayurveda Begleitung – Isabella Signer in Steinach (SG)"
             loading="lazy"
             />
         </div>
@@ -119,7 +156,7 @@
         <div class="photo parallax" data-speed="0.025">
             <img
             src="img/isabella-signer-breathwork.webp"
-            alt="Isabella Signer lächelnd im Atelier"
+            alt="Breathwork Session – achtsam atmen mit Isabella Signer"
             loading="lazy"
             />
         </div>
@@ -130,7 +167,7 @@
         <div class="photo parallax" data-speed="0.025">
             <img
             src="img/isabella-signer-coaching.webp"
-            alt="Isabella Signer lächelnd im Atelier"
+            alt="Coaching für Frauen – Klarheit & Selbstvertrauen mit Isabella Signer"
             loading="lazy"
             />
         </div>
