@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 26 26">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M1,6.53846c0,10.19604,8.26551,18.46154,18.4615,18.46154h2.7693c1.5294,0,2.7692-1.2398,2.7692-2.7692v-1.6882c0-.6353-.4324-1.1892-1.0488-1.3433l-5.4439-1.3609c-.5405-.1352-1.1093.0668-1.4435.5125l-1.1941,1.5921c-.3466.4621-.946.6664-1.4884.4678-4.07-1.491-7.30111-4.7221-8.79205-8.7921-.19868-.5424.00565-1.1418.46774-1.4884l1.59215-1.19407c.44567-.33426.64761-.90306.5125-1.44351l-1.36098-5.44392c-.1541-.61639-.70792-1.0488-1.34327-1.0488h-1.68816c-1.5294,0-2.76923,1.23983-2.76923,2.76923v2.76923Z"/>
+  <metadata>
+    <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+      <slices/>
+      <sliceSourceBounds x="0.25" y="0.25" width="25.5" height="25.5" bottomLeftOrigin="true"/>
+    </sfw>
+  </metadata>
+</svg>

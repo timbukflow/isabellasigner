@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
+    <meta charset="UTF-8" />
+    <title>Isabella Signer | Ayurveda, Atmen & Coaching </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="..." />
+    <meta name="author" content="Isabella Signer" />
+    <link rel="canonical" href="https://isabella-signer.ch" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="cache-control" content="public, max-age=3600" />
+    <meta http-equiv="pragma" content="cache" />
+
+    <!-- Favicon -->
+     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Isabella Signer" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Isabella Signer | Ayurveda, Atmen & Coaching" />
+    <meta property="og:description" content="..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://isabella-signer.ch" />
+    <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
+    <meta property="og:locale" content="de_CH" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Isabella Signer | Ayurveda, Atmen & Coaching" />
+    <meta name="twitter:description" content="..." />
+    <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
+
+    <meta name="format-detection" content="telephone=yes" />
+    <meta property="business:contact_data:street_address" content="Kornfeldstrasse 17b" />
+    <meta property="business:contact_data:region" content="Steinach" />
+    <meta property="business:contact_data:postal_code" content="9323" />
+    <meta property="business:contact_data:country_name" content="Switzerland" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="main.css" />
+    
+
+    <!-- <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Kathrina Looser",
+      "url": "https://kathrinalooser.ch",
+      "description": "Kathrina Looser verbindet Fotografie und Siebdruck – A thought takes form, a feeling becomes image.",
+      "inLanguage": "de",
+      "author": {
+        "@type": "Person",
+        "name": "Kathrina Looser",
+        "email": "mailto:hallo@kathrinalooser.ch",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Herrenberg 37",
+          "addressLocality": "Rapperswil",
+          "postalCode": "8640",
+          "addressCountry": "CH"
+        }
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Kathrina Looser"
+      }
+    }
+    </script> -->
+
+</head>
+
+<body>
+    <?php require_once 'nav.php'; ?>
+    <header>
+        <h1>Wo Sensibilität Stärke ist und Weiblichkeit ihren Raum findet.</h1>
+        <div class="intro-img-cont">
+            <img class="parallax" data-speed="0.1" src="img/isabella-signer-intro-01.webp" alt="Isabella Signer Intro Bild">
+            <img class="parallax overlap" data-speed="-0.1" src="img/isabella-signer-intro-02.webp" alt="Isabella Signer Intro Bild">
+        </div>
+
+        <div class="question-cont">
+            <h2 class="purple">Wann hast du dich das letzte Mal an erste Stelle gesetzt, ohne schlechtes Gewissen?</h2>
+            <div class="question-sec">
+                <p class="purple">
+                    Du funktionierst. Für andere. Für alles. Aber wann warst du zuletzt deine eigene Priorität?
+                </p>
+                <p class="purple">
+                    In unserer Arbeit darfst du lernen, dich selbst wichtig zu nehmen – nicht irgendwann, nicht am Rand, sondern im Zentrum deines Lebens.
+                </p>
+                <p class="purple">
+                    Ohne Ausreden, ohne Schuldgefühl. Weil deine Bedürfnisse nicht optional sind.
+                </p>
+            </div>
+        </div>        
+    </header>
+
+     <div class="img-cont">
+        <div>
+            <img class="parallax" data-speed="0.1"  src="img/isabella-signer-intro-03.webp" alt="Isabella Signer Intro Bild" loading="lazy">
+        </div>
+        <div>
+            <img class="parallax" data-speed="0.05" src="img/isabella-signer-intro-04.webp" alt="Isabella Signer Intro Bild" loading="lazy">
+        </div>
+    </div>
+
+    <section class="ta-cont">
+        <div class="teaser-angebot">
+            <div class="angebot parallax" data-speed="0.01">
+                <img src="img/isabella-signer-teaser-ayurveda.webp" alt="Ayurveda" loading="lazy" />
+                <h3>Ayurveda</h3>
+                <p>Ayurveda bringt dich zurück in deine Balance.</p>
+            </div>
+
+            <div class="angebot parallax" data-speed="-0.01">
+                <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork" loading="lazy" />
+                <h3>Breathwork</h3>
+                <p>Breathwork öffnet dir den Zugang zu tiefer Klarheit.</p>
+            </div>
+
+            <div class="angebot parallax" data-speed="0.01">
+                <img src="img/isabella-signer-teaser-coaching.webp" alt="Coaching" loading="lazy" />
+                <h3>Coaching</h3>
+                <p>Coaching unterstützt dich, dein Selbst zu erkennen.</p>
+            </div>
+        </div>
+
+        <div class="btn">
+            <a href="angebot">zum Angebot</a>
+        </div>
+    </section>
+
+    <section class="cont-50-50">
+        <div class="photo">
+            <img
+            src="img/isabella-signer-teaser-ueber-mich.webp"
+            alt="Isabella Signer lächelnd im Atelier"
+            loading="lazy"
+            />
+        </div>
+
+        <div class="copy">
+            <p>
+            Weil ich selbst durchlebt habe, was ich heute weitergebe.
+            Aus Wissen, Erfahrung und Intuition entsteht ein sicherer Raum,
+            in dem echte Veränderung möglich wird.
+            </p>
+
+            <div class="btn">
+                <a  href="ueber-mich">Über mich</a>
+            </div>
+        </div>
+    </section>
+
+    <?php require_once 'footer.php'; ?>
+    <?php require_once 'script.php'; ?>
+    <?php require_once 'googleanalytics.php'; ?>
+</body>
+</html>
