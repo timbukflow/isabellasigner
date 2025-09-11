@@ -836,7 +836,7 @@ button {
   .cont-50-50.revers {flex-direction: column;}
   .btn {margin-top: 40px;}
   .ta-cont {padding: 60px 20px 50px; margin-top: 20px;}
-  .container {margin-bottom: 50px;}
+  .container {margin-bottom: 50px; padding: 10px;}
 
   /* angebot */
   .fullscreen-text {margin-top: 60px;}
