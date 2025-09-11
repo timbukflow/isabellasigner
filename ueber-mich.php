@@ -72,7 +72,7 @@
 
     <header>
         <h3>Über mich</h3>
-        <h1>Deine Herausforderungen sind mir nicht fremd – ich habe sie selbst durchlebt.</h1>
+        <h1>Deine Heraus&shy;forder&shy;ungen sind mir nicht fremd – ich habe sie selbst durchlebt.</h1>
     </header>
 
     <section class="cont-50-50">
