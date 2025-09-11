@@ -93,17 +93,29 @@
             <button type="button" class="btn-send" id="closeSuccessBtn">Zurück</button>
         </div>
         <script>
-            $(function(){
-            $('#closeSuccessBtn').on('click', function(){
-                $('#successNotice').fadeOut(400);
+          document.addEventListener('DOMContentLoaded', function () {
+            var btn = document.getElementById('closeSuccessBtn');
+            var notice = document.getElementById('successNotice');
+            if (!btn || !notice) return;
 
-                // optional: ?sent=1 aus der URL entfernen
-                const url = new URL(window.location.href);
+            btn.addEventListener('click', function (e) {
+              e.preventDefault();
+
+              // Smooth fade-out without jQuery
+              notice.style.transition = 'opacity .4s ease';
+              notice.style.opacity = '0';
+
+              setTimeout(function () {
+                notice.style.display = 'none';
+
+                // ?sent=1 aus der URL entfernen, ohne Reload
+                var url = new URL(window.location.href);
                 url.searchParams.delete('sent');
-                const qs = url.searchParams.toString();
+                var qs = url.searchParams.toString();
                 history.replaceState({}, '', url.pathname + (qs ? '?' + qs : '') + url.hash);
+              }, 400);
             });
-            });
+          });
         </script>
     <?php endif; ?>
 
