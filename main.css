@@ -520,6 +520,7 @@ input::placeholder {
 .success {
     position: absolute;
     margin: 0 auto;
+    z-index: 10000;
     max-width: 500px;
     text-align: center;
     background-color: #B9A2E9;
