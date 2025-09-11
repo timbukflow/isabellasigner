@@ -97,11 +97,7 @@
             $('#closeSuccessBtn').on('click', function(){
                 $('#successNotice').fadeOut(400);
 
-                // optional: ?sent=1 aus der URL entfernen
-                const url = new URL(window.location.href);
-                url.searchParams.delete('sent');
-                const qs = url.searchParams.toString();
-                history.replaceState({}, '', url.pathname + (qs ? '?' + qs : '') + url.hash);
+                
             });
             });
         </script>
