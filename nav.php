@@ -5,10 +5,21 @@
 
 <nav class="side-menu" id="sideMenu">
   <ul>
-    <li><a href="ueber-mich">Über mich</a></li>
     <li><a href="angebot">Angebot</a></li>
+    <li><a href="ueber-mich">Über mich</a></li>
     <li><a href="termin">Termin</a></li>
     <li><a href="kontakt">Kontakt</a></li>
   </ul>
+      <div class="footer-icons">
+          <a href="https://www.instagram.com/isabella_signer_be_natural" target="_blank" aria-label="Instagram">
+            <img src="img/icon-instagram.svg" alt="Instagram Icon">
+          </a>
+          <a href="mailto:info@isabella-signer.ch" aria-label="E-Mail schreiben">
+            <img src="img/icon-mail.svg" alt="E-Mail Icon">
+          </a>
+          <a href="tel:+41787581912" aria-label="Anrufen">
+            <img src="img/icon-phone.svg" alt="Telefon Icon">
+          </a>
+      </div>
 </nav>
 

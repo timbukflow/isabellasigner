@@ -31,7 +31,6 @@ $email     = trim((string)($_POST['email'] ?? ''));
 $phone     = trim((string)($_POST['phone'] ?? ''));
 $message   = trim((string)($_POST['message'] ?? ''));
 $reachTime = trim((string)($_POST['reach_time'] ?? ''));
-$reachWay  = in_array($_POST['reach_way'] ?? 'telefon', ['telefon','mail'], true) ? $_POST['reach_way'] : 'telefon';
 
 /* kurze Validierung */
 $errors = [];
@@ -50,7 +49,6 @@ $body .= "Adresse:     {$address}\n";
 $body .= "E-Mail:      {$email}\n";
 $body .= "Telefon:     {$phone}\n";
 $body .= "Erreichbar:  {$reachTime}\n";
-$body .= "Kontaktweg:  {$reachWay}\n\n";
 $body .= "Nachricht:\n{$message}\n";
 
 /* Header sicher setzen */

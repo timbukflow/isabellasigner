@@ -406,20 +406,38 @@ header {
 }
 
 /* side-menu */
+
 .side-menu {
-  margin: 20px 0;
-  background-color: var(--purple);
-  display: block;
-  position: fixed;
-  left: -75vw;
-  align-items: center;
-  top: 0;
-  display: flex;
-  padding: 50px;
-  border-radius: 0 500px 500px 0;
-  height: calc(100vh - 40px);
-  transition: left 0.5s ease-in-out;
-  z-index: 90;
+    background-color: var(--purple);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 500px 500px;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 90;
+    opacity: 0;
+    visibility: none;
+    pointer-events: none;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.side-menu ul {
+  margin-bottom: 100px;
+}
+
+.side-menu li {
+  transition: transform .35s ease, opacity 0.35s ease-in-out;
+}
+
+.side-menu li:hover {
+  transform: scale(1.05);
+  opacity: .8;
 }
 
 .side-menu a {
@@ -428,7 +446,9 @@ header {
 }
 
 .side-menu.open {
-  left: 0;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 /*----------------------------------
@@ -520,7 +540,6 @@ input::placeholder {
 .success {
     position: absolute;
     margin: 0 auto;
-    z-index: 10000;
     max-width: 500px;
     text-align: center;
     background-color: #B9A2E9;
@@ -546,6 +565,7 @@ input::placeholder {
     text-decoration: none;
     transition: padding 0.3s ease;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 
@@ -676,16 +696,6 @@ input::placeholder {
   letter-spacing: 0;
 }
 
-/* Mobile */
-@media (max-width: 900px) {
-  .faq-q { padding-right: 44px; }
-  .faq-plus { width: 20px; }
-  .faq-plus::before, .faq-plus::after { width: 20px; }
-}
-
-
-
-
 /*----------------------------------
     Datenschutz
 -----------------------------------*/
@@ -698,6 +708,7 @@ input::placeholder {
 .datenschutz h1 {
   font-size: var(--fonttitle);
   padding-bottom: 40px;
+  text-align: left;
 }
 
 .datenschutz h2 {
@@ -705,6 +716,9 @@ input::placeholder {
   padding-bottom: 10px;
   padding-top: 50px;
   border-bottom: var(--main) 1px solid;
+  text-align: left;
+  letter-spacing: 0;
+  border-bottom: var(--green) 1px solid;
 }
 
 .datenschutz p,
@@ -712,7 +726,7 @@ input::placeholder {
 .datenschutz li {
   padding-top: 20px;
   font-size: var(--fontsmall);
-  font-weight: 500;
+  text-align: left;
 }
 
 

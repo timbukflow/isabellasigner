@@ -2,53 +2,53 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Datenschutz | Kathrina Looser</title>
+    <title>Datenschutz | Isabella Signer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Datenschutz | Kathrina Looser" />
-    <meta name="author" content="Kathrina Looser" />
-    <link rel="canonical" href="https://kathrinalooser.ch/datenschutz" />
+    <meta name="description" content="Impressum | Isabella Signer" />
+    <meta name="author" content="Isabella Signer" />
+    <link rel="canonical" href="https://isabella-signer.ch/datenschutz" />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="cache-control" content="public, max-age=3600" />
     <meta http-equiv="pragma" content="cache" />
 
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="Kathrina Looser" />
+    <meta name="apple-mobile-web-app-title" content="Isabella Signer" />
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Kathrina Looser" />
-    <meta property="og:description" content="Datenschutz | Kathrina Looser" />
+    <meta property="og:title" content="Isabella Signer | Datenschutz" />
+    <meta property="og:description" content="..." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kathrinalooser.ch" />
-    <meta property="og:image" content="https://kathrinalooser.ch/img/og-image.jpg" />
+    <meta property="og:url" content="https://isabella-signer.ch/ueber-mich" />
+    <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
     <meta property="og:locale" content="de_CH" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Kathrina Looser" />
-    <meta name="twitter:description" content="Datenschutz | Kathrina Looser" />
-    <meta name="twitter:image" content="https://kathrinalooser.ch/img/og-image.jpg" />
+    <meta name="twitter:title" content="Isabella Signer | Datenschutz" />
+    <meta name="twitter:description" content="..." />
+    <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
-    <meta property="business:contact_data:street_address" content="Herrenberg 37" />
-    <meta property="business:contact_data:region" content="Rapperswil" />
-    <meta property="business:contact_data:postal_code" content="8640" />
+    <meta property="business:contact_data:street_address" content="Kornfeldstrasse 17b" />
+    <meta property="business:contact_data:region" content="Steinach" />
+    <meta property="business:contact_data:postal_code" content="9323" />
     <meta property="business:contact_data:country_name" content="Switzerland" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/zzi6qmn.css">
-
 </head>
 
 <body>
+    <?php require_once 'nav.php'; ?>
      <section class="datenschutz">
         <h1>Datenschutzerklärung</h1>
         <p>
-            Mit dieser Datenschutzerklärung informieren wir, welche Personendaten wir im Zusammenhang mit unseren Aktivitäten und Tätigkeiten einschliesslich unserer <a href="https://kathrinalooser.ch">www.kathrinalooser.ch</a> Website bearbeiten. Wir informieren insbesondere, wofür, wie und wo wir welche Personendaten bearbeiten. Wir informieren ausserdem über die Rechte von Personen, deren Daten wir bearbeiten.
+            Mit dieser Datenschutzerklärung informieren wir, welche Personendaten wir im Zusammenhang mit unseren Aktivitäten und Tätigkeiten einschliesslich unserer <a href="https://isabella-signer.ch">www.isabella-signer.ch</a> Website bearbeiten. Wir informieren insbesondere, wofür, wie und wo wir welche Personendaten bearbeiten. Wir informieren ausserdem über die Rechte von Personen, deren Daten wir bearbeiten.
         </p>
         <p>
             Für einzelne oder zusätzliche Aktivitäten und Tätigkeiten können weitere Datenschutzerklärungen sowie sonstige rechtliche Dokumente wie Allgemeine Geschäftsbedingungen (AGB), Nutzungsbedingungen oder Teilnahmebedingungen gelten.
@@ -57,10 +57,11 @@
         <h2>1. Kontaktadresse</h2>
         <p>Die Verantwortung für die Datenbearbeitung liegt bei: Wir weisen darauf hin, wenn es im Einzelfall andere Verantwortliche für die Bearbeitung von Personendaten gibt.</p>
         <p>
-            Kathrina Looser Seiz <br>
-            Herrenberg 37 <br>
-            8640 Rapperswil <br>
-            <a href="mailto:hallo@kathrinalooser.ch">hallo@kathrinalooser.ch</a>
+            Isabella Signer <br>
+            Kornfeldstrasse 17b <br>
+            9323 Steinach
+            <br>
+            <a href="mailto:info@isabella-signer.ch">info@isabella-signer.ch</a>
         </p>
 
         <h2>2. Begriffe und Rechtsgrundlagen</h2>
@@ -213,7 +214,6 @@
         </p>   
     </section>
 
-    <?php require_once 'nav.php'; ?>
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>
     <?php require_once 'googleanalytics.php'; ?>
