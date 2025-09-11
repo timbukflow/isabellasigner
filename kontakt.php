@@ -80,16 +80,70 @@
         <h1>Schritt für Schritt begleite ich dich auf deinem Weg zu mehr Klarheit, Leichtigkeit und gelebter Weiblichkeit.</h1>
     </header>
 
+    <?php
+    session_start();
+    if (empty($_SESSION['csrf'])) { $_SESSION['csrf'] = bin2hex(random_bytes(32)); }
+    $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
+    ?>
+    <section class="kontakt">
+    <h2>Kontaktformular</h2>
+
+    <?php if ($sent): ?>
+        <div id="formModal" class="modal">
+        <div class="modal-box">
+            <p>E-Mail wurde erfolgreich gesendet. Danke!</p>
+            <button id="modalClose" class="btn">Schliessen</button>
+        </div>
+        </div>
+        <script>
+        (function(){
+            const modal=document.getElementById('formModal');
+            const btn=document.getElementById('modalClose');
+            document.body.classList.add('noscroll');
+            btn.addEventListener('click',()=>{ modal.style.display='none'; document.body.classList.remove('noscroll'); history.replaceState({},'',location.pathname); });
+        })();
+        </script>
+    <?php endif; ?>
+
+    <form action="/form.php" method="post" novalidate>
+        <input type="hidden" name="csrf" value="<?= htmlspecialchars($_SESSION['csrf']) ?>">
+
+        <!-- Honeypot (unsichtbar) -->
+        <div class="hp" aria-hidden="true">
+        <label>Bitte leer lassen</label>
+        <input type="text" name="website" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div class="grid">
+        <label> Name <input type="text" name="name" required maxlength="120"></label>
+        <label> Vorname <input type="text" name="firstname" required maxlength="120"></label>
+        <label> Adresse <input type="text" name="address" maxlength="200"></label>
+        <label> Mailadresse <input type="email" name="email" required maxlength="120" autocomplete="email"></label>
+        <label> Telefonnummer <input type="tel" name="phone" maxlength="40" autocomplete="tel"></label>
+
+        <label class="full"> Was möchtest du mir mitteilen?
+            <textarea name="message" rows="6" required maxlength="4000"></textarea>
+        </label>
+
+        <label> Wann bist du zeitlich erreichbar?
+            <input type="text" name="reach_time" maxlength="200" placeholder="z. B. Mo–Fr 9–12 Uhr">
+        </label>
+
+        <fieldset>
+            <legend>Wie bist du am besten erreichbar?</legend>
+            <label><input type="radio" name="reach_way" value="telefon" checked> Telefon</label>
+            <label><input type="radio" name="reach_way" value="mail"> Mail</label>
+        </fieldset>
+        </div>
+
+        <button type="submit" class="btn">Senden</button>
+        <p class="form-hint">* Pflichtfelder: Name, Vorname, Mailadresse, Nachricht</p>
+    </form>
+    </section>
+
     
     
 
-    <!-- Erfolgs-Popup -->
-    <div id="formModal" class="modal" hidden>
-    <div class="modal-box">
-        <p>E-Mail wurde erfolgreich gesendet. Danke!</p>
-        <button id="modalClose" class="btn">Schliessen</button>
-    </div>
-    </div>
 
     
 
