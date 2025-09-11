@@ -439,6 +439,7 @@ header {
   max-width: 900px;
   margin: 60px auto 100px;
   padding: 0 20px;
+  position: relative;
 }
 
 .kontakt h2 {
@@ -517,12 +518,16 @@ input::placeholder {
 }
 
 .success {
-  position: absolute;
-  margin: 0 auto;
-  max-width: 300px;
-  background-color: #B9A2E9;
-  border-radius: 25px;
-  padding: 40px;
+    position: absolute;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    background-color: #B9A2E9;
+    border-radius: 25px;
+    padding: 40px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .success p {
