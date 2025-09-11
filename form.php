@@ -4,7 +4,7 @@ session_start();
 
 /* Empfänger & Absender */
 $TO_EMAIL   = 'ivoschwizer@gmail.com';
-$FROM_EMAIL = 'info@isabella-signer.ch'; // eigene Domain empfohlen (SPF/DKIM)
+$FROM_EMAIL = 'info@isabella-signer.ch'; 
 $SUBJECT    = 'Neue Kontaktanfrage über die Website';
 
 /* kleine Helfer */

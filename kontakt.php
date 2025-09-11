@@ -88,7 +88,23 @@
     <section class="kontakt">
 
     <?php if ($sent): ?>
-        <div class="notice success"><p>E-Mail wurde erfolgreich gesendet. Danke!</p></div>
+        <div class="notice success" id="successNotice">
+            <p>E-Mail wurde erfolgreich gesendet. Danke!</p>
+            <button type="button" id="closeSuccessBtn">Zurück</button>
+        </div>
+        <script>
+            $(function(){
+            $('#closeSuccessBtn').on('click', function(){
+                $('#successNotice').fadeOut(400);
+
+                // optional: ?sent=1 aus der URL entfernen
+                const url = new URL(window.location.href);
+                url.searchParams.delete('sent');
+                const qs = url.searchParams.toString();
+                history.replaceState({}, '', url.pathname + (qs ? '?' + qs : '') + url.hash);
+            });
+            });
+        </script>
     <?php endif; ?>
 
     <form action="/form.php" method="post">
