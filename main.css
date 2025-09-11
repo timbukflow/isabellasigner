@@ -534,6 +534,17 @@ input::placeholder {
   color: white;
 }
 
+.btn-send {
+  display: inline-block;
+  background-color: var(--purple);
+  color: white;
+  padding: 12px 36px;
+  font-size: var(--fontnormal);
+  border-radius: 50px;
+  text-decoration: none;
+  transition: padding 0.3s ease;
+}
+
 
 /*----------------------------------
     Footer

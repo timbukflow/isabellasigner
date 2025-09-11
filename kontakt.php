@@ -90,7 +90,7 @@
     <?php if ($sent): ?>
         <div class="notice success" id="successNotice">
             <p>E-Mail wurde erfolgreich gesendet. Danke!</p>
-            <button type="button" class="meet" id="closeSuccessBtn">Zurück</button>
+            <button type="button" class="btn-send" id="closeSuccessBtn">Zurück</button>
         </div>
         <script>
             $(function(){
