@@ -101,14 +101,12 @@
             btn.addEventListener('click', function (e) {
               e.preventDefault();
 
-              // Smooth fade-out without jQuery
               notice.style.transition = 'opacity .4s ease';
               notice.style.opacity = '0';
 
               setTimeout(function () {
                 notice.style.display = 'none';
 
-                // ?sent=1 aus der URL entfernen, ohne Reload
                 var url = new URL(window.location.href);
                 url.searchParams.delete('sent');
                 var qs = url.searchParams.toString();
@@ -138,7 +136,7 @@
         </label>
 
         <label> Wann bist du zeitlich erreichbar?*
-        <input type="text" name="reach_time" maxlength="200" placeholder="z. B. Mo–Fr 9–12 Uhr">
+        <input type="text" name="reach_time" required maxlength="200" placeholder="z. B. Mo–Fr 9–12 Uhr">
         </label>
 
         <button type="submit" class="btn">Senden</button>
