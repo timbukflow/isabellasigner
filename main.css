@@ -740,8 +740,8 @@ input::placeholder {
     right: 30px;
     border-radius: 10px;
     width: 350px;
-    background-color: var(--petrol);
-    padding: 15px;
+    background-color: var(--purple);
+    padding: 20px;
     z-index: 9999;
     transition: bottom 0.5s cubic-bezier(0.2, 0.8, 0.3, 2);
 }
@@ -749,6 +749,7 @@ input::placeholder {
 #cookiebanner p {
     color: white;
     margin: 0;
+    font-size: var(--fontsmall);
 }
 
 #cookiebanner.visible {
@@ -756,7 +757,7 @@ input::placeholder {
 }
 
 button {
-    font-size: var(--fontnormal);
+    font-size: var(--fontsmall);
     text-decoration: none; 
 }
 
@@ -770,15 +771,15 @@ button {
 #declineBtn {
     padding: 10px 20px;
     background: white;
-    border: 1px solid var(--petrol); 
-    color: var(--petrol);
+    border: 1px solid var(--purple); 
+    color: var(--purple);
     opacity: 0.5;
 }
 
 #acceptBtn {
     border: 1px solid var(--purple); 
     background-color: white;
-    padding: 10px 40px;
+    padding: 10px 20px;
     color: var(--purple);
     margin-right: 5px;
     background-size: 100% ;
