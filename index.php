@@ -95,28 +95,28 @@
 
      <div class="img-cont">
         <div>
-            <img class="parallax" data-speed="0.1"  src="img/isabella-signer-intro-03.webp" alt="Portrait Isabella Signer – ganzheitliche Begleitung" loading="lazy">
+            <img class="parallax fix" data-speed="0.1"  src="img/isabella-signer-intro-03.webp" alt="Portrait Isabella Signer – ganzheitliche Begleitung" loading="lazy">
         </div>
         <div>
-            <img class="parallax" data-speed="0.05" src="img/isabella-signer-intro-04.webp" alt="Inspirierendes Bild – Weiblichkeit & Sensibilität" loading="lazy">
+            <img class="parallax fix" data-speed="0.05" src="img/isabella-signer-intro-04.webp" alt="Inspirierendes Bild – Weiblichkeit & Sensibilität" loading="lazy">
         </div>
     </div>
 
     <section class="ta-cont">
         <div class="teaser-angebot">
-            <div class="angebot parallax" data-speed="0.01">
+            <div class="angebot">
                 <img src="img/isabella-signer-teaser-ayurveda.webp" alt="Ayurveda Angebot – Balance & Gesundheit mit Isabella Signer" loading="lazy" />
                 <h3>Ayurveda</h3>
                 <p>Ayurveda bringt dich zurück in deine Balance.</p>
             </div>
 
-            <div class="angebot parallax" data-speed="-0.01">
+            <div class="angebot">
                 <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork Angebot – Atemarbeit für Klarheit" loading="lazy" />
                 <h3>Breathwork</h3>
                 <p>Breathwork öffnet dir den Zugang zu tiefer Klarheit.</p>
             </div>
 
-            <div class="angebot parallax" data-speed="0.01">
+            <div class="angebot" >
                 <img src="img/isabella-signer-teaser-coaching.webp" alt="Coaching Angebot – Persönliche Entwicklung mit Isabella Signer" loading="lazy" />
                 <h3>Coaching</h3>
                 <p>Coaching unterstützt dich, dein Selbst zu erkennen.</p>

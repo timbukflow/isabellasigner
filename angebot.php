@@ -120,7 +120,7 @@
     
     <h2 class="fullscreen-text">Ayurveda</h2>
     <section class="cont-50-50">
-        <div class="photo parallax" data-speed="0.025">
+        <div class="photo parallax fix" data-speed="0.025">
             <img
             src="img/isabella-signer-ayurveda.webp"
             alt="Ayurveda Begleitung – Isabella Signer in Steinach (SG)"
@@ -128,7 +128,7 @@
             />
         </div>
 
-        <div class="copy parallax" data-speed="0.05">
+        <div class="copy parallax fix" data-speed="0.05">
             <h2 class="sub t-a-left">Ayurveda bringt dich zurück zu dir.</h2>
             <p class="t-a-left">
                 Es lehrt dich, dich selbst wieder wahrzunehmen, mit allem, was du bist und brauchst.
@@ -143,8 +143,15 @@
     </section>
 
     <h2 class="fullscreen-text purple" >Breathwork</h2>
-    <section class="cont-50-50">
-        <div class="copy parallax" data-speed="0.05">
+    <section class="cont-50-50 revers">
+        <div class="photo parallax fix" data-speed="0.025">
+            <img
+            src="img/isabella-signer-breathwork.webp"
+            alt="Breathwork Session – achtsam atmen mit Isabella Signer"
+            loading="lazy"
+            />
+        </div>
+        <div class="copy parallax fix" data-speed="0.05">
             <h2 class="sub t-a-left purple">Atmen ist die ehrlichste Verbindung zu dir selbst.</h2>
             <p class="t-a-left purple">
                 Breathwork berührt Ebenen, die Worte nicht erreichen. Dort, wo Erfahrungen, Emotionen und Blockaden tiefer sitzen.
@@ -152,19 +159,12 @@
             <p class="t-a-left purple">
                 In dieser Stille geschieht oft das Größte: Loslassen, Verstehen, Aufblühen.
             </p>
-        </div>
-        <div class="photo parallax" data-speed="0.025">
-            <img
-            src="img/isabella-signer-breathwork.webp"
-            alt="Breathwork Session – achtsam atmen mit Isabella Signer"
-            loading="lazy"
-            />
-        </div>
+        </div>  
     </section>
 
     <h2 class="fullscreen-text bronze">Coaching</h2>
     <section class="cont-50-50">
-        <div class="photo parallax" data-speed="0.025">
+        <div class="photo parallax fix" data-speed="0.025">
             <img
             src="img/isabella-signer-coaching.webp"
             alt="Coaching für Frauen – Klarheit & Selbstvertrauen mit Isabella Signer"
@@ -172,7 +172,7 @@
             />
         </div>
 
-        <div class="copy parallax" data-speed="0.05">
+        <div class="copy parallax fix" data-speed="0.05">
             <h2 class="sub t-a-left bronze">Manchmal braucht es jemanden, der dich daran erinnert, wer du wirklich bist.</h2>
             <p class="t-a-left bronze">
                 Ein Gegenüber, das die richtigen Fragen stellt, damit du deine Antworten in dir findest.

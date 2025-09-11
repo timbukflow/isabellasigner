@@ -361,6 +361,10 @@ header {
   padding: 0 30px;
 }
 
+.cont-50-50.revers {
+  flex-direction: row-reverse;
+}
+
 .photo img {
   display: block;
   width: 100%;
@@ -399,6 +403,7 @@ header {
   top: 30px;
   transition: transform 0.5s ease-in-out;
   z-index: 100;
+  border: solid 1px var(--back);
 }
 
 .menu:hover {
@@ -425,6 +430,7 @@ header {
     visibility: none;
     pointer-events: none;
     transition: opacity 0.5s ease, visibility 0.5s ease;
+    border: solid 1px var(--back);
 }
 
 .side-menu ul {
@@ -595,11 +601,13 @@ input::placeholder {
   color: #fff;
   font-size: var(--fonttitle);
   letter-spacing: 0;
+  text-align: left;
 }
 
 .footer-icons {
   display: flex;
   gap: 20px;
+  margin-bottom: 10px;
 }
 
 .footer-icons img {
@@ -797,10 +805,85 @@ button {
     Responsiv
 -----------------------------------*/
 
+@media only screen and (max-width: 1200px) {
+   .ta-cont {padding: 220px 20px 50px; margin-top: 20px;}
+}
+
 @media only screen and (max-width: 900px) {
   /* root */
- 
+  :root {
+    --fonttitle: 60px;
+    --fontsub: 40px;
+    --fontnormal: 26px;
+    --fontsmall: 21px;
+}
+  /* paralax */
+  .parallax.fix {
+    transform: none !important;
+    background-attachment: scroll !important;
+  }
 
+  /* startseite */
+  .intro-img-cont {margin-left: 10px; margin-top: 60px;}
+  .overlap {right: 10px;}
+  .intro-img-cont img {width: 55%;}
+  .question-cont {margin-top: 100px;}
+
+  .question-sec {flex-direction: column; margin-top: 60px; gap: 20px;}
+  .img-cont {flex-direction: column; margin-top: 50px;}
+  .teaser-angebot {flex-direction: column; margin-top: 0; max-width: 400px;}
+  .cont-50-50 {flex-direction: column;}
+  .cont-50-50.revers {flex-direction: column;}
+  .btn {margin-top: 40px;}
+  .ta-cont {padding: 60px 20px 50px; margin-top: 20px;}
+  .container {margin-bottom: 50px;}
+
+  /* angebot */
+  .fullscreen-text {margin-top: 60px;}
+
+  /* termin */
+  .termin-angebot {margin-top: 30px; flex-direction:column; max-width: 400px;}
+
+  /* footer */
+ 
+    /* cookies */
+    #cookiebanner {
+        right: 15px;
+        border-radius: 10px;
+        width: calc(100% - 30px);
+        box-sizing: border-box;
+    }
+
+  #cookiebanner.visible {
+    bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* root */
+  :root {
+    --fonttitle: 40px;
+    --fontsub: 30px;
+    --fontnormal: 24px;
+    --fontsmall: 18px;
+  }
+
+  /* font */
+  h1, h2 {letter-spacing: -0.5px;}
+  .side-menu a {font-size: var(--fonttitle);}
+
+  /* main */
+    .cont-50-50 {margin-top: 20px;}
+    .t-a-left {padding-bottom: 20px;}
+
+  /* nav */
+  .logo {width: 200px;}
+  .menu {width: 40px; height: 40px;}
+
+  
+
+
+ 
     /* cookies */
     #cookiebanner {
         right: 15px;

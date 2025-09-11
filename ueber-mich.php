@@ -76,7 +76,7 @@
     </header>
 
     <section class="cont-50-50">
-        <div class="photo parallax" data-speed="0.05">
+        <div class="photo parallax fix" data-speed="0.05">
             <img
             src="img/isabella-signer-ueber-mich-01.webp"
             alt="Isabella Signer – Portrait im Atelier, Ayurveda & Coaching"
@@ -84,7 +84,7 @@
             />
         </div>
 
-        <div class="copy parallax" data-speed="-0.05">
+        <div class="copy parallax fix" data-speed="-0.05">
             <p class="t-a-left">
             Ich kenne die vielen Rollen, die Frauen im Leben einnehmen. <br> <br>
             Als ehemalige Führungskraft, als Mutter von drei erwachsenen Kindern, als dreifache stolze Nana weiss ich, wie turbulent dein Alltag aussehen kann. <br> <br>
@@ -93,8 +93,16 @@
         </div>
     </section>
 
-     <section class="cont-50-50">
-        <div class="copy parallax" data-speed="0.05">
+     <section class="cont-50-50 revers">
+        <div class="photo parallax fix" data-speed="0.1">
+            <img
+            src="img/isabella-signer-ueber-mich-02.webp"
+            alt="Isabella Signer – Begleitung von Frauen, Breathwork & Coaching"
+            loading="lazy"
+            />
+        </div>
+
+        <div class="copy parallax fix" data-speed="0.05">
             <p class="t-a-left small">
                 Heute begleite ich Frauen mit all meiner Erfahrung und meinem Wissen als Ayurveda Lifestyle- & Ernährungscoach, Expertin für Frauengesundheit, Holistic Breathwork Coach und Spiritual Lifecoach auf ihrem Weg raus aus dem Funktionieren und rein ins echte Frausein.
             </p>
@@ -104,13 +112,6 @@
             <p class="t-a-left small">
                 Was ich mache? Ich halte Räume, in denen Frauen aufhören, sich zu fragen, ob sie genug sind und anfangen zu spüren, wie unfassbar grossartig sie sind.
             </p>
-        </div>
-        <div class="photo parallax" data-speed="0.1">
-            <img
-            src="img/isabella-signer-ueber-mich-02.webp"
-            alt="Isabella Signer – Begleitung von Frauen, Breathwork & Coaching"
-            loading="lazy"
-            />
         </div>
     </section>
 
@@ -133,19 +134,19 @@
         </div>
 
         <div class="teaser-angebot">
-            <div class="angebot parallax" data-speed="0.01">
+            <div class="angebot" >
                 <img src="img/isabella-signer-teaser-ayurveda.webp" alt="Ayurveda Angebot – Balance finden mit Isabella Signer" loading="lazy" />
                 <h3>Ayurveda</h3>
                 <p>Ayurveda bringt dich zurück in deine Balance.</p>
             </div>
 
-            <div class="angebot parallax" data-speed="-0.01">
+            <div class="angebot" >
                 <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork Angebot – Klarheit & Atemarbeit mit Isabella Signer" loading="lazy" />
                 <h3>Breathwork</h3>
                 <p>Breathwork öffnet dir den Zugang zu tiefer Klarheit.</p>
             </div>
 
-            <div class="angebot parallax" data-speed="0.01">
+            <div class="angebot" >
                 <img src="img/isabella-signer-teaser-coaching.webp" alt="Coaching Angebot – Persönliche Entwicklung mit Isabella Signer" loading="lazy" />
                 <h3>Coaching</h3>
                 <p>Coaching unterstützt dich, dein Selbst zu erkennen.</p>
