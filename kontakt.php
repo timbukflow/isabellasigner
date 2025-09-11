@@ -88,7 +88,7 @@
     <section class="kontakt">
 
     <?php if ($sent): ?>
-        <div class="notice success">E-Mail wurde erfolgreich gesendet. Danke!</div>
+        <div class="notice success"><p>E-Mail wurde erfolgreich gesendet. Danke!</p></div>
     <?php endif; ?>
 
     <form action="/form.php" method="post">

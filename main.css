@@ -435,7 +435,6 @@ header {
     Kontakt & Form
 -----------------------------------*/
 
-/* === Kontaktformular – Layout & Abstände === */
 .kontakt {
   max-width: 900px;
   margin: 60px auto 100px;
@@ -447,7 +446,6 @@ header {
   text-align: left;
 }
 
-/* Labels & Inputs untereinander */
 .kontakt label {
   display: block;
   font-size: var(--fontsmall);
@@ -455,7 +453,7 @@ header {
   text-align: left;
 }
 
-/* Eingabefelder – volle Breite & einheitliche Abstände */
+
 .kontakt input[type="text"],
 .kontakt input[type="email"],
 .kontakt input[type="tel"],
@@ -473,13 +471,13 @@ header {
   text-align: left;
 }
 
-/* Mehr Luft nach unten zwischen Feldern */
+
 .kontakt input,
 .kontakt textarea {
   margin-bottom: 14px;
 }
 
-/* Textarea Höhe */
+
 .kontakt textarea {
   min-height: 160px;
   resize: vertical;
@@ -490,7 +488,7 @@ input::placeholder {
   opacity: 0.5;
 }
 
-/* Button & Hinweis */
+
 .kontakt .btn {
   display: inline-block;
   background: var(--purple);
@@ -510,7 +508,6 @@ input::placeholder {
   opacity: .95;
 }
 
-/* Honeypot unsichtbar, aber im DOM */
 .hp {
   position: absolute;
   left: -9999px;
@@ -519,40 +516,19 @@ input::placeholder {
   overflow: hidden;
 }
 
-/* Modal (Erfolgs-Popup) */
-.modal {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, .45);
-  display: grid;
-  place-items: center;
-  z-index: 9999;
+.success {
+  position: absolute;
+  margin: 0 auto;
+  max-width: 300px;
+  background-color: #B9A2E9;
+  border-radius: 25px;
+  padding: 40px;
 }
 
-.modal .modal-box {
-  background: #fff;
-  color: #333;
-  padding: 24px 28px;
-  border-radius: 12px;
-  max-width: 420px;
-  text-align: center;
+.success p {
+  color: white;
 }
 
-body.noscroll {
-  overflow: hidden;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-  .kontakt .grid {
-    grid-template-columns: 1fr; /* 1 Spalte auf Mobile */
-    gap: 16px;
-  }
-
-  .kontakt fieldset {
-    grid-column: auto;
-  }
-}
 
 /*----------------------------------
     Footer
