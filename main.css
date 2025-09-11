@@ -876,6 +876,9 @@ button {
     .cont-50-50 {margin-top: 20px;}
     .t-a-left {padding-bottom: 20px;}
 
+    /* footer */
+    .footer-meta {flex-direction: column; gap: 5px;}
+
   /* nav */
   .logo {width: 200px;}
   .menu {width: 40px; height: 40px;}
