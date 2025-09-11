@@ -740,7 +740,7 @@ input::placeholder {
     right: 30px;
     border-radius: 10px;
     width: 350px;
-    background-color: var(--main);
+    background-color: var(--petrol);
     padding: 15px;
     z-index: 9999;
     transition: bottom 0.5s cubic-bezier(0.2, 0.8, 0.3, 2);
@@ -770,16 +770,16 @@ button {
 #declineBtn {
     padding: 10px 20px;
     background: white;
-    border: 1px solid var(--main); 
-    color: var(--main);
+    border: 1px solid var(--petrol); 
+    color: var(--petrol);
     opacity: 0.5;
 }
 
 #acceptBtn {
-    border: 1px solid var(--main); 
+    border: 1px solid var(--purple); 
     background-color: white;
     padding: 10px 40px;
-    color: var(--main);
+    color: var(--purple);
     margin-right: 5px;
     background-size: 100% ;
     
