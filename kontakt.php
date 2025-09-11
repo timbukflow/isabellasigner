@@ -76,8 +76,8 @@
     <?php require_once 'nav.php'; ?>
 
     <header>
-        <h3>Mein Angebot</h3>
-        <h1>Schritt für Schritt begleite ich dich auf deinem Weg zu mehr Klarheit, Leichtigkeit und gelebter Weiblichkeit.</h1>
+        <h3>Kontakt</h3>
+        <h2 class="sub">Hast du Fragen oder möchtest du kontaktiert werden? Bitte schreibe mir, ich helfe dir gerne.</h2>
     </header>
 
     <?php
@@ -100,36 +100,23 @@
         <input type="text" name="website" tabindex="-1" autocomplete="off">
         </div>
 
-        <label> Name <input type="text" name="name" required maxlength="120"></label>
-        <label> Vorname <input type="text" name="firstname" required maxlength="120"></label>
-        <label> Adresse <input type="text" name="address" maxlength="200"></label>
-        <label> Mailadresse <input type="email" name="email" required maxlength="120" autocomplete="email"></label>
-        <label> Telefonnummer <input type="tel" name="phone" maxlength="40" autocomplete="tel"></label>
+        <label> Name* <input type="text" name="name" required maxlength="120"></label>
+        <label> Vorname* <input type="text" name="firstname" required maxlength="120"></label>
+        <label> Mailadresse* <input type="email" name="email" required maxlength="120" autocomplete="email"></label>
+        <label> Telefonnummer* <input type="tel" name="phone" maxlength="40" autocomplete="tel"></label>
 
-        <label> Was möchtest du mir mitteilen?
+        <label> Was möchtest du mir mitteilen?*
         <textarea name="message" rows="6" required maxlength="4000"></textarea>
         </label>
 
-        <label> Wann bist du zeitlich erreichbar?
+        <label> Wann bist du zeitlich erreichbar?*
         <input type="text" name="reach_time" maxlength="200" placeholder="z. B. Mo–Fr 9–12 Uhr">
         </label>
 
-        <fieldset>
-        <legend>Wie bist du am besten erreichbar?</legend>
-        <label><input type="radio" name="reach_way" value="telefon" checked> Telefon</label>
-        <label><input type="radio" name="reach_way" value="mail"> Mail</label>
-        </fieldset>
-
         <button type="submit" class="btn">Senden</button>
-        <p class="form-hint">* Pflichtfelder: Name, Vorname, Mailadresse, Nachricht</p>
     </form>
     </section>
 
-    
-    
-
-
-    
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>

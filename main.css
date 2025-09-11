@@ -55,7 +55,7 @@ body.noscroll {
     Font
 -----------------------------------*/
 
-h1, h2, h3, p, li, a, button {
+h1, h2, h3, p, li, a, button, label, textarea, input {
     font-family: rubislight;
     font-optical-sizing: auto;
     font-weight: 100;
@@ -99,6 +99,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 
 .t-a-left {
   text-align: left;
@@ -437,7 +438,7 @@ header {
 /* === Kontaktformular – Layout & Abstände === */
 .kontakt {
   max-width: 900px;
-  margin: 60px auto;
+  margin: 60px auto 100px;
   padding: 0 20px;
 }
 
@@ -446,25 +447,12 @@ header {
   text-align: left;
 }
 
-/* Grid: 2 Spalten Desktop, 1 Spalte Mobile */
-.kontakt .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px 22px; /* Zeilen- und Spaltenabstand */
-}
-
-.kontakt .grid .full {
-  grid-column: 1 / -1; /* über beide Spalten */
-}
-
 /* Labels & Inputs untereinander */
-.kontakt label,
-.kontakt legend {
+.kontakt label {
   display: block;
-  font-size: 18px;
+  font-size: var(--fontsmall);
   line-height: 1.3;
-  margin-bottom: 8px; /* Abstand zum Eingabefeld */
-  color: var(--green);
+  text-align: left;
 }
 
 /* Eingabefelder – volle Breite & einheitliche Abstände */
@@ -477,10 +465,12 @@ header {
   padding: 12px 14px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: var(--fontsmall);
   line-height: 1.4;
   background: #fff;
   outline: none;
+  margin-top: 10px;
+  text-align: left;
 }
 
 /* Mehr Luft nach unten zwischen Feldern */
@@ -495,32 +485,9 @@ header {
   resize: vertical;
 }
 
-/* Fieldset (z. B. „Wie erreichbar?“) – untereinander statt inline */
-.kontakt fieldset {
-  grid-column: 1 / -1; /* über beide Spalten, damit’s ruhig wirkt */
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 14px 14px 8px;
-  margin: 6px 0 8px;
-}
-
-.kontakt fieldset legend {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-/* Radio-Optionen untereinander mit Abstand */
-.kontakt fieldset .options {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.kontakt fieldset .options label {
-  display: flex;
-  align-items: center;
-  gap: 10px;       /* Abstand zwischen Radio und Text */
-  margin: 0;       /* kein zusätzlicher Margin */
+input::placeholder {
+  color: var(--green);
+  opacity: 0.5;
 }
 
 /* Button & Hinweis */
@@ -528,24 +495,19 @@ header {
   display: inline-block;
   background: var(--purple);
   color: #fff;
-  padding: 12px 24px;
-  border-radius: 10px;
+  padding: 20px 36px;
+  border-radius: 50px;
   border: 0;
   cursor: pointer;
-  font-size: 16px;
+  font-size: var(--fontsmall);
   line-height: 1;
+  margin-top: 20px;
   transition: transform .2s ease, opacity .2s ease;
 }
 
 .kontakt .btn:hover {
   transform: translateY(-1px);
   opacity: .95;
-}
-
-.kontakt .form-hint {
-  margin-top: 10px;
-  opacity: .7;
-  font-size: 14px;
 }
 
 /* Honeypot unsichtbar, aber im DOM */
