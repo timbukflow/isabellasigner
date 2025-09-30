@@ -10,7 +10,7 @@ RewriteRule ^darf-ich-vorstellen-die-drei(?:-doshas)?/?$ / [R=301,L]
 # .php -> schöne URL (kanonisch), Ausnahmen für Backend/Includes
 RewriteCond %{THE_REQUEST} \s/([A-Za-z0-9_\-/]+)\.php[\s\?] [NC]
 RewriteCond %1 !^(form|nav|footer|script|termin-angebot|faq|googleanalytics|404)$ [NC]
-RewriteRule ^ %1 [R=301,L]
+RewriteRule ^ /%1 [R=301,L]
 
 # Pretty URLs auf entsprechende PHP-Dateien auflösen
 RewriteCond %{REQUEST_FILENAME} !-d

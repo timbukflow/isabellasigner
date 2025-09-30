@@ -10,7 +10,7 @@ $SUBJECT    = 'Neue Kontaktanfrage über die Website';
 /* kleine Helfer */
 function clean_header(string $v): string { return preg_replace("/[\r\n]+/", ' ', $v); } // CRLF/Header-Injection
 function fail(string $msg){ http_response_code(400); die($msg); }
-function ok(){ header('Location: /kontakt.php?sent=1'); exit; }
+function ok(){ header('Location: /kontakt?sent=1'); exit; }
 
 /* Nur POST */
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') { http_response_code(405); die('Method Not Allowed'); }
