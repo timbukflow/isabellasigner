@@ -41,6 +41,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="main.css" />
+    <link rel="preload" href="/fonts/rubis-light.woff2" as="font" type="font/woff2" crossorigin>
 
 
     <script type="application/ld+json">
@@ -71,6 +72,17 @@
           "availableLanguage": ["de-CH", "de"]
         }]
       }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://isabella-signer.ch/"},
+        {"@type": "ListItem", "position": 2, "name": "Termin", "item": "https://isabella-signer.ch/termin"}
+      ]
     }
     </script>
 

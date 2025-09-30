@@ -41,6 +41,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="main.css" />
+    <link rel="preload" href="/fonts/rubis-light.woff2" as="font" type="font/woff2" crossorigin>
 
     <script type="application/ld+json">
     {
@@ -107,6 +108,17 @@
     }
     </script>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://isabella-signer.ch/"},
+        {"@type": "ListItem", "position": 2, "name": "Angebot", "item": "https://isabella-signer.ch/angebot"}
+      ]
+    }
+    </script>
+
 </head>
 
 <body>
@@ -124,7 +136,7 @@
             <img
             src="img/isabella-signer-ayurveda.webp"
             alt="Ayurveda Begleitung – Isabella Signer in Steinach (SG)"
-            loading="lazy"
+            loading="lazy" decoding="async"
             />
         </div>
 
@@ -148,7 +160,7 @@
             <img
             src="img/isabella-signer-breathwork.webp"
             alt="Breathwork Session – achtsam atmen mit Isabella Signer"
-            loading="lazy"
+            loading="lazy" decoding="async"
             />
         </div>
         <div class="copy parallax fix" data-speed="0.05">
@@ -168,7 +180,7 @@
             <img
             src="img/isabella-signer-coaching.webp"
             alt="Coaching für Frauen – Klarheit & Selbstvertrauen mit Isabella Signer"
-            loading="lazy"
+            loading="lazy" decoding="async"
             />
         </div>
 
@@ -189,7 +201,7 @@
         </div>
         <?php require_once 'termin-angebot.php'; ?> 
     </section>
-
+    <?php require_once 'faq-small.php'; ?>
     
 
     <?php require_once 'footer.php'; ?>

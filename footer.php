@@ -24,3 +24,15 @@
 
   </div>
 </footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Isabella Signer",
+  "url": "https://isabella-signer.ch",
+  "sameAs": [
+    "https://www.instagram.com/isabella_signer_be_natural"
+  ]
+}
+</script>

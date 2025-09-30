@@ -23,7 +23,7 @@
     <meta property="og:title" content="Isabella Signer | Impressum" />
     <meta property="og:description" content="..." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://isabella-signer.ch/ueber-mich" />
+    <meta property="og:url" content="https://isabella-signer.ch/impressum" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
     <meta property="og:locale" content="de_CH" />
 

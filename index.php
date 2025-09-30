@@ -42,6 +42,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="main.css" />
+    <link rel="preload" href="/fonts/rubis-light.woff2" as="font" type="font/woff2" crossorigin>
     
 
     <script type="application/ld+json">

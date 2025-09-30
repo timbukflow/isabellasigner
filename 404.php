@@ -1,5 +1,21 @@
 <?php
 http_response_code(404);
+
+// 404-Logger: schreibt Datum, Pfad, Referrer, UA, IP
+try {
+  $dir = __DIR__ . '/logs';
+  if (!is_dir($dir)) @mkdir($dir, 0775, true);
+  $logFile = $dir . '/404.log';
+  $line = sprintf(
+    "%s\t%s\t%s\t%s\t%s\n",
+    date('c'),
+    $_SERVER['REQUEST_URI'] ?? '-',
+    $_SERVER['HTTP_REFERER'] ?? '-',
+    $_SERVER['HTTP_USER_AGENT'] ?? '-',
+    $_SERVER['REMOTE_ADDR'] ?? '-'
+  );
+  @file_put_contents($logFile, $line, FILE_APPEND);
+} catch (Throwable $e) { /* ignore logging errors */ }
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -43,4 +59,3 @@ http_response_code(404);
     <?php require_once 'googleanalytics.php'; ?>
 </body>
 <html>
-
