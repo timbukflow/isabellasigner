@@ -3,7 +3,7 @@ declare(strict_types=1);
 session_start();
 
 /* Empfänger & Absender */
-$TO_EMAIL   = 'ivoschwizer@gmail.com';
+$TO_EMAIL   = 'info@isabella-signer.ch';
 $FROM_EMAIL = 'info@isabella-signer.ch'; 
 $SUBJECT    = 'Neue Kontaktanfrage über die Website';
 
