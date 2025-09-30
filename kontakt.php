@@ -1,3 +1,8 @@
+<?php
+session_start();
+if (empty($_SESSION['csrf'])) { $_SESSION['csrf'] = bin2hex(random_bytes(32)); }
+$sent = isset($_GET['sent']) && $_GET['sent'] === '1';
+?>
 <!DOCTYPE html>
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
@@ -83,11 +88,7 @@
         <h2 class="sub">Ich freue mich auf deine Nachricht – ganz egal, ob du schon konkrete Fragen hast oder einfach herausfinden möchtest, ob meine Begleitung zu dir passt.</h2>
     </header>
 
-    <?php
-    session_start();
-    if (empty($_SESSION['csrf'])) { $_SESSION['csrf'] = bin2hex(random_bytes(32)); }
-    $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
-    ?>
+    <?php /* Session & CSRF bereits oben initialisiert */ ?>
     <section class="kontakt">
 
     <?php if ($sent): ?>
