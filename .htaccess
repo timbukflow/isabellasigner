@@ -1,15 +1,11 @@
-## Legacy redirects (old URLs -> new destinations)
-# Blog (entfernt): leite auf Angebot um
-Redirect 301 /blog /angebot
-RedirectMatch 301 ^/blog/.*$ /angebot
-
-# Yoga-Seite (entfernt): leite auf Angebot um
-Redirect 301 /yoga /angebot
-
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
+
+# Legacy-URLs dauerhaft auf Startseite
+RewriteRule ^blog(?:/.*)?$ / [R=301,L]
+RewriteRule ^yoga$ / [R=301,L]
 
 # 404 Fehlerseite
 ErrorDocument 404 /404.php
