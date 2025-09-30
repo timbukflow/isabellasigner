@@ -4,7 +4,7 @@
     <button id="declineBtn">Nein, danke</button>
   </div>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=......."></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E1GQM1NK26"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -12,7 +12,7 @@
     }
     gtag('js', new Date());
 
-    var trackingID = '.......';
+    var trackingID = 'G-E1GQM1NK26';
     var disableString = 'ga-disable-' + trackingID;
 
     function accept() {
