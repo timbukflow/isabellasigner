@@ -80,7 +80,7 @@
 
     <header>
         <h3>Kontakt</h3>
-        <h2 class="sub">Hast du Fragen oder möchtest du kontaktiert werden? Bitte schreibe mir, ich helfe dir gerne.</h2>
+        <h2 class="sub">Ich freue mich auf deine Nachricht – ganz egal, ob du schon konkrete Fragen hast oder einfach herausfinden möchtest, ob meine Begleitung zu dir passt.</h2>
     </header>
 
     <?php
@@ -138,8 +138,16 @@
         <textarea name="message" rows="6" required maxlength="4000"></textarea>
         </label>
 
-        <label> Wann bist du zeitlich erreichbar?*
-        <input type="text" name="reach_time" required maxlength="200" placeholder="z. B. Mo–Fr 9–12 Uhr">
+        <div class="group">
+          <div class="label">Wie möchtest du kontaktiert werden?*</div>
+          <div class="options">
+            <label class="inline"><input type="radio" name="contact_method" value="email" required> E-Mail</label>
+            <label class="inline"><input type="radio" name="contact_method" value="telefonisch" required> Telefonisch</label>
+          </div>
+        </div>
+
+        <label id="reach-time-wrap" style="display:none;"> Wann bist du zeitlich erreichbar?
+        <input type="text" name="reach_time" id="reach_time" maxlength="200" placeholder="z. B. Mo–Fr 9–12 Uhr">
         </label>
 
         <button type="submit" class="btn">Senden</button>
@@ -149,6 +157,26 @@
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var wrap = document.getElementById('reach-time-wrap');
+        var input = document.getElementById('reach_time');
+        var radios = document.querySelectorAll('input[name="contact_method"]');
+
+        function updateReachTimeVisibility() {
+          var checked = document.querySelector('input[name="contact_method"]:checked');
+          var isPhone = checked && checked.value === 'telefonisch';
+          if (wrap) wrap.style.display = isPhone ? '' : 'none';
+          if (input) {
+            input.required = !!isPhone;
+            if (!isPhone) input.value = '';
+          }
+        }
+
+        radios.forEach(function(r){ r.addEventListener('change', updateReachTimeVisibility); });
+        updateReachTimeVisibility();
+      });
+    </script>
     <?php require_once 'googleanalytics.php'; ?>
 </body>
 </html>

@@ -71,7 +71,7 @@
 <body>
     <?php require_once 'nav.php'; ?>
     <header>
-        <h1>Wo Sensibilität Stärke ist und Weiblichkeit ihren Raum findet.</h1>
+        <h1 class="center">Weiblich. Sensibel. Stark.</h1>
         <div class="intro-img-cont">
             <img class="parallax" data-speed="0.1" src="img/isabella-signer-intro-01.webp" alt="Isabella Signer – Coaching & Ayurveda Introbild">
             <img class="parallax overlap" data-speed="-0.1" src="img/isabella-signer-intro-02.webp" alt="Isabella Signer – Breathwork Introbild">
@@ -90,7 +90,15 @@
                     Ohne Ausreden, ohne Schuldgefühl. Weil deine Bedürfnisse nicht optional sind.
                 </p>
             </div>
-        </div>        
+        </div> 
+        
+        <div class="btn meet cta">
+            <!-- Calendly Link-Widget Beginn -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/isabella-signer/30min?text_color=27614b&primary_color=a790e5'});return false;">Termin buchen</a>
+            <!-- Calendly Link-Widget Ende -->
+        </div>
     </header>
 
      <div class="img-cont">
@@ -103,23 +111,28 @@
     </div>
 
     <section class="ta-cont">
+        
+        <div class="container">
+            <h2 class="white sub center">Wo Sensibilität Stärke ist und Weiblichkeit ihren Raum findet.</h2>
+        </div>
+
         <div class="teaser-angebot">
             <div class="angebot">
                 <img src="img/isabella-signer-teaser-ayurveda.webp" alt="Ayurveda Angebot – Balance & Gesundheit mit Isabella Signer" loading="lazy" />
-                <h3>Ayurveda</h3>
-                <p>Ayurveda bringt dich zurück in deine Balance.</p>
+                <h3 class="center">Ayurveda</h3>
+                <p class="center">Ayurveda bringt dich zurück in deine Balance.</p>
             </div>
 
             <div class="angebot">
                 <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork Angebot – Atemarbeit für Klarheit" loading="lazy" />
-                <h3>Breathwork</h3>
-                <p>Breathwork öffnet dir den Zugang zu tiefer Klarheit.</p>
+                <h3 class="center">Breathwork</h3>
+                <p class="center">Breathwork öffnet dir den Zugang zu tiefer Klarheit.</p>
             </div>
 
             <div class="angebot" >
                 <img src="img/isabella-signer-teaser-coaching.webp" alt="Coaching Angebot – Persönliche Entwicklung mit Isabella Signer" loading="lazy" />
-                <h3>Coaching</h3>
-                <p>Coaching unterstützt dich, dein Selbst zu erkennen.</p>
+                <h3 class="center">Coaching</h3>
+                <p class="center">Coaching unterstützt dich, dein Selbst zu erkennen.</p>
             </div>
         </div>
 

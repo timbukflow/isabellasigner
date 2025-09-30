@@ -5,10 +5,10 @@
 
 <nav class="side-menu" id="sideMenu">
   <ul>
-    <li><a href="angebot">Angebot</a></li>
-    <li><a href="ueber-mich">Über mich</a></li>
-    <li><a href="termin">Termin</a></li>
-    <li><a href="kontakt">Kontakt</a></li>
+    <li class="center"><a href="angebot">Angebot</a></li>
+    <li class="center"><a href="ueber-mich">Über mich</a></li>
+    <li class="center"><a href="termin">Termin</a></li>
+    <li class="center"><a href="kontakt">Kontakt</a></li>
   </ul>
       <div class="footer-icons">
           <a href="https://www.instagram.com/isabella_signer_be_natural" target="_blank" aria-label="Instagram">

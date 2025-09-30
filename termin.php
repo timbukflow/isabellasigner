@@ -81,65 +81,12 @@
 
     <header>
         <h3>Termin Buchen</h3>
-        <h2 class="sub">Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden – ich verbinde diese Qualitaten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
+        <h2 class="sub">Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden – ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
     </header>
 
     <section class="ta-cont gap-termin">
 
-        <div class="termin-angebot">
-            <div class="termine c-light " data-speed="-0.025">
-                <h3>Kennenlernen</h3>
-                <p class="angebot-intro">
-                    Lerne mich und meine Arbeit unverbindlich kennen – wir finden heraus, ob es für dich passt.
-                </p>
-                <ul>
-                    <li> 20-minütiges Kennenlerngespräch</li>
-                    <li> kostenlos</li>
-                </ul>
-                <div class="btn meet">
-                    <a class="meet" href="">Termin buchen</a>
-                </div>
-            </div>
-
-            <div class="termine " data-speed="-0.025">
-                <h3>Einzel-Session</h3>
-                <p class="angebot-intro">
-                    Eine einzel-Session nur für dich, Breathwork oder Coaching, ganz nach deinem aktuellen Thema.
-                </p>
-                <ul>
-                    <li> Session à CHF 125.- pro Stunde</li>
-                </ul>
-                <div class="btn meet">
-                    <a class="meet" href="">Termin buchen</a>
-                </div>
-            </div>
-
-            <div class="termine c-dark " data-speed="-0.025">
-                <h3>Monatsbegleitung</h3>
-                <p class="angebot-intro">
-                    Die tiefere Begleitung für nachhaltige Veränderung, individuell auf dich und dein Leben zugeschnitten.
-                </p>
-                <ul>
-                    <li>2-stündiges Anamnesegespräch</li>
-                    <li>4 wöchentliche Sessions à 1 Stunde</li>
-                    <li>Persönliche Verbindung via WhatsApp für deine Fragen & Anliegen</li>
-                    <li>Dein individuell abgestimmtes Workbook</li>
-                    <li>Beliebig verlängerbar und flexibel anpassbar</li>
-                </ul>
-                <div class="btn meet">
-                     <!-- Calendly link widget begin -->
-                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                    <a class="meet" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/isabella-signer-info/30min'});return false;">Termin buchen</a>
-                    <!-- Calendly link widget end -->          
-                </div>
-            </div>        
-        </div>
-        <div class="stern">
-            <p class="small">
-                *Buchung ist verbindlich. Absagen bis 24h vorher kostenlos, danach voller Betrag
-            </p>
-        </div>
+        <?php require_once 'termin-angebot.php'; ?>
 
         <div class="container gap-middle">
             <h2 class="white">Gönnst du dir nur etwas, wenn du es dir „verdient“ hast?</h2>
@@ -159,6 +106,7 @@
     </section>
 
     <?php require_once 'footer.php'; ?>
+    <?php require_once 'faq.php'; ?>
     <?php require_once 'script.php'; ?>
     <?php require_once 'googleanalytics.php'; ?>
 </body>

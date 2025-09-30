@@ -131,13 +131,13 @@
         <div class="copy parallax fix" data-speed="0.05">
             <h2 class="sub t-a-left">Ayurveda bringt dich zurück zu dir.</h2>
             <p class="t-a-left">
-                Es lehrt dich, dich selbst wieder wahrzunehmen, mit allem, was du bist und brauchst.
+                Er lehrt dich, dich selbst wieder wahrzunehmen, mit allem, was du bist und brauchst.
             </p>
             <p class="t-a-left">
                 Mit seiner Einfachheit, Tiefe und Weisheit begleitet es zu mehr Balance, Lebendigkeit und weiblicher Gesundheit.
             </p>
             <p class="t-a-left">
-                Es betrachtet jeden Menschen als Ganzes, holistisch und individuell. Der Fokus liegt auf der Erhaltung der Gesundheit und nicht auf der Bekämpfung von Symptomen.
+                Er betrachtet jeden Menschen als Ganzes, holistisch und individuell. Der Fokus liegt auf der Erhaltung der Gesundheit und nicht auf der Bekämpfung von Symptomen.
             </p>
         </div>
     </section>
@@ -162,7 +162,7 @@
         </div>  
     </section>
 
-    <h2 class="fullscreen-text bronze">Coaching</h2>
+    <h2 class="fullscreen-text yellow">Coaching</h2>
     <section class="cont-50-50">
         <div class="photo parallax fix" data-speed="0.025">
             <img
@@ -173,11 +173,11 @@
         </div>
 
         <div class="copy parallax fix" data-speed="0.05">
-            <h2 class="sub t-a-left bronze">Manchmal braucht es jemanden, der dich daran erinnert, wer du wirklich bist.</h2>
-            <p class="t-a-left bronze">
+            <h2 class="sub t-a-left yellow-dark">Manchmal braucht es jemanden, der dich daran erinnert, wer du wirklich bist.</h2>
+            <p class="t-a-left yellow-dark">
                 Ein Gegenüber, das die richtigen Fragen stellt, damit du deine Antworten in dir findest.
             </p>
-            <p class="t-a-left bronze">
+            <p class="t-a-left yellow-dark">
                 Coaching schafft neue Sichtweisen, innere Klarheit und mutige Schritte in dein eigenes Leben.
             </p>
         </div>
@@ -185,63 +185,9 @@
 
     <section class="ta-cont gap-small">
         <div class="container">
-            <h2 class="white sub">Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden, ich verbinde diese Qualitaten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
+            <h2 class="white sub">Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden, ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
         </div>
-
-        <div class="termin-angebot">
-            <div class="termine c-light " data-speed="-0.025">
-                <h3>Kennenlernen</h3>
-                <p class="angebot-intro">
-                    Lerne mich und meine Arbeit unverbindlich kennen – wir finden heraus, ob es für dich passt.
-                </p>
-                <ul>
-                    <li> 20-minütiges Kennenlerngespräch</li>
-                    <li> kostenlos</li>
-                </ul>
-                <div class="btn meet">
-                    <a class="meet" href="">Termin buchen</a>
-                </div>
-            </div>
-
-            <div class="termine " data-speed="-0.025">
-                <h3>Einzel-Session</h3>
-                <p class="angebot-intro">
-                    Eine einzel-Session nur für dich, Breathwork oder Coaching, ganz nach deinem aktuellen Thema.
-                </p>
-                <ul>
-                    <li> Session à CHF 125.- pro Stunde</li>
-                </ul>
-                <div class="btn meet">
-                    <a class="meet" href="">Termin buchen</a>
-                </div>
-            </div>
-
-            <div class="termine c-dark " data-speed="-0.025">
-                <h3>Monatsbegleitung</h3>
-                <p class="angebot-intro">
-                    Die tiefere Begleitung für nachhaltige Veränderung, individuell auf dich und dein Leben zugeschnitten.
-                </p>
-                <ul>
-                    <li>2-stündiges Anamnesegespräch</li>
-                    <li>4 wöchentliche Sessions à 1 Stunde</li>
-                    <li>Persönliche Verbindung via WhatsApp für deine Fragen & Anliegen</li>
-                    <li>Dein individuell abgestimmtes Workbook</li>
-                    <li>Beliebig verlängerbar und flexibel anpassbar</li>
-                </ul>
-                <div class="btn meet">
-                     <!-- Calendly link widget begin -->
-                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                    <a class="meet" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/isabella-signer-info/30min'});return false;">Termin buchen</a>
-                    <!-- Calendly link widget end -->          
-                </div>
-            </div>        
-        </div>
-        <div class="stern">
-            <p class="small">
-                *Buchung ist verbindlich. Absagen bis 24h vorher kostenlos, danach voller Betrag
-            </p>
-        </div>
+        <?php require_once 'termin-angebot.php'; ?> 
     </section>
 
     

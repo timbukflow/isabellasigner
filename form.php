@@ -31,6 +31,7 @@ $email     = trim((string)($_POST['email'] ?? ''));
 $phone     = trim((string)($_POST['phone'] ?? ''));
 $message   = trim((string)($_POST['message'] ?? ''));
 $reachTime = trim((string)($_POST['reach_time'] ?? ''));
+$contact   = strtolower(trim((string)($_POST['contact_method'] ?? '')));
 
 /* kurze Validierung */
 $errors = [];
@@ -38,6 +39,8 @@ if ($name==='' || mb_strlen($name)>120)           $errors[]='Name fehlt/zu lang.
 if ($firstname==='' || mb_strlen($firstname)>120)  $errors[]='Vorname fehlt/zu lang.';
 if (!filter_var($email, FILTER_VALIDATE_EMAIL) || mb_strlen($email)>120) $errors[]='E-Mail ungültig.';
 if ($message==='' || mb_strlen($message)>4000)     $errors[]='Nachricht fehlt/zu lang.';
+if (!in_array($contact, ['email','telefonisch'], true)) $errors[]='Kontaktweg fehlt/ungültig.';
+if ($contact === 'telefonisch' && $reachTime==='') $errors[]='Bitte Verfügbarkeit angeben.';
 if (mb_strlen($address)>200 || mb_strlen($phone)>40 || mb_strlen($reachTime)>200) $errors[]='Ein Feld ist zu lang.';
 if ($errors) { fail(implode(' ', $errors)); }
 
@@ -48,6 +51,7 @@ $body .= "Vorname:     {$firstname}\n";
 $body .= "Adresse:     {$address}\n";
 $body .= "E-Mail:      {$email}\n";
 $body .= "Telefon:     {$phone}\n";
+$body .= "Kontaktweg:  ".($contact==='telefonisch' ? 'Telefonisch' : 'E-Mail')."\n";
 $body .= "Erreichbar:  {$reachTime}\n";
 $body .= "Nachricht:\n{$message}\n";
 

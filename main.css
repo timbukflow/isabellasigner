@@ -14,9 +14,10 @@ Version 1.0
 }
 
 :root {
-    --green: #31775C;
-    --purple: #B9A2E9;
-    --bronze: #B39F79;
+    --green: #27614b;
+    --purple: #A790E5;
+    --yellow: #f4e680;
+    --yellow-dark: #837163;
     --petrol: #8AA399;
     --back: #FAF8F1;
     
@@ -55,7 +56,7 @@ body.noscroll {
     Font
 -----------------------------------*/
 
-h1, h2, h3, p, li, a, button, label, textarea, input {
+h1, h2, h3, p, li, a, button, label, textarea, input, .label {
     font-family: rubislight;
     font-optical-sizing: auto;
     font-weight: 100;
@@ -65,8 +66,10 @@ h1, h2, h3, p, li, a, button, label, textarea, input {
     color: var(--green);
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
+
+.center {text-align: center;}
 
 h1, h2 {
   font-size: var(--fonttitle);
@@ -121,7 +124,8 @@ p.small {
 -----------------------------------*/
 
 .purple {color: var(--purple);}
-.bronze {color: var(--bronze);}
+.yellow {color: var(--yellow);}
+.yellow-dark {color: var(--yellow-dark);}
 .white {color: white;}
 
 /*----------------------------------
@@ -160,18 +164,18 @@ header {
     display: flex;
     margin: 0 auto;
     max-width: 1200px;
-    margin-left: 80px;
+    margin-left: 0px;
     margin-top: 120px;
     position: relative;
 }
 
 .intro-img-cont img {
-  width: 50%;
+  width: 55%;
 }
 
 .overlap {
   position: absolute;
-  right: 80px;
+  right: 0px;
 }
 
 .img-cont {
@@ -324,7 +328,7 @@ header {
 }
 
 .btn.meet {
-  margin-top: 00px;
+  margin-top: 0px;
 }
 
 .btn a {
@@ -347,6 +351,8 @@ header {
 .btn a:hover {
   padding: 12px 46px;
 }
+
+.btn.meet.cta {margin-top: 50px;}
 
 /*----------------------------------
     50/50
@@ -423,7 +429,7 @@ header {
     border-radius: 500px 500px;
     width: calc(100vw - 40px);
     height: calc(100vh - 40px);
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     z-index: 90;
     opacity: 0;
@@ -473,7 +479,8 @@ header {
   text-align: left;
 }
 
-.kontakt label {
+.kontakt label,
+.label {
   display: block;
   font-size: var(--fontsmall);
   line-height: 1.3;
@@ -572,6 +579,24 @@ input::placeholder {
     transition: padding 0.3s ease;
     margin-top: 30px;
     cursor: pointer;
+}
+
+.label{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.group {
+  margin-bottom: 20px;
+}
+
+/* Radiofarbe und Fokus im Kontaktformular */
+.kontakt .group input[type="radio"] {
+  accent-color: #9880da;
+}
+.kontakt .group input[type="radio"]:focus-visible {
+  outline: 2px solid #9880da;
+  outline-offset: 2px;
 }
 
 
