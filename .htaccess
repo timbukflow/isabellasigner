@@ -3,7 +3,6 @@ RewriteEngine on
 # Legacy-URLs dauerhaft auf Startseite
 RewriteRule ^blog(?:/.*)?$ / [R=301,L]
 RewriteRule ^yoga/?$ / [R=301,L]
-RewriteRule ^kontakt/?$ / [R=301,L]
 RewriteRule ^die-schnelle-loesung/?$ / [R=301,L]
 RewriteRule ^gedankenkarussell-und-gefuehlschaos/?$ / [R=301,L]
 RewriteRule ^darf-ich-vorstellen-die-drei(?:-doshas)?/?$ / [R=301,L]
