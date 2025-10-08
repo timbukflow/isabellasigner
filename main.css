@@ -699,8 +699,11 @@ input::placeholder {
   color: rgba(255,255,255,.85);
 }
 
-.newsletter-notice .success {
-  color: #f4e680;
+.success-newsletter {
+  background: #fff;
+  color: var(--purple);
+  padding: 12px 30px;
+  border-radius: 50px;
 }
 
 .newsletter-notice .error {
