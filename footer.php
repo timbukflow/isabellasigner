@@ -36,7 +36,7 @@ $newsletterReason = isset($_GET['reason']) ? (string)$_GET['reason'] : '';
         <p class="footer-newsletter-slogan">Für dich und dein Wohlbefinden.</p>
         <p class="footer-newsletter-copy">Erhalte Inspirationen rund um Ayurveda, Breathwork und Coaching direkt in dein Postfach.</p>
       </div>
-      <form class="footer-newsletter-form" action="/newsletter.php" method="post" novalidate>
+      <form class="footer-newsletter-form" action="/newsletter" method="post" novalidate>
         <div class="newsletter-grid">
           <label class="newsletter-field">
             <span>Vorname*</span>
