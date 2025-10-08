@@ -64,7 +64,6 @@ $newsletterSuccess = ($newsletterStatus === 'success');
         <?php else: ?>
           <div class="newsletter-success" tabindex="-1">
             <span class="success-newsletter">Danke für deine Anmeldung.</span>
-            <p class="newsletter-success-subtext">Bitte bestätige die E-Mail, die wir dir soeben geschickt haben.</p>
           </div>
         <?php endif; ?>
 
@@ -91,9 +90,12 @@ $newsletterSuccess = ($newsletterStatus === 'success');
         try {
           var params = new URLSearchParams(window.location.search);
           var hasNewsletterParam = params.has('newsletter');
-          if (hasNewsletterParam && footerSection) {
+          if (hasNewsletterParam) {
             setTimeout(function () {
-              footerSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              var target = successMessage || notice || footerSection;
+              if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }
               if (successMessage) {
                 successMessage.focus({ preventScroll: true });
               } else if (notice) {
