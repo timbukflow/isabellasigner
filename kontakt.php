@@ -105,7 +105,8 @@ $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
 
     <?php if ($sent): ?>
         <div class="notice success" id="successNotice">
-            <p>E-Mail wurde erfolgreich gesendet. Danke!</p>
+            <p>Ich habe deine Anfrage erhalten. Herzlichen Dank. Gerne werde ich mich schnellstmöglich bei dir melden.
+              <br><br>Alles Liebe, Isabella</p>
             <button type="button" class="btn-send" id="closeSuccessBtn">Zurück</button>
         </div>
         <script>

@@ -44,6 +44,9 @@
             <li>Dein individuell abgestimmtes Workbook</li>
             <li>Beliebig verlängerbar und flexibel anpassbar</li>
         </ul>
+        <ul>
+            <li> Monatspaket CHF 880.-</li>
+        </ul>
         <div class="btn meet">
             <!-- Calendly Link-Widget Beginn -->
             <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">

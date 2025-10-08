@@ -85,7 +85,7 @@
           {
             "@type": "Offer",
             "name": "Einzel-Session",
-            "price": "125.00",
+            "price": "140.00",
             "priceCurrency": "CHF",
             "itemOffered": {
               "@type": "Service",
@@ -97,6 +97,8 @@
           {
             "@type": "Offer",
             "name": "Monatsbegleitung",
+            "price": "880.00",
+            "priceCurrency": "CHF",
             "itemOffered": {
               "@type": "Service",
               "name": "Monatliche Begleitung",
