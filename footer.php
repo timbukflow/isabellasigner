@@ -54,7 +54,7 @@ $newsletterReason = isset($_GET['reason']) ? (string)$_GET['reason'] : '';
         <div class="newsletter-meta">
           <div class="newsletter-notice" role="status" aria-live="polite">
             <?php if ($newsletterStatus === 'success'): ?>
-              <span class="success">Danke für deine Anmeldung! Bitte bestätige die E-Mail, die wir dir gerade gesendet haben.</span>
+              <span class="success">Danke für deine Anmeldung.</span>
             <?php elseif ($newsletterStatus === 'error'): ?>
               <span class="error">Es gab ein Problem bei der Anmeldung<?= $newsletterReason ? ': ' . htmlspecialchars($newsletterReason, ENT_QUOTES, 'UTF-8') : '.' ?> Bitte versuche es erneut.</span>
             <?php endif; ?>
@@ -68,6 +68,69 @@ $newsletterReason = isset($_GET['reason']) ? (string)$_GET['reason'] : '';
         <input type="hidden" name="redirect" value="<?= htmlspecialchars($redirectTarget . '#newsletter', ENT_QUOTES, 'UTF-8'); ?>">
       </form>
     </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var form = document.querySelector('.footer-newsletter-form');
+        if (!form) return;
+
+        var notice = form.querySelector('.newsletter-notice');
+        var requiredFields = form.querySelectorAll('input[required]');
+
+        function validateField(field) {
+          var value = field.value.trim();
+          var valid = value !== '';
+
+          if (valid && field.type === 'email') {
+            valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+          }
+
+          field.classList.toggle('invalid', !valid);
+          return valid;
+        }
+
+        requiredFields.forEach(function (field) {
+          field.addEventListener('input', function () {
+            validateField(field);
+            if (notice) {
+              notice.innerHTML = '';
+            }
+          });
+        });
+
+        form.addEventListener('submit', function (event) {
+          var firstInvalid = null;
+          var allValid = true;
+
+          requiredFields.forEach(function (field) {
+            var isValid = validateField(field);
+            if (!isValid && !firstInvalid) {
+              firstInvalid = field;
+              allValid = false;
+            } else if (!isValid) {
+              allValid = false;
+            }
+          });
+
+          if (!allValid) {
+            event.preventDefault();
+            if (notice) {
+              notice.innerHTML = '<span class="error">Bitte fülle alle markierten Felder korrekt aus.</span>';
+            }
+            if (firstInvalid) {
+              try {
+                firstInvalid.focus({ preventScroll: true });
+              } catch (err) {
+                firstInvalid.focus();
+              }
+              firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+          } else if (notice) {
+            notice.innerHTML = '';
+          }
+        });
+      });
+    </script>
 
     <div class="footer-meta">
       <p>© <?php echo date('Y'); ?> Isabella Signer</p>

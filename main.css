@@ -57,7 +57,7 @@ body.noscroll {
     Font
 -----------------------------------*/
 
-h1, h2, h3, p, li, a, button, label, textarea, input, .label {
+h1, h2, h3, p, li, a, span, button, label, textarea, input, .label {
     font-family: rubislight;
     font-optical-sizing: auto;
     font-weight: 100;
@@ -640,14 +640,19 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: flex-start;
 }
 
 .newsletter-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  flex-direction: row;
   gap: 20px;
+  width: 75%;
 }
 
+.newsletter-field  {
+  width: 100%;
+}
 .newsletter-field span {
   display: block;
   margin-bottom: 8px;
@@ -659,13 +664,18 @@ input::placeholder {
 .newsletter-field input {
   width: 100%;
   padding: 14px 16px;
-  border-radius: 10px;
+  border-radius: 50px;
   border: 1px solid rgba(255,255,255,.35);
   background: rgba(255,255,255,.12);
   color: #fff;
   font-size: var(--fontsmall);
   font-family: rubislight;
   letter-spacing: 0;
+}
+
+.newsletter-field input.invalid {
+  border-color: #ffd2d2;
+  background: rgba(255,210,210,.15);
 }
 
 .newsletter-field input:focus {
@@ -679,13 +689,12 @@ input::placeholder {
 
 .newsletter-meta {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .newsletter-notice {
-  min-height: 1.5em;
   font-size: var(--fontsmall);
   color: rgba(255,255,255,.85);
 }
@@ -696,6 +705,7 @@ input::placeholder {
 
 .newsletter-notice .error {
   color: #ffd2d2;
+  letter-spacing: 0.5px;
 }
 
 .newsletter-submit {
@@ -978,19 +988,10 @@ button {
   .termin-angebot {margin-top: 30px; flex-direction:column; max-width: 400px;}
 
   /* footer */
- 
-  .newsletter-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+  .newsletter-grid {flex-direction: column; width: 100%;}
 
   .newsletter-meta {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .newsletter-submit {
-    width: 100%;
-    text-align: center;
+      flex-direction: column;
   }
 
     /* cookies */
@@ -1032,10 +1033,6 @@ button {
   /* nav */
   .logo {width: 200px;}
   .menu {width: 40px; height: 40px;}
-
-  
-
-
  
     /* cookies */
     #cookiebanner {
