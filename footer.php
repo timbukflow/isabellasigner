@@ -52,14 +52,14 @@ $newsletterReason = isset($_GET['reason']) ? (string)$_GET['reason'] : '';
           </label>
         </div>
         <div class="newsletter-meta">
-          <div class="newsletter-notice" role="status" aria-live="polite">
-            <?php if ($newsletterStatus === 'success'): ?>
-              <span class="success">Danke für deine Anmeldung.</span>
-            <?php elseif ($newsletterStatus === 'error'): ?>
-              <span class="error">Es gab ein Problem bei der Anmeldung<?= $newsletterReason ? ': ' . htmlspecialchars($newsletterReason, ENT_QUOTES, 'UTF-8') : '.' ?> Bitte versuche es erneut.</span>
-            <?php endif; ?>
-          </div>
           <button type="submit" class="newsletter-submit">Anmelden</button>
+        </div>
+        <div class="newsletter-notice" role="status" aria-live="polite">
+          <?php if ($newsletterStatus === 'success'): ?>
+            <span class="success">Danke für deine Anmeldung.</span>
+          <?php elseif ($newsletterStatus === 'error'): ?>
+            <span class="error">Es gab ein Problem bei der Anmeldung<?= $newsletterReason ? ': ' . htmlspecialchars($newsletterReason, ENT_QUOTES, 'UTF-8') : '.' ?> Bitte versuche es erneut.</span>
+          <?php endif; ?>
         </div>
 
         <div class="newsletter-hidden" aria-hidden="true">
