@@ -76,6 +76,23 @@ $newsletterReason = isset($_GET['reason']) ? (string)$_GET['reason'] : '';
 
         var notice = form.querySelector('.newsletter-notice');
         var requiredFields = form.querySelectorAll('input[required]');
+        var footerSection = document.getElementById('newsletter');
+
+        try {
+          var params = new URLSearchParams(window.location.search);
+          var hasNewsletterParam = params.has('newsletter');
+          if (hasNewsletterParam && footerSection) {
+            setTimeout(function () {
+              footerSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              if (notice) {
+                notice.setAttribute('tabindex', '-1');
+                notice.focus({ preventScroll: true });
+              }
+            }, 100);
+          }
+        } catch (err) {
+          /* URLSearchParams nicht verfügbar – kein automatisches Scrollen */
+        }
 
         function validateField(field) {
           var value = field.value.trim();
@@ -116,6 +133,7 @@ $newsletterReason = isset($_GET['reason']) ? (string)$_GET['reason'] : '';
             event.preventDefault();
             if (notice) {
               notice.innerHTML = '<span class="error">Bitte fülle alle markierten Felder korrekt aus.</span>';
+              notice.setAttribute('tabindex', '-1');
             }
             if (firstInvalid) {
               try {
