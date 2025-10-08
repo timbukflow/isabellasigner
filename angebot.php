@@ -202,11 +202,10 @@
             <h2 class="white sub">Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden, ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
         </div>
         <?php require_once 'termin-angebot.php'; ?> 
-    </section>
-    <?php require_once 'faq-small.php'; ?>
-    
+    </section>   
 
     <?php require_once 'footer.php'; ?>
+    <?php require_once 'faq-small.php'; ?>
     <?php require_once 'script.php'; ?>
     <?php require_once 'googleanalytics.php'; ?>
 </body>
