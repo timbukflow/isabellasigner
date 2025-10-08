@@ -699,13 +699,6 @@ input::placeholder {
   color: rgba(255,255,255,.85);
 }
 
-.success-newsletter {
-  background: #fff;
-  color: var(--purple);
-  padding: 12px 30px;
-  border-radius: 50px;
-}
-
 .newsletter-notice .error {
   color: #ffd2d2;
   letter-spacing: 0.5px;
@@ -1048,4 +1041,32 @@ button {
   #cookiebanner.visible {
     bottom: 60px;
   }
+}
+.newsletter-success {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 28px;
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,.35);
+  background: rgba(255,255,255,.12);
+  color: #fff;
+  outline: none;
+  margin-top: 10px;
+}
+
+.newsletter-success:focus {
+  outline: 2px solid rgba(255,255,255,.7);
+  outline-offset: 4px;
+}
+
+.success-newsletter {
+  color: #f4e680;
+  font-size: var(--fontsmall);
+}
+
+.newsletter-success-subtext {
+  font-size: var(--fontsmall);
+  color: rgba(255,255,255,.85);
+  margin: 0;
 }
