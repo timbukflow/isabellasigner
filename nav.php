@@ -11,7 +11,7 @@
     <li class="center"><a href="kontakt">Kontakt</a></li>
   </ul>
       <div class="footer-icons">
-          <a href="https://www.instagram.com/isabella_signer_be_natural" target="_blank" aria-label="Instagram">
+          <a href="https://www.instagram.com/isabella.signer/" target="_blank" aria-label="Instagram">
             <img src="img/icon-instagram.svg" alt="Instagram Icon">
           </a>
           <a href="mailto:info@isabella-signer.ch" aria-label="E-Mail schreiben">

@@ -20,7 +20,7 @@ $newsletterSuccess = ($newsletterStatus === 'success');
     <div class="footer-top">
       <h2 class="footer-title">Weiblich. Sensibel. Stark.</h2>
       <div class="footer-icons">
-          <a href="https://www.instagram.com/isabella_signer_be_natural" target="_blank" aria-label="Instagram">
+          <a href="https://www.instagram.com/isabella.signer/" target="_blank" aria-label="Instagram">
             <img src="img/icon-instagram.svg" alt="Instagram Icon">
           </a>
           <a href="mailto:info@isabella-signer.ch" aria-label="E-Mail schreiben">
@@ -189,7 +189,7 @@ $newsletterSuccess = ($newsletterStatus === 'success');
   "name": "Isabella Signer",
   "url": "https://isabella-signer.ch",
   "sameAs": [
-    "https://www.instagram.com/isabella_signer_be_natural"
+    "https://www.instagram.com/isabella.signer/"
   ]
 }
 </script>

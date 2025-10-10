@@ -60,6 +60,9 @@ $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
         "@type": "Person",
         "name": "Isabella Signer",
         "url": "https://isabella-signer.ch",
+        "sameAs": [
+          "https://www.instagram.com/isabella.signer/"
+        ],
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Kornfeldstrasse 17b",

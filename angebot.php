@@ -59,6 +59,9 @@
       "about": {
         "@type": "Person",
         "name": "Isabella Signer",
+        "sameAs": [
+          "https://www.instagram.com/isabella.signer/"
+        ],
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Kornfeldstrasse 17b",
