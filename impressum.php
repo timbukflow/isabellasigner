@@ -63,6 +63,12 @@
         9000 St.Gallen<br>
         <a href="https://schwizerdesign.ch" target="_blank">www.schwizerdesign.ch</a></p>
 
+        <h2>Content und Strategie</h2>
+        <p>BEYOND Experience Design<br>
+        Gallusstrasse 43<br>
+        9000 St. Gallen<br>
+        <a href="https://beyondexperience.design" target="_blank">www.beyondexperience.design</a></p>
+
         <h2>Disclaimer</h2>
         <p>Personen, welche auf dieser Website Informationen abrufen, erklären sich mit den nachstehenden Bedingungen einverstanden.</p>
 
