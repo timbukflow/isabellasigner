@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Isabella Signer – Ayurveda, Breathwork &amp; Coaching Angebote</title>
+    <title>Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching Angebote</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Ayurveda, Breathwork und Coaching in Steinach (SG). Wähle zwischen Kennenlern-Call, Einzel-Session oder Monatsbegleitung – individuell, weiblich, klar." />
+    <meta name="description" content="Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG). Wähle zwischen Kennenlern-Call, Einzel-Session oder Monatsbegleitung – individuell, weiblich, klar." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/angebot" />
     <meta name="robots" content="index, follow" />
@@ -20,8 +20,8 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Mein Angebot Ayurveda, Atmen & Coaching" />
-    <meta property="og:description" content="Individuelle Begleitung mit Ayurveda, Breathwork und Coaching in Steinach (SG): Kennenlernen, Einzel-Session oder Monatsbegleitung." />
+    <meta property="og:title" content="Mein Angebot – Ayurveda, Breathwork, Emotional Bodywork & Coaching" />
+    <meta property="og:description" content="Individuelle Begleitung mit Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG): Kennenlernen, Einzel-Session oder Monatsbegleitung." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/angebot" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -29,8 +29,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mein Angebot Ayurveda, Atmen & Coaching" />
-    <meta name="twitter:description" content="Ayurveda, Breathwork &amp; Coaching: Kennenlern-Call, Einzel-Session oder Monatsbegleitung – persönlich &amp; einfühlsam in Steinach (SG)." />
+    <meta name="twitter:title" content="Mein Angebot – Ayurveda, Breathwork, Emotional Bodywork & Coaching" />
+    <meta name="twitter:description" content="Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching: Kennenlern-Call, Einzel-Session oder Monatsbegleitung – persönlich &amp; einfühlsam in Steinach (SG)." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -47,10 +47,10 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Angebot – Ayurveda, Breathwork & Coaching",
+      "name": "Angebot – Ayurveda, Breathwork, Emotional Bodywork & Coaching",
       "url": "https://isabella-signer.ch/angebot",
       "inLanguage": "de-CH",
-      "description": "Ayurveda, Breathwork und Coaching in Steinach (SG). Kennenlern-Call, Einzel-Session oder Monatsbegleitung – individuell und einfühlsam.",
+      "description": "Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG). Kennenlern-Call, Einzel-Session oder Monatsbegleitung – individuell und einfühlsam.",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Isabella Signer",
@@ -92,7 +92,7 @@
             "priceCurrency": "CHF",
             "itemOffered": {
               "@type": "Service",
-              "name": "Einzelsitzung Breathwork / Coaching",
+              "name": "Einzelsitzung Breathwork, Emotional Bodywork / Coaching",
               "areaServed": "CH",
               "duration": "PT1H"
             }
@@ -148,35 +148,43 @@
         <div class="copy parallax fix" data-speed="0.05">
             <h2 class="sub t-a-left">Ayurveda bringt dich zurück zu dir.</h2>
             <p class="t-a-left">
-                Er lehrt dich, dich selbst wieder wahrzunehmen, mit allem, was du bist und brauchst.
+                Erlebe, wie du dich selbst wieder wahrnimmst – mit allem, was du bist und brauchst. Ayurveda begleitet dich mit seiner Einfachheit, Tiefe und Weisheit zurück in deine natürliche Balance, besonders dann, wenn dein Körper beginnt, Ungleichgewichte zu zeigen.
             </p>
             <p class="t-a-left">
-                Mit seiner Einfachheit, Tiefe und Weisheit begleitet es zu mehr Balance, Lebendigkeit und weiblicher Gesundheit.
+                Er unterstützt dich dabei, Signale wie Erschöpfung, innere Unruhe oder körperliches Unwohlsein besser zu verstehen, statt sie zu übergehen.
             </p>
             <p class="t-a-left">
-                Er betrachtet jeden Menschen als Ganzes, holistisch und individuell. Der Fokus liegt auf der Erhaltung der Gesundheit und nicht auf der Bekämpfung von Symptomen.
+                Der Mensch wird ganzheitlich, individuell und in seinem eigenen Rhythmus betrachtet.
+                Der Fokus liegt auf der Erhaltung der Gesundheit – und darauf, wieder in Verbindung mit deinem Körper zu kommen, bevor Symptome lauter werden.
             </p>
         </div>
     </section>
 
-    <h2 class="fullscreen-text purple" >Breathwork</h2>
+    <h2 class="fullscreen-text purple" >Breathwork &amp; Emotional Bodywork</h2>
     <section class="cont-50-50 revers">
         <div class="photo parallax fix" data-speed="0.025">
             <img
             src="img/isabella-signer-breathwork.webp"
-            alt="Breathwork Session – achtsam atmen mit Isabella Signer"
+            alt="Breathwork & Emotional Bodywork – achtsam atmen mit Isabella Signer"
             loading="lazy" decoding="async"
             />
         </div>
         <div class="copy parallax fix" data-speed="0.05">
-            <h2 class="sub t-a-left purple">Atmen ist die ehrlichste Verbindung zu dir selbst.</h2>
+            <h2 class="sub t-a-left purple">Atmen und Spüren – die ehrlichste Verbindung zu dir selbst.</h2>
             <p class="t-a-left purple">
-                Breathwork berührt Ebenen, die Worte nicht erreichen. Dort, wo Erfahrungen, Emotionen und Blockaden tiefer sitzen.
+                Bewusstsein dort, wo Worte nicht mehr reichen.
             </p>
             <p class="t-a-left purple">
-                In dieser Stille geschieht oft das Größte: Loslassen, Verstehen, Aufblühen.
+                Emotional Bodywork verbindet Breathwork, Bodywork, Hypnose und somatische Prozessarbeit.
             </p>
-        </div>  
+            <p class="t-a-left purple">
+                Denn im Atem und im Körper öffnen sich Räume, in denen Erfahrungen, Emotionen und Blockaden gespeichert sind.
+            </p>
+            <p class="t-a-left purple">
+                Genau hier darf sich zeigen, was gesehen werden will.
+                Wir schaffen Sicherheit, lösen innere Spannung und bringen wieder ins Fliessen, was zu lange festgehalten wurde. Für echte Veränderung auf körperlicher und emotionaler Ebene.
+            </p>
+        </div>
     </section>
 
     <h2 class="fullscreen-text yellow">Coaching</h2>
@@ -189,20 +197,20 @@
             />
         </div>
 
-        <div class="copy parallax fix" data-speed="0.05">
+        <div class="copy parallax fix" data-speed="0.025">
             <h2 class="sub t-a-left yellow-dark">Manchmal braucht es jemanden, der dich daran erinnert, wer du wirklich bist.</h2>
             <p class="t-a-left yellow-dark">
-                Ein Gegenüber, das die richtigen Fragen stellt, damit du deine Antworten in dir findest.
+                Ein Gegenüber, das die richtigen Fragen stellt, damit du deine Antworten in dir findest – auch jene, die im Alltag und im Funktionieren oft überhört werden.
             </p>
             <p class="t-a-left yellow-dark">
-                Coaching schafft neue Sichtweisen, innere Klarheit und mutige Schritte in dein eigenes Leben.
+                Coaching eröffnet neue Sichtweisen, innere Klarheit und mutige Schritte in dein eigenes Leben, besonders dann, wenn Stress, innere Unruhe oder körperliche Signale zeigen, dass es Zeit ist, innezuhalten und neu auszurichten.
             </p>
         </div>
     </section>
 
     <section class="ta-cont gap-small">
         <div class="container">
-            <h2 class="white sub">Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden, ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
+            <h2 class="white sub">Du musst dich nicht zwischen Ayurveda, Coaching, Breathwork oder Emotional Bodywork entscheiden. Ich verbinde diese Qualitäten und gestalte eine vertiefende Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist – körperlich, emotional und mental.</h2>
         </div>
         <?php require_once 'termin-angebot.php'; ?> 
     </section>   
