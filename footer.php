@@ -35,7 +35,7 @@ $newsletterSuccess = ($newsletterStatus === 'success');
     <div class="footer-newsletter">
       <div class="footer-newsletter-intro">
         <p class="footer-newsletter-slogan">Für dich und dein Wohlbefinden.</p>
-        <p class="footer-newsletter-copy">Erhalte Inspirationen rund um Ayurveda, Breathwork und Coaching direkt in dein Postfach.</p>
+        <p class="footer-newsletter-copy">Erhalte Inspirationen rund um Ayurveda, Breathwork, Emotional Bodywork und Coaching direkt in dein Postfach.</p>
       </div>
       <form class="footer-newsletter-form" action="/newsletter" method="post" novalidate data-state="<?= $newsletterSuccess ? 'success' : 'default'; ?>">
         <?php if (!$newsletterSuccess): ?>

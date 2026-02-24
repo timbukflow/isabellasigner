@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Termin buchen – Isabella Signer | Ayurveda, Breathwork &amp; Coaching in Steinach (SG)</title>
+    <title>Termin buchen – Isabella Signer | Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Buche deinen Termin bei Isabella Signer in Steinach (SG) – Ayurveda, Breathwork oder Coaching. Persönlich, einfühlsam &amp; klar begleitet." />
+    <meta name="description" content="Buche deinen Termin bei Isabella Signer in Steinach (SG) – Ayurveda, Breathwork, Emotional Bodywork oder Coaching. Persönlich, einfühlsam &amp; klar begleitet." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/termin" />
     <meta name="robots" content="index, follow" />
@@ -20,8 +20,8 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Termin buchen – Isabella Signer | Ayurveda, Breathwork &amp; Coaching" />
-    <meta property="og:description" content="Buche deinen Termin – Ayurveda, Breathwork &amp; Coaching mit Isabella Signer in Steinach (SG). Wähle Kennenlernen, Einzel‑Session oder Monatsbegleitung." />
+    <meta property="og:title" content="Termin buchen – Isabella Signer | Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching" />
+    <meta property="og:description" content="Buche deinen Termin – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching mit Isabella Signer in Steinach (SG). Wähle Kennenlernen, Einzel‑Session oder Monatsbegleitung." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/termin" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -29,8 +29,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Termin buchen – Isabella Signer | Ayurveda, Breathwork &amp; Coaching" />
-    <meta name="twitter:description" content="Termin vereinbaren bei Isabella Signer – Ayurveda, Breathwork &amp; Coaching in Steinach (SG). Persönlich &amp; einfühlsam." />
+    <meta name="twitter:title" content="Termin buchen – Isabella Signer | Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching" />
+    <meta name="twitter:description" content="Termin vereinbaren bei Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG). Persönlich &amp; einfühlsam." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -51,7 +51,7 @@
       "name": "Termin buchen – Isabella Signer",
       "url": "https://isabella-signer.ch/termin",
       "inLanguage": "de-CH",
-      "description": "Buche deinen Termin bei Isabella Signer in Steinach (SG) für Ayurveda, Breathwork oder Coaching.",
+      "description": "Buche deinen Termin bei Isabella Signer in Steinach (SG) für Ayurveda, Breathwork, Emotional Bodywork oder Coaching.",
       "mainEntity": {
         "@type": "Person",
         "name": "Isabella Signer",
@@ -96,7 +96,7 @@
 
     <header>
         <h3>Termin Buchen</h3>
-        <h2 class="sub">Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden – ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
+        <h2 class="sub">Du musst dich nicht zwischen Ayurveda, Coaching, Breathwork oder Emotional Bodywork entscheiden – ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
     </header>
 
     <section class="ta-cont gap-termin">

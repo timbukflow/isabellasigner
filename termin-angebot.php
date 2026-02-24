@@ -19,7 +19,7 @@
     <div class="termine " data-speed="-0.025">
         <h3>Einzel-Session</h3>
         <p class="angebot-intro">
-            Eine Einzel-Session nur für dich. Breathwork oder Coaching - ganz nach deinem aktuellen Thema. Die tiefere Begleitung für nachhaltige Veränderung. Individuell auf dich und dein Leben zugeschnitten.
+            Eine Einzel-Session nur für dich. Breathwork, Emotional Bodywork oder Coaching - ganz nach deinem aktuellen Thema. Die tiefere Begleitung für nachhaltige Veränderung. Individuell auf dich und dein Leben zugeschnitten.
         </p>
         <ul>
             <li> Session à CHF 140.- pro Stunde</li>

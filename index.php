@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Isabella Signer – Ayurveda, Breathwork &amp; Coaching in Steinach (SG)</title>
+    <title>Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Isabella Signer begleitet Frauen mit Ayurveda, Breathwork und Coaching in Steinach (SG). Sensibilität als Stärke leben und Weiblichkeit entfalten." />
+    <meta name="description" content="Isabella Signer begleitet Frauen mit Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG). Sensibilität als Stärke leben und Weiblichkeit entfalten." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch" />
     <meta name="robots" content="index, follow" />
@@ -22,7 +22,7 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="Isabella Signer | Ayurveda, Atmen & Coaching" />
-    <meta property="og:description" content="Erlebe Ayurveda, Breathwork und Coaching mit Isabella Signer in Steinach (SG). Persönlich, einfühlsam und transformierend." />
+    <meta property="og:description" content="Erlebe Ayurveda, Breathwork, Emotional Bodywork und Coaching mit Isabella Signer in Steinach (SG). Persönlich, einfühlsam und transformierend." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -31,7 +31,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isabella Signer | Ayurveda, Atmen & Coaching" />
-    <meta name="twitter:description" content="Isabella Signer – Ayurveda, Breathwork &amp; Coaching für Frauen in Steinach (SG). Finde zurück zu Balance, Klarheit und Selbstvertrauen." />
+    <meta name="twitter:description" content="Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching für Frauen in Steinach (SG). Finde zurück zu Balance, Klarheit und Selbstvertrauen." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -50,8 +50,8 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "url": "https://isabella-signer.ch",
-      "name": "Isabella Signer – Ayurveda, Breathwork & Coaching",
-      "description": "Isabella Signer begleitet Frauen mit Ayurveda, Breathwork und Coaching in Steinach (SG). Sensibilität als Stärke leben und Weiblichkeit entfalten.",
+      "name": "Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork & Coaching",
+      "description": "Isabella Signer begleitet Frauen mit Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG). Sensibilität als Stärke leben und Weiblichkeit entfalten.",
       "inLanguage": "de-CH",
       "publisher": {
         "@type": "Person",
@@ -78,7 +78,7 @@
         <h1 class="center">Weiblich. Sensibel. Stark.</h1>
         <div class="intro-img-cont">
             <img class="parallax" data-speed="0.1" src="img/isabella-signer-intro-01.webp" alt="Isabella Signer – Coaching & Ayurveda Introbild">
-            <img class="parallax overlap" data-speed="-0.1" src="img/isabella-signer-intro-02.webp" alt="Isabella Signer – Breathwork Introbild">
+            <img class="parallax overlap" data-speed="-0.1" src="img/isabella-signer-intro-02.webp" alt="Isabella Signer – Breathwork & Emotional Bodywork Introbild">
         </div>
 
         <div class="question-cont">
@@ -128,9 +128,9 @@
             </div>
 
             <div class="angebot">
-                <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork Angebot – Atemarbeit für Klarheit" loading="lazy" />
-                <h3 class="center">Breathwork</h3>
-                <p class="center">Breathwork öffnet dir den Zugang zu tiefer Klarheit.</p>
+                <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork & Emotional Bodywork – Atemarbeit für Klarheit" loading="lazy" />
+                <h3 class="center">Breathwork &amp; Emotional Bodywork</h3>
+                <p class="center">Breathwork &amp; Emotional Bodywork öffnen dir den Zugang zu tiefer Klarheit.</p>
             </div>
 
             <div class="angebot" >
