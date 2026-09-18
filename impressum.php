@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Impressum | Isabella Signer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Impressum | Isabella Signer" />
+    <meta name="description" content="Impressum von isabella-signer.ch – Isabella Signer, Kornfeldstrasse 17b, 9323 Steinach (SG)." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/impressum" />
     <meta name="robots" content="index, follow" />
@@ -20,8 +20,8 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Isabella Signer | Impressum" />
-    <meta property="og:description" content="..." />
+    <meta property="og:title" content="Impressum | Isabella Signer" />
+    <meta property="og:description" content="Impressum von isabella-signer.ch – Isabella Signer, Kornfeldstrasse 17b, 9323 Steinach (SG)." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/impressum" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -29,8 +29,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Isabella Signer | Impressum" />
-    <meta name="twitter:description" content="..." />
+    <meta name="twitter:title" content="Impressum | Isabella Signer" />
+    <meta name="twitter:description" content="Impressum von isabella-signer.ch – Isabella Signer, Kornfeldstrasse 17b, 9323 Steinach (SG)." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />

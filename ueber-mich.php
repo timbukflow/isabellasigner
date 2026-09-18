@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Über mich – Isabella Signer | Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG)</title>
+    <title>Über mich – Isabella Signer | Ayurveda-, Breathwork- &amp; Lifecoach</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Lerne Isabella Signer kennen – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG). Persönlich, einfühlsam und mit Erfahrung begleitet sie Frauen in ihr echtes Frausein." />
+    <meta name="description" content="Ehemalige Führungskraft, Mutter und heute Ayurveda Lifestyle- &amp; Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG)." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/ueber-mich" />
     <meta name="robots" content="index, follow" />
@@ -20,8 +20,8 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Isabella Signer | Über mich" />
-    <meta property="og:description" content="Über mich: Isabella Signer – Ayurveda Lifestyle- &amp; Ernährungscoach, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG). Frauen ganzheitlich begleiten." />
+    <meta property="og:title" content="Über mich – Isabella Signer | Ayurveda-, Breathwork- &amp; Lifecoach" />
+    <meta property="og:description" content="Ehemalige Führungskraft, Mutter und heute Ayurveda Lifestyle- &amp; Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG)." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/ueber-mich" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -29,8 +29,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Isabella Signer | Über mich" />
-    <meta name="twitter:description" content="Isabella Signer stellt sich vor – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG). Erlebe persönliche Begleitung mit Herz &amp; Erfahrung." />
+    <meta name="twitter:title" content="Über mich – Isabella Signer | Ayurveda-, Breathwork- &amp; Lifecoach" />
+    <meta name="twitter:description" content="Ehemalige Führungskraft, Mutter und heute Ayurveda Lifestyle- &amp; Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG)." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -49,8 +49,8 @@
   "@type": "AboutPage",
   "@id": "https://isabella-signer.ch/ueber-mich#webpage",
   "url": "https://isabella-signer.ch/ueber-mich",
-  "name": "Über mich – Isabella Signer",
-  "description": "Isabella Signer – Ayurveda Lifestyle- & Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG).",
+  "name": "Über mich – Isabella Signer | Ayurveda-, Breathwork- & Lifecoach",
+  "description": "Ehemalige Führungskraft, Mutter und heute Ayurveda Lifestyle- & Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG).",
   "inLanguage": "de-CH",
   "isPartOf": {
     "@id": "https://isabella-signer.ch/#website"
@@ -117,7 +117,7 @@
         <div class="photo parallax fix" data-speed="0.1">
             <img
             src="img/isabella-signer-ueber-mich-02.webp"
-            alt="Isabella Signer – Begleitung von Frauen, Breathwork, Emotional Bodywork & Coaching"
+            alt="Isabella Signer im Praxisraum in Steinach (SG)"
             loading="lazy"
             />
         </div>
@@ -154,27 +154,24 @@
         </div>
 
         <div class="teaser-angebot">
-            <div class="angebot" >
-                <img src="img/isabella-signer-teaser-ayurveda.webp" alt="Ayurveda Angebot – Balance finden mit Isabella Signer" loading="lazy" />
-                <h3>Ayurveda</h3>
-                <p>Ayurveda bringt dich zurück in deine Balance.</p>
+            <div class="angebot">
+                <img src="img/isabella-signer-begleitung-bodywork.webp" alt="Emotional Bodywork &amp; Breathwork – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
+                <h3>Emotional Bodywork &amp; Breathwork</h3>
+                <p>Dein Körper spricht längst mit dir. Anspannung lösen, körperliche Reaktionen besser einordnen und neue Wege im Umgang mit Stress entwickeln.</p>
             </div>
-
-            <div class="angebot" >
-                <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork & Emotional Bodywork – Klarheit & Atemarbeit mit Isabella Signer" loading="lazy" />
-                <h3>Breathwork &amp; Emotional Bodywork</h3>
-                <p>Breathwork &amp; Emotional Bodywork öffnen dir den Zugang zu tiefer Klarheit.</p>
+            <div class="angebot">
+                <img src="img/isabella-signer-begleitung-coaching.webp" alt="Mindset &amp; Coaching – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
+                <h3>Mindset &amp; Coaching</h3>
+                <p>Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.</p>
             </div>
-
-            <div class="angebot" >
-                <img src="img/isabella-signer-teaser-coaching.webp" alt="Coaching Angebot – Persönliche Entwicklung mit Isabella Signer" loading="lazy" />
-                <h3>Coaching</h3>
-                <p>Coaching unterstützt dich, dein Selbst zu erkennen.</p>
+            <div class="angebot">
+                <img src="img/isabella-signer-begleitung-ayurveda.webp" alt="Ayurveda &amp; Ernährung – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
+                <h3>Ayurveda &amp; Ernährung</h3>
+                <p>Was du isst und wie du isst, beeinflusst, wie du dich fühlst. Die richtigen Lebensmittel und Gewohnheiten können deinen Körper gezielt im Alltag unterstützen.</p>
             </div>
         </div>
-
         <div class="btn">
-            <a href="angebot">zum Angebot</a>
+            <a href="angebot">Begleitung entdecken</a>
         </div>
     </section>
 

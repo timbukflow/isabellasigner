@@ -18,7 +18,7 @@ $newsletterSuccess = ($newsletterStatus === 'success');
   <div class="footer-inner">
 
     <div class="footer-top">
-      <h2 class="footer-title">Weiblich. Sensibel. Stark.</h2>
+      <a class="footer-logo" href="/"><img src="/img/isabella-signer-logo-white.svg" alt="Isabella Signer – zur Startseite" width="283" height="49"></a>
       <div class="footer-icons">
           <a href="https://www.instagram.com/isabella.signer/" target="_blank" aria-label="Instagram">
             <img src="/img/icon-instagram.svg" alt="Instagram Icon">
@@ -34,8 +34,8 @@ $newsletterSuccess = ($newsletterStatus === 'success');
 
     <div class="footer-newsletter">
       <div class="footer-newsletter-intro">
-        <p class="footer-newsletter-slogan">Für dich und dein Wohlbefinden.</p>
-        <p class="footer-newsletter-copy">Erhalte Inspirationen rund um Ayurveda, Breathwork, Emotional Bodywork und Coaching direkt in dein Postfach.</p>
+        <p class="footer-newsletter-slogan">Für das, was im Alltag oft untergeht.</p>
+        <p class="footer-newsletter-copy">Warum bist du erschöpft? Warum kommst du nicht zur Ruhe? Was kannst du verändern? Impulse und praktische Anregungen direkt in dein Postfach.</p>
       </div>
       <form class="footer-newsletter-form" action="/newsletter" method="post" novalidate data-state="<?= $newsletterSuccess ? 'success' : 'default'; ?>">
         <?php if (!$newsletterSuccess): ?>

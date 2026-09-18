@@ -20,8 +20,8 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Isabella Signer | Datenschutz" />
-    <meta property="og:description" content="..." />
+    <meta property="og:title" content="Datenschutz | Isabella Signer" />
+    <meta property="og:description" content="Datenschutzerklärung von Isabella Signer, Steinach (SG): welche Daten auf isabella-signer.ch bearbeitet werden, wofür und welche Rechte du hast." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/ueber-mich" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -29,8 +29,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Isabella Signer | Datenschutz" />
-    <meta name="twitter:description" content="..." />
+    <meta name="twitter:title" content="Datenschutz | Isabella Signer" />
+    <meta name="twitter:description" content="Datenschutzerklärung von Isabella Signer, Steinach (SG): welche Daten auf isabella-signer.ch bearbeitet werden, wofür und welche Rechte du hast." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />

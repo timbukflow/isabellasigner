@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching Angebote</title>
+    <title>Bodywork, Breathwork, Ayurveda &amp; Coaching | Isabella Signer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG). Wähle zwischen Kennenlern-Call, Einzel-Session oder Monatsbegleitung – individuell, weiblich, klar." />
+    <meta name="description" content="Emotional Bodywork &amp; Breathwork, Mindset &amp; Coaching, Ayurveda &amp; Ernährung bei Stress und Erschöpfung – Einzel-Session oder Monatsbegleitung in Steinach (SG)." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/angebot" />
     <meta name="robots" content="index, follow" />
@@ -20,8 +20,8 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Mein Angebot – Ayurveda, Breathwork, Emotional Bodywork & Coaching" />
-    <meta property="og:description" content="Individuelle Begleitung mit Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG): Kennenlernen, Einzel-Session oder Monatsbegleitung." />
+    <meta property="og:title" content="Bodywork, Breathwork, Ayurveda &amp; Coaching | Isabella Signer" />
+    <meta property="og:description" content="Emotional Bodywork &amp; Breathwork, Mindset &amp; Coaching, Ayurveda &amp; Ernährung bei Stress und Erschöpfung – Einzel-Session oder Monatsbegleitung in Steinach (SG)." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/angebot" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -29,8 +29,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mein Angebot – Ayurveda, Breathwork, Emotional Bodywork & Coaching" />
-    <meta name="twitter:description" content="Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching: Kennenlern-Call, Einzel-Session oder Monatsbegleitung – persönlich &amp; einfühlsam in Steinach (SG)." />
+    <meta name="twitter:title" content="Bodywork, Breathwork, Ayurveda &amp; Coaching | Isabella Signer" />
+    <meta name="twitter:description" content="Emotional Bodywork &amp; Breathwork, Mindset &amp; Coaching, Ayurveda &amp; Ernährung bei Stress und Erschöpfung – Einzel-Session oder Monatsbegleitung in Steinach (SG)." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -49,8 +49,8 @@
   "@type": "WebPage",
   "@id": "https://isabella-signer.ch/angebot#webpage",
   "url": "https://isabella-signer.ch/angebot",
-  "name": "Angebot – Emotional Bodywork, Breathwork, Ayurveda & Coaching",
-  "description": "Emotional Bodywork, Breathwork, Ayurveda und Coaching in Steinach (SG): Kennenlerngespräch, Einzel-Session oder Monatsbegleitung.",
+  "name": "Bodywork, Breathwork, Ayurveda & Coaching | Isabella Signer",
+  "description": "Emotional Bodywork & Breathwork, Mindset & Coaching, Ayurveda & Ernährung bei Stress und Erschöpfung – Einzel-Session oder Monatsbegleitung in Steinach (SG).",
   "inLanguage": "de-CH",
   "isPartOf": {
     "@id": "https://isabella-signer.ch/#website"
@@ -198,7 +198,7 @@
         <div class="photo parallax fix" data-speed="0.025">
             <img
             src="img/isabella-signer-coaching.webp"
-            alt="Coaching für Frauen – Klarheit & Selbstvertrauen mit Isabella Signer"
+            alt="Mindset &amp; Coaching mit Isabella Signer in Steinach (SG)"
             loading="lazy" decoding="async"
             />
         </div>

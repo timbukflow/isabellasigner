@@ -211,6 +211,37 @@ header {
 .question-sec p {
   width: 100%;
 }
+.question-sec.two-col {
+  flex-wrap: wrap;
+  row-gap: 60px;
+}
+.question-sec.two-col > div {
+  width: calc(50% - 20px);
+}
+.question-sec.two-col h3 {
+  font-size: var(--fontsub);
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+.question-sec.cards > div {
+  border: 1px solid var(--back);
+  border-radius: 25px;
+  padding: 40px 30px;
+}
+.question-sec.steps > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.step-icon {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+}
+.lead {
+  margin-top: 40px;
+  max-width: 760px;
+}
 
 
 /*----------------------------------
@@ -243,6 +274,10 @@ header {
   text-align: center;
   max-width: 1200px;
   margin-top: 150px;
+}
+
+.angebot {
+  flex: 1 1 0;
 }
 
 .angebot img {
@@ -738,12 +773,17 @@ input::placeholder {
   border-bottom: 1px solid white;
 }
 
-.footer-title {
-  color: #fff;
-  font-size: var(--fonttitle);
-  letter-spacing: 0;
-  text-align: left;
+.footer-logo {
+  display: block;
+  width: 280px;
 }
+
+.footer-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
 .footer-icons {
   display: flex;
@@ -1081,6 +1121,10 @@ button {
   .question-cont {margin-top: 100px;}
 
   .question-sec {flex-direction: column; margin-top: 60px; gap: 20px;}
+  .question-sec.two-col {row-gap: 40px;}
+  .question-sec.two-col > div {width: 100%;}
+  .question-sec.cards > div {padding: 30px 24px;}
+  .step-icon {width: 50px; height: 50px;}
   .img-cont {flex-direction: column; margin-top: 50px;}
   .teaser-angebot {flex-direction: column; margin-top: 0; max-width: 400px;}
   .cont-50-50 {flex-direction: column;}
@@ -1140,6 +1184,7 @@ button {
 
   /* nav */
   .logo {width: 200px;}
+  .footer-logo {width: 200px;}
   .menu {width: 40px; height: 40px;}
  
     /* cookies */

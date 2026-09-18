@@ -2,9 +2,9 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG)</title>
+    <title>Begleitung bei Stress &amp; Erschöpfung | Isabella Signer, Steinach SG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Isabella Signer begleitet Frauen mit Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG). Sensibilität als Stärke leben und Weiblichkeit entfalten." />
+    <meta name="description" content="Müde und trotzdem immer an? Begleitung bei Stress, Erschöpfung und innerer Unruhe in Steinach bei St. Gallen – mit Bodywork, Breathwork, Ayurveda &amp; Coaching." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/" />
     <meta name="robots" content="index, follow" />
@@ -21,8 +21,8 @@
 
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Isabella Signer | Ayurveda, Atmen & Coaching" />
-    <meta property="og:description" content="Erlebe Ayurveda, Breathwork, Emotional Bodywork und Coaching mit Isabella Signer in Steinach (SG). Persönlich, einfühlsam und transformierend." />
+    <meta property="og:title" content="Müde. Und trotzdem immer an. – Isabella Signer" />
+    <meta property="og:description" content="Müde und trotzdem immer an? Begleitung bei Stress, Erschöpfung und innerer Unruhe in Steinach bei St. Gallen – mit Bodywork, Breathwork, Ayurveda &amp; Coaching." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -30,8 +30,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Isabella Signer | Ayurveda, Atmen & Coaching" />
-    <meta name="twitter:description" content="Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching für Frauen in Steinach (SG). Finde zurück zu Balance, Klarheit und Selbstvertrauen." />
+    <meta name="twitter:title" content="Müde. Und trotzdem immer an. – Isabella Signer" />
+    <meta name="twitter:description" content="Müde und trotzdem immer an? Begleitung bei Stress, Erschöpfung und innerer Unruhe in Steinach bei St. Gallen – mit Bodywork, Breathwork, Ayurveda &amp; Coaching." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -51,14 +51,15 @@
   "@type": "WebPage",
   "@id": "https://isabella-signer.ch/#webpage",
   "url": "https://isabella-signer.ch/",
-  "name": "Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork & Coaching in Steinach (SG)",
+  "name": "Begleitung bei Stress & Erschöpfung | Isabella Signer, Steinach SG",
   "inLanguage": "de-CH",
   "isPartOf": {
     "@id": "https://isabella-signer.ch/#website"
   },
   "about": {
     "@id": "https://isabella-signer.ch/#praxis"
-  }
+  },
+  "description": "Müde und trotzdem immer an? Begleitung bei Stress, Erschöpfung und innerer Unruhe in Steinach bei St. Gallen – mit Bodywork, Breathwork, Ayurveda & Coaching."
 }
     </script>
     <?php require_once 'schema.php'; ?>
@@ -69,23 +70,23 @@
     <?php require_once 'nav.php'; ?>
     <main>
     <header>
-        <h1 class="center">Weiblich. Sensibel. Stark.</h1>
+        <h1 class="center">Müde. Und trotzdem immer an.</h1>
         <div class="intro-img-cont">
-            <img class="parallax" data-speed="0.1" src="img/isabella-signer-intro-01.webp" alt="Isabella Signer – Coaching & Ayurveda Introbild">
-            <img class="parallax overlap" data-speed="-0.1" src="img/isabella-signer-intro-02.webp" alt="Isabella Signer – Breathwork & Emotional Bodywork Introbild">
+            <img class="parallax" data-speed="0.1" src="img/isabella-signer-intro-01.webp" alt="Isabella Signer im Wald, den Blick nach oben ins Licht gerichtet">
+            <img class="parallax overlap" data-speed="-0.1" src="img/isabella-signer-intro-02.webp" alt="Hände in Gebetshaltung auf dem Waldboden">
         </div>
 
         <div class="question-cont">
-            <h2 class="purple">Wann hast du dich das letzte Mal an erste Stelle gesetzt, ohne schlechtes Gewissen?</h2>
+            <h2 class="purple">Wenn dein Körper nicht mehr zur Ruhe kommt…</h2>
             <div class="question-sec">
                 <p class="purple">
-                    Du funktionierst. Für andere. Für alles. Aber wann warst du zuletzt deine eigene Priorität?
+                    Du bist müde, kannst aber trotzdem nicht abschalten.
                 </p>
                 <p class="purple">
-                    In unserer Arbeit darfst du lernen, dich selbst wichtig zu nehmen – nicht irgendwann, nicht am Rand, sondern im Zentrum deines Lebens.
+                    Du schläfst, aber fühlst dich morgens nicht wirklich erholt.
                 </p>
                 <p class="purple">
-                    Ohne Ausreden, ohne Schuldgefühl. Weil deine Bedürfnisse nicht optional sind.
+                    Dein Körper zeigt oft früher als dein Kopf, dass etwas zu viel ist.
                 </p>
             </div>
         </div> 
@@ -94,48 +95,106 @@
             <!-- Calendly Link-Widget Beginn -->
             <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
             <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/isabella-signer/30min?text_color=27614b&primary_color=a790e5'});return false;">Termin buchen</a>
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/isabella-signer/30min?text_color=27614b&primary_color=a790e5'});return false;">Kennenlerngespräch buchen</a>
             <!-- Calendly Link-Widget Ende -->
         </div>
     </header>
 
      <div class="img-cont">
         <div>
-            <img class="parallax fix" data-speed="0.1"  src="img/isabella-signer-intro-03.webp" alt="Portrait Isabella Signer – ganzheitliche Begleitung" loading="lazy">
+            <img class="parallax fix" data-speed="0.1"  src="img/isabella-signer-intro-03.webp" alt="Barfuss über Steine im Bach – zur Ruhe kommen in der Natur" loading="lazy">
         </div>
         <div>
-            <img class="parallax fix" data-speed="0.05" src="img/isabella-signer-intro-04.webp" alt="Inspirierendes Bild – Weiblichkeit & Sensibilität" loading="lazy">
+            <img class="parallax fix" data-speed="0.05" src="img/isabella-signer-intro-04.webp" alt="Isabella Signer in einer Sommerwiese" loading="lazy">
         </div>
     </div>
 
     <section class="ta-cont">
-        
+
         <div class="container">
-            <h2 class="white sub center">Wo Sensibilität Stärke ist und Weiblichkeit ihren Raum findet.</h2>
+            <h2 class="white center">Kommt dir das bekannt vor:</h2>
+            <div class="question-sec two-col cards">
+                <div>
+                    <h3 class="yellow">Stress &amp; innere Unruhe</h3>
+                    <p class="white">Auch wenn eigentlich nichts mehr zu tun ist, läuft es in dir weiter.</p>
+                </div>
+                <div>
+                    <h3 class="yellow">Schlaf &amp; Erschöpfung</h3>
+                    <p class="white">Du schaffst, was du musst – aber für dich selbst bleibt kaum noch Energie.</p>
+                </div>
+                <div>
+                    <h3 class="yellow">Überforderung &amp; Reizbarkeit</h3>
+                    <p class="white">Deine Geduld ist schneller am Ende und selbst Kleinigkeiten bringen dich aus der Ruhe.</p>
+                </div>
+                <div>
+                    <h3 class="yellow">Essen bei Stress &amp; Gefühlen</h3>
+                    <p class="white">Du isst nicht immer, weil du Hunger hast. Manchmal stecken Stress, Gefühle oder alte Muster dahinter.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container gap-middle">
+            <h2 class="white">Nicht alles lässt sich im Kopf lösen.</h2>
+            <p class="white lead">Deshalb beginnt meine Arbeit nicht mit einer bestimmten Methode, sondern bei dir und dem, was gerade in deinem Leben passiert.</p>
+            <div class="question-sec two-col steps">
+                <div>
+                    <img class="step-icon" src="img/icon-wahrnehmen.svg" alt="" width="70" height="70" loading="lazy">
+                    <div>
+                        <h3 class="yellow">Wahrnehmen</h3>
+                        <p class="white">Was passiert gerade bei dir? Erkennen, was in deinem Körper und deinen Gedanken abläuft, und was dich innerlich in Alarmbereitschaft hält.</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="step-icon" src="img/icon-regulieren.svg" alt="" width="70" height="70" loading="lazy">
+                    <div>
+                        <h3 class="yellow">Regulieren</h3>
+                        <p class="white">Was brauchst du jetzt? Deinen Körper gezielt unterstützen, um Druck abzubauen und wieder mehr innere Stabilität zu gewinnen.</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="step-icon" src="img/icon-verstehen.svg" alt="" width="70" height="70" loading="lazy">
+                    <div>
+                        <h3 class="yellow">Verstehen</h3>
+                        <p class="white">Warum passiert dir das immer wieder? Zusammenhänge, Erfahrungen und Muster aufdecken, die dein Denken, Fühlen und Handeln prägen.</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="step-icon" src="img/icon-verankern.svg" alt="" width="70" height="70" loading="lazy">
+                    <div>
+                        <h3 class="yellow">Verankern</h3>
+                        <p class="white">Was möchtest du künftig anders machen? Neue Entscheidungen und Verhaltensweisen Schritt für Schritt in deinen Alltag integrieren.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container gap-middle">
+            <h2 class="white">Deine Begleitung richtet sich nach dir.</h2>
+            <p class="white lead">Je nachdem, was du brauchst, verbinde ich unterschiedliche Ansätze miteinander.</p>
         </div>
 
         <div class="teaser-angebot">
             <div class="angebot">
-                <img src="img/isabella-signer-teaser-ayurveda.webp" alt="Ayurveda Angebot – Balance & Gesundheit mit Isabella Signer" loading="lazy" />
-                <h3 class="center">Ayurveda</h3>
-                <p class="center">Ayurveda bringt dich zurück in deine Balance.</p>
+                <img src="img/isabella-signer-begleitung-bodywork.webp" alt="Emotional Bodywork &amp; Breathwork – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
+                <h3 class="center">Emotional Bodywork &amp; Breathwork</h3>
+                <p class="center">Dein Körper spricht längst mit dir. Anspannung lösen, körperliche Reaktionen besser einordnen und neue Wege im Umgang mit Stress entwickeln.</p>
             </div>
 
             <div class="angebot">
-                <img src="img/isabella-signer-teaser-breathwork.webp" alt="Breathwork & Emotional Bodywork – Atemarbeit für Klarheit" loading="lazy" />
-                <h3 class="center">Breathwork &amp; Emotional Bodywork</h3>
-                <p class="center">Breathwork &amp; Emotional Bodywork öffnen dir den Zugang zu tiefer Klarheit.</p>
+                <img src="img/isabella-signer-begleitung-coaching.webp" alt="Mindset &amp; Coaching – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
+                <h3 class="center">Mindset &amp; Coaching</h3>
+                <p class="center">Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.</p>
             </div>
 
-            <div class="angebot" >
-                <img src="img/isabella-signer-teaser-coaching.webp" alt="Coaching Angebot – Persönliche Entwicklung mit Isabella Signer" loading="lazy" />
-                <h3 class="center">Coaching</h3>
-                <p class="center">Coaching unterstützt dich, dein Selbst zu erkennen.</p>
+            <div class="angebot">
+                <img src="img/isabella-signer-begleitung-ayurveda.webp" alt="Ayurveda &amp; Ernährung – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
+                <h3 class="center">Ayurveda &amp; Ernährung</h3>
+                <p class="center">Was du isst und wie du isst, beeinflusst, wie du dich fühlst. Die richtigen Lebensmittel und Gewohnheiten können deinen Körper gezielt im Alltag unterstützen.</p>
             </div>
         </div>
 
         <div class="btn">
-            <a href="angebot">zum Angebot</a>
+            <a href="angebot">Begleitung entdecken</a>
         </div>
     </section>
 
@@ -149,6 +208,7 @@
         </div>
 
         <div class="copy">
+            <h2 class="sub">Ich weiss, wie es sich anfühlt, wenn man alles schafft – und sich selbst dabei immer weniger spürt.</h2>
             <p>
             Weil ich selbst durchlebt habe, was ich heute weitergebe.
             Aus Wissen, Erfahrung und Intuition entsteht ein sicherer Raum,

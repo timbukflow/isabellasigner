@@ -7,9 +7,9 @@ $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Kontakt – Isabella Signer | Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG)</title>
+    <title>Kontakt | Isabella Signer, Steinach SG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Kontaktiere Isabella Signer in Steinach (SG) – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching. Schreibe mir für Fragen oder eine Anfrage, ich melde mich zeitnah." />
+    <meta name="description" content="Fragen zur Begleitung bei Stress und Erschöpfung? Schreib mir oder ruf an – Isabella Signer, Kornfeldstrasse 17b, 9323 Steinach (SG)." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/kontakt" />
     <meta name="robots" content="index, follow" />
@@ -25,8 +25,8 @@ $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Isabella Signer | Kontakt" />
-    <meta property="og:description" content="Kontakt &amp; Anfrage: Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG). Ich freue mich auf deine Nachricht." />
+    <meta property="og:title" content="Kontakt | Isabella Signer, Steinach SG" />
+    <meta property="og:description" content="Fragen zur Begleitung bei Stress und Erschöpfung? Schreib mir oder ruf an – Isabella Signer, Kornfeldstrasse 17b, 9323 Steinach (SG)." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/kontakt" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
@@ -34,8 +34,8 @@ $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Isabella Signer | Kontakt" />
-    <meta name="twitter:description" content="Schreibe Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork &amp; Coaching in Steinach (SG). Persönlich, einfühlsam, zuverlässig." />
+    <meta name="twitter:title" content="Kontakt | Isabella Signer, Steinach SG" />
+    <meta name="twitter:description" content="Fragen zur Begleitung bei Stress und Erschöpfung? Schreib mir oder ruf an – Isabella Signer, Kornfeldstrasse 17b, 9323 Steinach (SG)." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
     <meta name="format-detection" content="telephone=yes" />
@@ -54,8 +54,8 @@ $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
   "@type": "ContactPage",
   "@id": "https://isabella-signer.ch/kontakt#webpage",
   "url": "https://isabella-signer.ch/kontakt",
-  "name": "Kontakt – Isabella Signer",
-  "description": "Kontakt zu Isabella Signer in Steinach (SG).",
+  "name": "Kontakt | Isabella Signer, Steinach SG",
+  "description": "Fragen zur Begleitung bei Stress und Erschöpfung? Schreib mir oder ruf an – Isabella Signer, Kornfeldstrasse 17b, 9323 Steinach (SG).",
   "inLanguage": "de-CH",
   "isPartOf": {
     "@id": "https://isabella-signer.ch/#website"
