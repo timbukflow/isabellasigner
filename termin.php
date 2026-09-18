@@ -40,63 +40,59 @@
     <meta property="business:contact_data:country_name" content="Switzerland" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/main.css?v=<?= filemtime(__DIR__ . '/main.css') ?>" />
     <link rel="preload" href="/fonts/rubis-light.woff2" as="font" type="font/woff2" crossorigin>
 
-
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ContactPage",
-      "name": "Termin buchen – Isabella Signer",
-      "url": "https://isabella-signer.ch/termin",
-      "inLanguage": "de-CH",
-      "description": "Buche deinen Termin bei Isabella Signer in Steinach (SG) für Ayurveda, Breathwork, Emotional Bodywork oder Coaching.",
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Isabella Signer",
-        "url": "https://isabella-signer.ch",
-        "sameAs": [
-          "https://www.instagram.com/isabella.signer/"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kornfeldstrasse 17b",
-          "addressLocality": "Steinach",
-          "postalCode": "9323",
-          "addressCountry": "CH"
-        },
-        "contactPoint": [{
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "email": "info@isabella-signer.ch",
-          "telephone": "+41 71 446 44 36",
-          "areaServed": "CH",
-          "availableLanguage": ["de-CH", "de"]
-        }]
-      }
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://isabella-signer.ch/termin#webpage",
+  "url": "https://isabella-signer.ch/termin",
+  "name": "Termin buchen – Isabella Signer",
+  "description": "Kennenlerngespräch, Einzel-Session oder Monatsbegleitung bei Isabella Signer in Steinach (SG) buchen.",
+  "inLanguage": "de-CH",
+  "isPartOf": {
+    "@id": "https://isabella-signer.ch/#website"
+  },
+  "about": {
+    "@id": "https://isabella-signer.ch/#praxis"
+  },
+  "mainEntity": {
+    "@id": "https://isabella-signer.ch/#praxis"
+  }
+}
     </script>
-
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://isabella-signer.ch/"},
-        {"@type": "ListItem", "position": 2, "name": "Termin", "item": "https://isabella-signer.ch/termin"}
-      ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://isabella-signer.ch/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Termin",
+      "item": "https://isabella-signer.ch/termin"
     }
+  ]
+}
     </script>
-
+    <?php require_once 'schema.php'; ?>
 </head>
 
 <body>
     <?php require_once 'nav.php'; ?>
+    <main>
 
     <header>
-        <h3>Termin Buchen</h3>
-        <h2 class="sub">Du musst dich nicht zwischen Ayurveda, Coaching, Breathwork oder Emotional Bodywork entscheiden – ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h2>
+        <p class="eyebrow">Termin buchen</p>
+        <h1 class="sub">Du musst dich nicht zwischen Ayurveda, Coaching, Breathwork oder Emotional Bodywork entscheiden – ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.</h1>
     </header>
 
     <section class="ta-cont gap-termin">
@@ -119,6 +115,9 @@
             </div>
         </div>
     </section>
+
+
+    </main>
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'faq.php'; ?>

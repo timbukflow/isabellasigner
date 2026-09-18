@@ -1,5 +1,30 @@
-# robotstxt.org/
+# robots.txt – isabella-signer.ch
+# Suchmaschinen und KI-Suche (Antworten mit Quellenangabe): erlaubt
+# KI-Training: gesperrt
 
 User-agent: *
+Disallow: /logs/
+Allow: /
+
+# KI-Suche & Zitate
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Disallow: /logs/
+Allow: /
+
+# KI-Training
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+User-agent: Bytespider
+Disallow: /
 
 Sitemap: https://isabella-signer.ch/sitemap.xml

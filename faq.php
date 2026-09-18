@@ -64,7 +64,7 @@
           "name": "Wie buche ich einen Termin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Auf der Terminseite können Sie direkt einen passenden Termin buchen."
+            "text": "Auf der Terminseite kannst du direkt einen passenden Termin buchen – zum Start am besten das kostenlose Kennenlerngespräch."
           }
         },
         {
@@ -72,7 +72,7 @@
           "name": "Wie viel kostet eine Einzel-Session bzw. die Monatsbegleitung?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Die Einzel-Session kostet CHF tbd pro Stunde. Die Monatsbegleitung ist ein individuelles Paket – Details klären wir im Kennenlern-Call."
+            "text": "Die Einzel-Session kostet CHF 140.– pro Stunde. Die Monatsbegleitung kostet CHF 880.– pro Monat – welches Format zu dir passt, klären wir im kostenlosen Kennenlerngespräch."
           }
         },
         {
@@ -207,7 +207,7 @@
           <span class="faq-plus" aria-hidden="true"></span>
         </button>
         <div class="faq-a">
-          <p>Auf der Terminseite können Sie direkt einen passenden Termin buchen.</p>
+          <p>Auf der Terminseite kannst du direkt einen passenden Termin buchen – zum Start am besten das kostenlose Kennenlerngespräch.</p>
         </div>
       </div>
 
@@ -217,7 +217,7 @@
           <span class="faq-plus" aria-hidden="true"></span>
         </button>
         <div class="faq-a">
-          <p>Die Einzel-Session kostet CHF tbd pro Stunde. Die Monatsbegleitung ist ein individuelles Paket – Details klären wir im Kennenlern-Call.</p>
+          <p>Die Einzel-Session kostet CHF 140.– pro Stunde. Die Monatsbegleitung kostet CHF 880.– pro Monat – welches Format zu dir passt, klären wir im kostenlosen Kennenlerngespräch.</p>
         </div>
       </div>
 

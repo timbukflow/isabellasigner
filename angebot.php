@@ -40,97 +40,103 @@
     <meta property="business:contact_data:country_name" content="Switzerland" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/main.css?v=<?= filemtime(__DIR__ . '/main.css') ?>" />
     <link rel="preload" href="/fonts/rubis-light.woff2" as="font" type="font/woff2" crossorigin>
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Angebot – Ayurveda, Breathwork, Emotional Bodywork & Coaching",
-      "url": "https://isabella-signer.ch/angebot",
-      "inLanguage": "de-CH",
-      "description": "Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG). Kennenlern-Call, Einzel-Session oder Monatsbegleitung – individuell und einfühlsam.",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Isabella Signer",
-        "url": "https://isabella-signer.ch"
-      },
-      "about": {
-        "@type": "Person",
-        "name": "Isabella Signer",
-        "sameAs": [
-          "https://www.instagram.com/isabella.signer/"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kornfeldstrasse 17b",
-          "addressLocality": "Steinach",
-          "postalCode": "9323",
-          "addressCountry": "CH"
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://isabella-signer.ch/angebot#webpage",
+  "url": "https://isabella-signer.ch/angebot",
+  "name": "Angebot – Emotional Bodywork, Breathwork, Ayurveda & Coaching",
+  "description": "Emotional Bodywork, Breathwork, Ayurveda und Coaching in Steinach (SG): Kennenlerngespräch, Einzel-Session oder Monatsbegleitung.",
+  "inLanguage": "de-CH",
+  "isPartOf": {
+    "@id": "https://isabella-signer.ch/#website"
+  },
+  "about": {
+    "@id": "https://isabella-signer.ch/#praxis"
+  },
+  "mainEntity": {
+    "@type": "OfferCatalog",
+    "name": "Begleitungs-Angebote",
+    "provider": {
+      "@id": "https://isabella-signer.ch/#praxis"
+    },
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Kennenlerngespräch",
+        "price": "0",
+        "priceCurrency": "CHF",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Kostenloses Kennenlerngespräch (20 Minuten)",
+          "provider": {
+            "@id": "https://isabella-signer.ch/#praxis"
+          }
         }
       },
-      "mainEntity": {
-        "@type": "OfferCatalog",
-        "name": "Begleitungs-Angebote",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Kennenlern-Call",
-            "price": "0",
-            "priceCurrency": "CHF",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Unverbindliches Kennenlernen",
-              "areaServed": "CH"
-            }
-          },
-          {
-            "@type": "Offer",
-            "name": "Einzel-Session",
-            "price": "140.00",
-            "priceCurrency": "CHF",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Einzelsitzung Breathwork, Emotional Bodywork / Coaching",
-              "areaServed": "CH",
-              "duration": "PT1H"
-            }
-          },
-          {
-            "@type": "Offer",
-            "name": "Monatsbegleitung",
-            "price": "880.00",
-            "priceCurrency": "CHF",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monatliche Begleitung",
-              "areaServed": "CH"
-            }
+      {
+        "@type": "Offer",
+        "name": "Einzel-Session",
+        "price": "140.00",
+        "priceCurrency": "CHF",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Einzel-Session Breathwork, Emotional Bodywork oder Coaching (60 Minuten)",
+          "provider": {
+            "@id": "https://isabella-signer.ch/#praxis"
           }
-        ]
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Monatsbegleitung",
+        "price": "880.00",
+        "priceCurrency": "CHF",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Monatsbegleitung mit Anamnese, vier Beratungsstunden, WhatsApp-Begleitung und Workbook",
+          "provider": {
+            "@id": "https://isabella-signer.ch/#praxis"
+          }
+        }
       }
-    }
+    ]
+  }
+}
     </script>
-
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://isabella-signer.ch/"},
-        {"@type": "ListItem", "position": 2, "name": "Angebot", "item": "https://isabella-signer.ch/angebot"}
-      ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://isabella-signer.ch/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Angebot",
+      "item": "https://isabella-signer.ch/angebot"
     }
+  ]
+}
     </script>
-
+    <?php require_once 'schema.php'; ?>
 </head>
 
 <body>
     <?php require_once 'nav.php'; ?>
+    <main>
 
     <header>
-        <h3>Mein Angebot</h3>
+        <p class="eyebrow">Mein Angebot</p>
         <h1>Schritt für Schritt begleite ich dich auf deinem Weg zu mehr Klarheit, Leichtigkeit und gelebter Weiblichkeit.</h1>
     </header>
 
@@ -214,6 +220,9 @@
         </div>
         <?php require_once 'termin-angebot.php'; ?> 
     </section>   
+
+
+    </main>
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'faq-small.php'; ?>

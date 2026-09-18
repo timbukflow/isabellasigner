@@ -78,13 +78,15 @@ h1, h2 {
   letter-spacing: -2px;
 }
 
+h1.sub,
 h2.sub {
   font-size: var(--fontsub);
   padding-bottom: 50px;
   letter-spacing: 0px;
 }
 
-h3 {
+h3,
+.eyebrow {
   margin-bottom: 20px;
 }
 

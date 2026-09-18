@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Datenschutz | Isabella Signer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Impressum | Isabella Signer" />
+    <meta name="description" content="Datenschutzerklärung von Isabella Signer, Steinach (SG): welche Daten auf isabella-signer.ch bearbeitet werden, wofür und welche Rechte du hast." />
     <meta name="author" content="Isabella Signer" />
     <link rel="canonical" href="https://isabella-signer.ch/datenschutz" />
     <meta name="robots" content="index, follow" />
@@ -40,11 +40,34 @@
     <meta property="business:contact_data:country_name" content="Switzerland" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/main.css?v=<?= filemtime(__DIR__ . '/main.css') ?>" />
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://isabella-signer.ch/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Datenschutz",
+      "item": "https://isabella-signer.ch/datenschutz"
+    }
+  ]
+}
+    </script>
+    <?php require_once 'schema.php'; ?>
 </head>
 
 <body>
     <?php require_once 'nav.php'; ?>
+    <main>
      <section class="datenschutz">
         <h1>Datenschutzerklärung</h1>
         <p>
@@ -213,6 +236,9 @@
             Letzte Aktualisierung: 24.06.2025
         </p>   
     </section>
+
+
+    </main>
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>

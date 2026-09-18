@@ -40,53 +40,58 @@
     <meta property="business:contact_data:country_name" content="Switzerland" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/main.css?v=<?= filemtime(__DIR__ . '/main.css') ?>" />
     <link rel="preload" href="/fonts/rubis-light.woff2" as="font" type="font/woff2" crossorigin>
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AboutPage",
-      "name": "Über mich – Isabella Signer",
-      "url": "https://isabella-signer.ch/ueber-mich",
-      "inLanguage": "de-CH",
-      "description": "Über mich: Isabella Signer – Ayurveda Lifestyle- & Ernährungscoach, Breathwork, Emotional Bodywork & Coaching in Steinach (SG). Frauen ganzheitlich begleiten.",
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Isabella Signer",
-        "url": "https://isabella-signer.ch",
-        "sameAs": [
-          "https://www.instagram.com/isabella.signer/"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kornfeldstrasse 17b",
-          "addressLocality": "Steinach",
-          "postalCode": "9323",
-          "addressCountry": "CH"
-        }
-      }
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://isabella-signer.ch/ueber-mich#webpage",
+  "url": "https://isabella-signer.ch/ueber-mich",
+  "name": "Über mich – Isabella Signer",
+  "description": "Isabella Signer – Ayurveda Lifestyle- & Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG).",
+  "inLanguage": "de-CH",
+  "isPartOf": {
+    "@id": "https://isabella-signer.ch/#website"
+  },
+  "about": {
+    "@id": "https://isabella-signer.ch/#praxis"
+  },
+  "mainEntity": {
+    "@id": "https://isabella-signer.ch/#isabella"
+  }
+}
     </script>
-
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://isabella-signer.ch/"},
-        {"@type": "ListItem", "position": 2, "name": "Über mich", "item": "https://isabella-signer.ch/ueber-mich"}
-      ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://isabella-signer.ch/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Über mich",
+      "item": "https://isabella-signer.ch/ueber-mich"
     }
+  ]
+}
     </script>
-
+    <?php require_once 'schema.php'; ?>
 </head>
 
 <body>
     <?php require_once 'nav.php'; ?>
+    <main>
 
     <header>
-        <h3>Über mich</h3>
+        <p class="eyebrow">Über mich</p>
         <h1>Deine Heraus&shy;forder&shy;ungen sind mir nicht fremd – ich habe sie selbst durchlebt.</h1>
     </header>
 
@@ -174,6 +179,9 @@
     </section>
 
     
+
+
+    </main>
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>

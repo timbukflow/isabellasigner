@@ -1,20 +1,22 @@
 <?php
 http_response_code(404);
 
-// 404-Logger: schreibt Datum, Pfad, Referrer, UA, IP
+// 404-Logger: schreibt Datum, Pfad, Referrer, UA (bewusst ohne IP; /logs ist per .htaccess gesperrt)
 try {
   $dir = __DIR__ . '/logs';
   if (!is_dir($dir)) @mkdir($dir, 0775, true);
   $logFile = $dir . '/404.log';
-  $line = sprintf(
-    "%s\t%s\t%s\t%s\t%s\n",
-    date('c'),
-    $_SERVER['REQUEST_URI'] ?? '-',
-    $_SERVER['HTTP_REFERER'] ?? '-',
-    $_SERVER['HTTP_USER_AGENT'] ?? '-',
-    $_SERVER['REMOTE_ADDR'] ?? '-'
-  );
-  @file_put_contents($logFile, $line, FILE_APPEND);
+  if (!file_exists($dir . '/.htaccess')) @file_put_contents($dir . '/.htaccess', "Require all denied\n");
+  if (@filesize($logFile) < 2 * 1024 * 1024) {
+    $line = sprintf(
+      "%s\t%s\t%s\t%s\n",
+      date('c'),
+      $_SERVER['REQUEST_URI'] ?? '-',
+      $_SERVER['HTTP_REFERER'] ?? '-',
+      $_SERVER['HTTP_USER_AGENT'] ?? '-'
+    );
+    @file_put_contents($logFile, $line, FILE_APPEND);
+  }
 } catch (Throwable $e) { /* ignore logging errors */ }
 ?>
 <!DOCTYPE html>
@@ -33,14 +35,15 @@ try {
     <meta name="apple-mobile-web-app-title" content="Isabella Signer" />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/main.css?v=<?= filemtime(__DIR__ . '/main.css') ?>" />
 </head>
 <body>
     <?php require_once 'nav.php'; ?>
+    <main>
 
     <header>
-        <h3>404</h3>
-        <h2 class="sub">Die gewünschte Seite wurde nicht gefunden.</h2>
+        <p class="eyebrow">404</p>
+        <h1 class="sub">Die gewünschte Seite wurde nicht gefunden.</h1>
     </header>
 
     <section class="container">
@@ -54,8 +57,10 @@ try {
         </ul>
     </section>
 
+    </main>
+
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>
     <?php require_once 'googleanalytics.php'; ?>
 </body>
-<html>
+</html>

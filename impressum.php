@@ -40,12 +40,34 @@
     <meta property="business:contact_data:country_name" content="Switzerland" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/main.css?v=<?= filemtime(__DIR__ . '/main.css') ?>" />
 
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://isabella-signer.ch/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Impressum",
+      "item": "https://isabella-signer.ch/impressum"
+    }
+  ]
+}
+    </script>
+    <?php require_once 'schema.php'; ?>
 </head>
 
 <body>
     <?php require_once 'nav.php'; ?>
+    <main>
     <section class="datenschutz">
         <h1>Impressum</h1>
 
@@ -83,6 +105,9 @@
         <h2>Urheberrechte</h2>
         <p>Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der Website gehören ausschliesslich Isabella Signer oder den speziell genannten Rechtsinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung der Urheberrechtsträger im Voraus einzuholen.</p>
     </section>
+
+
+    </main>
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>

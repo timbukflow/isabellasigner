@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Isabella Signer begleitet Frauen mit Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG). Sensibilität als Stärke leben und Weiblichkeit entfalten." />
     <meta name="author" content="Isabella Signer" />
-    <link rel="canonical" href="https://isabella-signer.ch" />
+    <link rel="canonical" href="https://isabella-signer.ch/" />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="cache-control" content="public, max-age=3600" />
     <meta http-equiv="pragma" content="cache" />
@@ -24,7 +24,7 @@
     <meta property="og:title" content="Isabella Signer | Ayurveda, Atmen & Coaching" />
     <meta property="og:description" content="Erlebe Ayurveda, Breathwork, Emotional Bodywork und Coaching mit Isabella Signer in Steinach (SG). Persönlich, einfühlsam und transformierend." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://isabella-signer.ch" />
+    <meta property="og:url" content="https://isabella-signer.ch/" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
     <meta property="og:locale" content="de_CH" />
 
@@ -41,39 +41,33 @@
     <meta property="business:contact_data:country_name" content="Switzerland" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/main.css?v=<?= filemtime(__DIR__ . '/main.css') ?>" />
     <link rel="preload" href="/fonts/rubis-light.woff2" as="font" type="font/woff2" crossorigin>
     
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "url": "https://isabella-signer.ch",
-      "name": "Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork & Coaching",
-      "description": "Isabella Signer begleitet Frauen mit Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG). Sensibilität als Stärke leben und Weiblichkeit entfalten.",
-      "inLanguage": "de-CH",
-      "publisher": {
-        "@type": "Person",
-        "name": "Isabella Signer",
-        "sameAs": [
-          "https://www.instagram.com/isabella.signer/"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kornfeldstrasse 17b",
-          "addressLocality": "Steinach",
-          "postalCode": "9323",
-          "addressCountry": "CH"
-        }
-      }
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://isabella-signer.ch/#webpage",
+  "url": "https://isabella-signer.ch/",
+  "name": "Isabella Signer – Ayurveda, Breathwork, Emotional Bodywork & Coaching in Steinach (SG)",
+  "inLanguage": "de-CH",
+  "isPartOf": {
+    "@id": "https://isabella-signer.ch/#website"
+  },
+  "about": {
+    "@id": "https://isabella-signer.ch/#praxis"
+  }
+}
     </script>
+    <?php require_once 'schema.php'; ?>
 
 </head>
 
 <body>
     <?php require_once 'nav.php'; ?>
+    <main>
     <header>
         <h1 class="center">Weiblich. Sensibel. Stark.</h1>
         <div class="intro-img-cont">
@@ -166,6 +160,8 @@
             </div>
         </div>
     </section>
+
+    </main>
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>

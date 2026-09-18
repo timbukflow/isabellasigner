@@ -45,62 +45,59 @@ $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
     <meta property="business:contact_data:country_name" content="Switzerland" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/main.css?v=<?= filemtime(__DIR__ . '/main.css') ?>" />
     <link rel="preload" href="/fonts/rubis-light.woff2" as="font" type="font/woff2" crossorigin>
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ContactPage",
-      "name": "Kontakt – Isabella Signer",
-      "url": "https://isabella-signer.ch/kontakt",
-      "inLanguage": "de-CH",
-      "description": "Kontakt für Ayurveda, Breathwork, Emotional Bodywork und Coaching in Steinach (SG).",
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Isabella Signer",
-        "url": "https://isabella-signer.ch",
-        "sameAs": [
-          "https://www.instagram.com/isabella.signer/"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kornfeldstrasse 17b",
-          "addressLocality": "Steinach",
-          "postalCode": "9323",
-          "addressCountry": "CH"
-        },
-        "contactPoint": [{
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "email": "info@isabella-signer.ch",
-          "telephone": "+41 71 446 44 36",
-          "areaServed": "CH",
-          "availableLanguage": ["de-CH", "de"]
-        }]
-      }
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": "https://isabella-signer.ch/kontakt#webpage",
+  "url": "https://isabella-signer.ch/kontakt",
+  "name": "Kontakt – Isabella Signer",
+  "description": "Kontakt zu Isabella Signer in Steinach (SG).",
+  "inLanguage": "de-CH",
+  "isPartOf": {
+    "@id": "https://isabella-signer.ch/#website"
+  },
+  "about": {
+    "@id": "https://isabella-signer.ch/#praxis"
+  },
+  "mainEntity": {
+    "@id": "https://isabella-signer.ch/#praxis"
+  }
+}
     </script>
-
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://isabella-signer.ch/"},
-        {"@type": "ListItem", "position": 2, "name": "Kontakt", "item": "https://isabella-signer.ch/kontakt"}
-      ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://isabella-signer.ch/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Kontakt",
+      "item": "https://isabella-signer.ch/kontakt"
     }
+  ]
+}
     </script>
-
+    <?php require_once 'schema.php'; ?>
 </head>
 
 <body>
     <?php require_once 'nav.php'; ?>
+    <main>
 
     <header>
-        <h3>Kontakt</h3>
-        <h2 class="sub">Ich freue mich auf deine Nachricht – ganz egal, ob du schon konkrete Fragen hast oder einfach herausfinden möchtest, ob meine Begleitung zu dir passt.</h2>
+        <p class="eyebrow">Kontakt</p>
+        <h1 class="sub">Ich freue mich auf deine Nachricht – ganz egal, ob du schon konkrete Fragen hast oder einfach herausfinden möchtest, ob meine Begleitung zu dir passt.</h1>
     </header>
 
     <?php /* Session & CSRF bereits oben initialisiert */ ?>
@@ -171,6 +168,9 @@ $sent = isset($_GET['sent']) && $_GET['sent'] === '1';
     </form>
     </section>
 
+
+
+    </main>
 
     <?php require_once 'footer.php'; ?>
     <?php require_once 'script.php'; ?>
