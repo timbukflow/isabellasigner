@@ -238,6 +238,25 @@ header {
   height: 70px;
   flex-shrink: 0;
 }
+.question-cont .question-sec {
+  margin-top: 60px;
+}
+.light-sec {
+  padding: 150px 20px 100px;
+}
+.intro-split {
+  display: flex;
+  align-items: flex-end;
+  gap: 60px;
+}
+.intro-split h2,
+.intro-split p {
+  flex: 1 1 0;
+}
+.teaser-angebot.light .angebot h3,
+.teaser-angebot.light .angebot p {
+  color: var(--green);
+}
 .lead {
   margin-top: 40px;
   max-width: 760px;
@@ -1123,6 +1142,9 @@ button {
   .question-sec {flex-direction: column; margin-top: 60px; gap: 20px;}
   .question-sec.two-col {row-gap: 40px;}
   .question-sec.two-col > div {width: 100%;}
+  .question-cont .question-sec {margin-top: 30px;}
+  .light-sec {padding: 60px 20px 50px;}
+  .intro-split {flex-direction: column; align-items: flex-start; gap: 20px;}
   .question-sec.cards > div {padding: 30px 24px;}
   .step-icon {width: 50px; height: 50px;}
   .img-cont {flex-direction: column; margin-top: 50px;}

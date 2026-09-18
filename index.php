@@ -133,47 +133,53 @@
             </div>
         </div>
 
-        <div class="container gap-middle">
-            <h2 class="white">Nicht alles lässt sich im Kopf lösen.</h2>
-            <p class="white lead">Deshalb beginnt meine Arbeit nicht mit einer bestimmten Methode, sondern bei dir und dem, was gerade in deinem Leben passiert.</p>
+    </section>
+
+    <section class="light-sec">
+
+        <div class="container">
+            <div class="intro-split">
+                <h2>Nicht alles lässt sich im Kopf lösen.</h2>
+                <p>Deshalb beginnt meine Arbeit nicht mit einer bestimmten Methode, sondern bei dir und dem, was gerade in deinem Leben passiert.</p>
+            </div>
             <div class="question-sec two-col steps">
                 <div>
                     <img class="step-icon" src="img/icon-wahrnehmen.svg" alt="" width="70" height="70" loading="lazy">
                     <div>
-                        <h3 class="yellow">Wahrnehmen</h3>
-                        <p class="white">Was passiert gerade bei dir? Erkennen, was in deinem Körper und deinen Gedanken abläuft, und was dich innerlich in Alarmbereitschaft hält.</p>
+                        <h3>Wahrnehmen</h3>
+                        <p>Was passiert gerade bei dir? Erkennen, was in deinem Körper und deinen Gedanken abläuft, und was dich innerlich in Alarmbereitschaft hält.</p>
                     </div>
                 </div>
                 <div>
                     <img class="step-icon" src="img/icon-regulieren.svg" alt="" width="70" height="70" loading="lazy">
                     <div>
-                        <h3 class="yellow">Regulieren</h3>
-                        <p class="white">Was brauchst du jetzt? Deinen Körper gezielt unterstützen, um Druck abzubauen und wieder mehr innere Stabilität zu gewinnen.</p>
+                        <h3>Regulieren</h3>
+                        <p>Was brauchst du jetzt? Deinen Körper gezielt unterstützen, um Druck abzubauen und wieder mehr innere Stabilität zu gewinnen.</p>
                     </div>
                 </div>
                 <div>
                     <img class="step-icon" src="img/icon-verstehen.svg" alt="" width="70" height="70" loading="lazy">
                     <div>
-                        <h3 class="yellow">Verstehen</h3>
-                        <p class="white">Warum passiert dir das immer wieder? Zusammenhänge, Erfahrungen und Muster aufdecken, die dein Denken, Fühlen und Handeln prägen.</p>
+                        <h3>Verstehen</h3>
+                        <p>Warum passiert dir das immer wieder? Zusammenhänge, Erfahrungen und Muster aufdecken, die dein Denken, Fühlen und Handeln prägen.</p>
                     </div>
                 </div>
                 <div>
                     <img class="step-icon" src="img/icon-verankern.svg" alt="" width="70" height="70" loading="lazy">
                     <div>
-                        <h3 class="yellow">Verankern</h3>
-                        <p class="white">Was möchtest du künftig anders machen? Neue Entscheidungen und Verhaltensweisen Schritt für Schritt in deinen Alltag integrieren.</p>
+                        <h3>Verankern</h3>
+                        <p>Was möchtest du künftig anders machen? Neue Entscheidungen und Verhaltensweisen Schritt für Schritt in deinen Alltag integrieren.</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="container gap-middle">
-            <h2 class="white">Deine Begleitung richtet sich nach dir.</h2>
-            <p class="white lead">Je nachdem, was du brauchst, verbinde ich unterschiedliche Ansätze miteinander.</p>
+            <h2>Deine Begleitung richtet sich nach dir.</h2>
+            <p class="lead">Je nachdem, was du brauchst, verbinde ich unterschiedliche Ansätze miteinander.</p>
         </div>
 
-        <div class="teaser-angebot">
+        <div class="teaser-angebot light">
             <div class="angebot">
                 <img src="img/isabella-signer-begleitung-bodywork.webp" alt="Emotional Bodywork &amp; Breathwork – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
                 <h3 class="center">Emotional Bodywork &amp; Breathwork</h3>
