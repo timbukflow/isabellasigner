@@ -113,7 +113,7 @@ $breadcrumb = [
                     $sichtbar = $gewaehlt === '' || in_array($gewaehlt, $tags, true); ?>
                     <a class="antwort-karte" href="<?= e(antwort_url($p['slug'])) ?>"
                        data-themen="<?= e(implode('|', $tags)) ?>"<?= $sichtbar ? '' : ' hidden' ?>>
-                        <span class="antwort-karte-bild"><img src="<?= e(antwort_bild($p['bild'])) ?>" alt="<?= e($p['bild_alt'] ?? '') ?>" loading="lazy"></span>
+                        <span class="antwort-karte-bild"><img src="<?= e(antwort_bild($p['bild'])) ?>" alt="<?= e($p['bild_alt'] ?? '') ?>"<?php if ($a = antwort_bildausschnitt($p)): ?> style="object-position: <?= e($a) ?>"<?php endif; ?> loading="lazy"></span>
                         <span class="antwort-karte-titel"><?= e($p['titel']) ?></span>
                     </a>
                 <?php endforeach; ?>

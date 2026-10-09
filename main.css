@@ -479,7 +479,8 @@ header {
   font-size: var(--fontnormal);
   line-height: 1.35;
   margin-top: 0;
-  margin-bottom: 35px;
+  /* enger als im Fliesstext, weil die Schrift hier grösser ist */
+  margin-bottom: 20px;
 }
 
 .artikel-lead {
@@ -687,6 +688,7 @@ header {
   border-radius: 60px;
   font-size: calc(var(--fontsmall) - 2px);
   line-height: 1.2;
+  letter-spacing: 0;
   white-space: nowrap;
   transition: background-color .2s ease, color .2s ease;
 }
@@ -736,6 +738,7 @@ header {
 
 .weitere-link {
   font-size: var(--fontsmall);
+  letter-spacing: 0;
   white-space: nowrap;
 }
 
@@ -748,19 +751,16 @@ header {
 }
 
 .antworten-scroller {
-  --karte: 357px;
-  /* Abstand vom Bildschirmrand bis zur Textkante */
-  --rand: max(30px, calc((100vw - 1140px) / 2));
+  /* genau drei Karten im Raster, der Rest läuft seitlich weiter */
+  --abstand: 40px;
+  --karte: calc((100% - 2 * var(--abstand)) / 3);
   position: relative;
-  /* über die volle Bildschirmbreite, links und rechts */
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
 }
 
 .scroller-pfeil {
   position: absolute;
-  /* vertikal auf der Mitte der Bilder, Bildverhältnis 357:500 */
-  top: calc(var(--karte) * 250 / 357);
+  /* vertikale Mitte der Bilder, exakt gesetzt in main.js */
+  top: 50%;
   transform: translateY(-50%);
   z-index: 2;
   background: none;
@@ -772,11 +772,11 @@ header {
 }
 
 .scroller-pfeil.links {
-  left: calc(var(--rand) + 20px);
+  left: 20px;
 }
 
 .scroller-pfeil.rechts {
-  right: calc(var(--rand) + 20px);
+  right: 20px;
 }
 
 .scroller-pfeil:hover {
@@ -794,14 +794,13 @@ header {
 }
 
 .antworten-karten {
-  display: flex;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
 
 .antworten-karten.scroller {
-  /* erste Karte auf der Textkante, Rest läuft nach beiden Seiten aus dem Raster */
-  padding-left: var(--rand);
-  padding-right: var(--rand);
+  display: flex;
   overflow-x: auto;
   overflow-y: hidden;
   /* kein CSS-Snapping: das Einrasten übernimmt main.js, sonst wird vertikales Scrollen blockiert */
@@ -838,9 +837,10 @@ header {
 
 .antwort-karte-titel {
   display: block;
-  margin-top: 25px;
+  margin-top: 20px;
   font-size: var(--fontnormal);
-  line-height: 1.2;
+  line-height: 1.25;
+  letter-spacing: 0;
   color: var(--green);
 }
 
@@ -1579,7 +1579,7 @@ button {
   .antworten-liste {width: calc(100vw - 40px); margin-top: 40px;}
   .themen-filter {flex-wrap: wrap; gap: 10px; margin-bottom: 40px;}
   .thema-pille {font-size: var(--fontsmall); padding: 8px 20px;}
-  .antworten-raster {grid-template-columns: 1fr; gap: 40px;}
+  .antworten-raster, .antworten-karten {grid-template-columns: 1fr; gap: 40px;}
   .artikel {padding: 20px 20px 0;}
   .artikel h1, .antworten-kopf h1 {font-size: 48px;}
   .artikel-bild, .artikel-inlinebild {width: calc(100vw - 20px); margin-top: 45px; margin-bottom: 35px;}
@@ -1589,7 +1589,8 @@ button {
   .artikel-teilen-liste {gap: 25px;}
   .weitere-antworten {margin-top: 60px;}
   .weitere-kopf {flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px;}
-  .antworten-scroller {--karte: 260px; --rand: 20px;}
+  .antworten-scroller {--karte: 260px; --abstand: 20px;}
+  .antworten-karten.scroller {grid-template-columns: none;}
   .scroller-pfeil img {width: 48px; height: 48px;}
   .scroller-pfeil.links {left: 30px;}
   .scroller-pfeil.rechts {right: 30px;}

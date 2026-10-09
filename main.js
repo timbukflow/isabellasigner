@@ -63,7 +63,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function schrittweite() {
       var karte = scroller.querySelector('.antwort-karte');
-      return karte ? karte.getBoundingClientRect().width + 30 : 350;
+      var abstand = parseFloat(getComputedStyle(scroller).columnGap || getComputedStyle(scroller).gap) || 40;
+      return karte ? karte.getBoundingClientRect().width + abstand : 350;
     }
 
     // Rest am Ende ausgleichen, damit jede Scrollposition links bündig ist
@@ -72,6 +73,14 @@ document.addEventListener('DOMContentLoaded', function () {
       var schritt = schrittweite();
       var ueberstand = (scroller.scrollWidth - scroller.clientWidth) % schritt;
       if (ueberstand > 1) scroller.style.paddingRight = (parseFloat(getComputedStyle(scroller).paddingRight) + (schritt - ueberstand)) + 'px';
+    }
+
+    // Pfeile auf die Mitte der Bilder setzen (nicht auf die Mitte der ganzen Karte)
+    function pfeileEinmitten() {
+      var bild = scroller.querySelector('.antwort-karte-bild');
+      if (!bild) return;
+      var mitte = bild.getBoundingClientRect().height / 2;
+      bereich.querySelectorAll('.scroller-pfeil').forEach(function (p) { p.style.top = mitte + 'px'; });
     }
 
     function pfeileAktualisieren() {
@@ -99,7 +108,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     restAusgleichen();
-    window.addEventListener('resize', restAusgleichen);
+    pfeileEinmitten();
+    window.addEventListener('resize', function () { restAusgleichen(); pfeileEinmitten(); });
+    window.addEventListener('load', pfeileEinmitten);
 
     scroller.addEventListener('scroll', function () {
       pfeileAktualisieren();

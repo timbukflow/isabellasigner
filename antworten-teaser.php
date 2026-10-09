@@ -18,7 +18,7 @@ if ($teaserBeitraege):
                     <div class="antworten-karten scroller">
                     <?php foreach ($teaserBeitraege as $w): ?>
                         <a class="antwort-karte" href="<?= e(antwort_url($w['slug'])) ?>">
-                            <span class="antwort-karte-bild"><img src="<?= e(antwort_bild($w['bild'])) ?>" alt="<?= e($w['bild_alt'] ?? '') ?>" loading="lazy"></span>
+                            <span class="antwort-karte-bild"><img src="<?= e(antwort_bild($w['bild'])) ?>" alt="<?= e($w['bild_alt'] ?? '') ?>"<?php if ($a = antwort_bildausschnitt($w)): ?> style="object-position: <?= e($a) ?>"<?php endif; ?> loading="lazy"></span>
                             <span class="antwort-karte-titel"><?= e($w['titel']) ?></span>
                         </a>
                         <?php endforeach; ?>

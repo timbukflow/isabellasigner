@@ -45,6 +45,14 @@ function antwort_bild(string $pfad): string
     return is_file($datei) ? $pfad . '?v=' . filemtime($datei) : $pfad;
 }
 
+/** Bildausschnitt für hochformatige Karten: links, rechts, oben, unten oder leer für mittig */
+function antwort_bildausschnitt(array $beitrag): string
+{
+    $karte = ['links' => 'left center', 'rechts' => 'right center', 'oben' => 'center top', 'unten' => 'center bottom'];
+    $wahl = $beitrag['bild_ausschnitt'] ?? '';
+    return $karte[$wahl] ?? '';
+}
+
 /** Themen eines Beitrags, immer als Liste */
 function antwort_tags(array $beitrag): array
 {
