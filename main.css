@@ -547,6 +547,11 @@ header {
   margin-bottom: 0;
 }
 
+.artikel-text a,
+.artikel-weiterlesen a {
+  letter-spacing: 0;
+}
+
 .artikel-weiterlesen a {
   color: var(--purple);
   transition: opacity .2s ease;
