@@ -146,7 +146,7 @@
         <div class="photo parallax fix" data-speed="0.025">
             <img
             src="img/isabella-signer-ayurveda.webp"
-            alt="Ayurveda Begleitung – Isabella Signer in Steinach (SG)"
+            alt="Isabella Signer riecht an Kräutern in einem Mörser, daneben Kerzen und Keramik"
             loading="lazy" decoding="async"
             />
         </div>
@@ -171,7 +171,7 @@
         <div class="photo parallax fix" data-speed="0.025">
             <img
             src="img/isabella-signer-breathwork.webp"
-            alt="Breathwork & Emotional Bodywork – achtsam atmen mit Isabella Signer"
+            alt="Hände vor der Brust zusammengelegt, ruhiger Atem im Gegenlicht"
             loading="lazy" decoding="async"
             />
         </div>
@@ -198,7 +198,7 @@
         <div class="photo parallax fix" data-speed="0.025">
             <img
             src="img/isabella-signer-coaching.webp"
-            alt="Mindset &amp; Coaching mit Isabella Signer in Steinach (SG)"
+            alt="Isabella Signer im Coaching-Gespräch am Tisch, Notizbuch vor sich"
             loading="lazy" decoding="async"
             />
         </div>

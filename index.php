@@ -181,19 +181,19 @@
 
         <div class="teaser-angebot light">
             <div class="angebot">
-                <img src="img/isabella-signer-begleitung-bodywork.webp" alt="Emotional Bodywork &amp; Breathwork – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
+                <img src="img/isabella-signer-begleitung-bodywork.webp" alt="Frau tanzt mit erhobenem Arm im sonnigen Wald" loading="lazy" />
                 <h3 class="center">Emotional Bodywork &amp; Breathwork</h3>
                 <p class="center">Dein Körper spricht längst mit dir. Anspannung lösen, körperliche Reaktionen besser einordnen und neue Wege im Umgang mit Stress entwickeln.</p>
             </div>
 
             <div class="angebot">
-                <img src="img/isabella-signer-begleitung-coaching.webp" alt="Mindset &amp; Coaching – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
+                <img src="img/isabella-signer-begleitung-coaching.webp" alt="Isabella Signer im Gespräch mit einer Klientin am Tisch" loading="lazy" />
                 <h3 class="center">Mindset &amp; Coaching</h3>
                 <p class="center">Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.</p>
             </div>
 
             <div class="angebot">
-                <img src="img/isabella-signer-begleitung-ayurveda.webp" alt="Ayurveda &amp; Ernährung – Begleitung mit Isabella Signer in Steinach (SG)" loading="lazy" />
+                <img src="img/isabella-signer-begleitung-ayurveda.webp" alt="Isabella Signer riecht an frisch gemörserten Kräutern" loading="lazy" />
                 <h3 class="center">Ayurveda &amp; Ernährung</h3>
                 <p class="center">Was du isst und wie du isst, beeinflusst, wie du dich fühlst. Die richtigen Lebensmittel und Gewohnheiten können deinen Körper gezielt im Alltag unterstützen.</p>
             </div>
@@ -208,7 +208,7 @@
         <div class="photo">
             <img
             src="img/isabella-signer-teaser-ueber-mich.webp"
-            alt="Isabella Signer – Über mich Portrait"
+            alt="Isabella Signer sitzt lächelnd in ihrem Praxisraum, den Kopf in die Hand gestützt"
             loading="lazy"
             />
         </div>
@@ -226,6 +226,8 @@
             </div>
         </div>
     </section>
+
+    <?php require __DIR__ . '/antworten-teaser.php'; ?>
 
     </main>
 

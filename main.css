@@ -41,6 +41,8 @@ Version 1.0
 
 html {
   scroll-behavior: smooth;
+  /* volle Breite ausreizen, ohne dass die Seite seitlich scrollt */
+  overflow-x: hidden;
 }
 
 body {
@@ -442,6 +444,415 @@ header {
 
 
 /*----------------------------------
+    Antworten (Blog)
+-----------------------------------*/
+
+.artikel {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 40px 30px 0;
+}
+
+.artikel-meta,
+.artikel-meta a {
+  font-size: calc(var(--fontsmall) - 3px);
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.artikel-meta a:hover {
+  opacity: .7;
+}
+
+.artikel-kopf {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.artikel h1,
+.antworten-kopf h1 {
+  margin-top: 25px;
+  font-size: 68px;
+}
+
+.artikel-text .artikel-lead {
+  font-size: var(--fontnormal);
+  line-height: 1.35;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.artikel-lead {
+  margin-top: 40px;
+  font-size: var(--fontnormal);
+  line-height: 1.35;
+}
+
+.artikel-bild,
+.artikel-inlinebild {
+  display: block;
+  width: calc(100vw - 40px);
+  max-width: 1600px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+  aspect-ratio: 1356 / 860;
+  object-fit: cover;
+  margin-top: 75px;
+  margin-bottom: 60px;
+}
+
+.artikel-text {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.artikel-text p,
+.artikel-text li {
+  font-size: var(--fontsmall);
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.artikel-text h2 {
+  font-size: var(--fontsub);
+  letter-spacing: 0;
+  margin: 80px 0 30px;
+}
+
+.artikel-box {
+  background-color: var(--petrol);
+  border-radius: 25px;
+  /* Die Fläche liegt hinter dem Text: der Textanfang bleibt auf der Kante der übrigen Absätze */
+  padding: 50px;
+  margin: 80px -50px;
+  width: calc(100% + 100px);
+}
+
+.artikel-box h2 {
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  color: var(--yellow);
+  margin: 0 0 25px;
+}
+
+.artikel-box p {
+  color: var(--back);
+  margin-bottom: 28px;
+}
+
+.artikel-box p:last-child {
+  margin-bottom: 0;
+}
+
+.artikel-weiterlesen a {
+  color: var(--purple);
+  transition: opacity .2s ease;
+}
+
+.artikel-weiterlesen a:hover {
+  opacity: .6;
+}
+
+/* Teilen */
+
+.artikel-teilen {
+  margin: 100px 0 40px;
+  text-align: center;
+}
+
+.artikel-teilen-titel {
+  font-size: var(--fontsmall);
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.artikel-teilen-titel::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 72px;
+  height: 1px;
+  background: var(--green);
+  transform: translateX(-50%);
+}
+
+.artikel-teilen-liste {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.artikel-teilen-liste a,
+.artikel-teilen-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-size: var(--fontsmall);
+  color: var(--green);
+  transition: opacity .2s ease;
+}
+
+.artikel-teilen-liste img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.artikel-teilen-liste a:hover,
+.artikel-teilen-link:hover {
+  opacity: .6;
+}
+
+/* Übersicht /antworten */
+
+.antworten-kopf {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 0 30px;
+}
+
+.antworten-kopf .eyebrow {
+  font-size: var(--fontsmall);
+  margin-bottom: 15px;
+}
+
+.antworten-hero {
+  display: block;
+  position: relative;
+  /* gleicher Rand wie das Bild auf den Beitragsseiten */
+  width: calc(100vw - 40px);
+  max-width: 1600px;
+  margin: 50px auto 0;
+}
+
+.antworten-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1356 / 860;
+  object-fit: cover;
+}
+
+.antworten-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 70%;
+  background: linear-gradient(to top, rgba(32, 48, 40, .92) 0%, rgba(32, 48, 40, .75) 35%, rgba(32, 48, 40, 0) 100%);
+  pointer-events: none;
+}
+
+.antworten-hero-titel {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  bottom: 45px;
+  z-index: 1;
+  color: #fff;
+  font-size: var(--fonttitle);
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.antworten-liste {
+  width: calc(100vw - 40px);
+  max-width: 1600px;
+  margin: 60px auto 80px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.themen-filter {
+  display: flex;
+  /* passt auf breiten Schirmen auf eine Zeile, bricht darunter um statt abzuschneiden */
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.thema-pille {
+  display: inline-block;
+  padding: 8px 22px;
+  border: 1px solid var(--green);
+  border-radius: 60px;
+  font-size: calc(var(--fontsmall) - 2px);
+  line-height: 1.2;
+  white-space: nowrap;
+  transition: background-color .2s ease, color .2s ease;
+}
+
+.thema-pille:hover {
+  background-color: rgba(39, 97, 75, .08);
+}
+
+.thema-pille.aktiv {
+  background-color: var(--green);
+  color: #fff;
+}
+
+.antworten-raster {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 40px;
+}
+
+.antworten-raster .antwort-karte {
+  max-width: none;
+}
+
+/* im Raster dasselbe Hochformat wie bei den weiteren Beiträgen */
+.antworten-raster .antwort-karte-bild img {
+  aspect-ratio: 357 / 500;
+}
+
+.antworten-leer {
+  font-size: var(--fontnormal);
+}
+
+/* «Vielleicht fragst du dich das auch.» */
+
+.weitere-antworten {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.weitere-kopf {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.weitere-link {
+  font-size: var(--fontsmall);
+  white-space: nowrap;
+}
+
+.weitere-link {
+  transition: opacity .2s ease;
+}
+
+.weitere-link:hover {
+  opacity: .6;
+}
+
+.antworten-scroller {
+  --karte: 357px;
+  /* Abstand vom Bildschirmrand bis zur Textkante */
+  --rand: max(30px, calc((100vw - 1140px) / 2));
+  position: relative;
+  /* über die volle Bildschirmbreite, links und rechts */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.scroller-pfeil {
+  position: absolute;
+  /* vertikal auf der Mitte der Bilder, Bildverhältnis 357:500 */
+  top: calc(var(--karte) * 250 / 357);
+  transform: translateY(-50%);
+  z-index: 2;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  line-height: 0;
+  transition: opacity .2s ease;
+}
+
+.scroller-pfeil.links {
+  left: calc(var(--rand) + 20px);
+}
+
+.scroller-pfeil.rechts {
+  right: calc(var(--rand) + 20px);
+}
+
+.scroller-pfeil:hover {
+  opacity: .6;
+}
+
+/* Pfeil nur zeigen, wenn in diese Richtung gescrollt werden kann */
+.scroller-pfeil[hidden] {
+  display: none;
+}
+
+.scroller-pfeil img {
+  width: 70px;
+  height: 70px;
+}
+
+.antworten-karten {
+  display: flex;
+  gap: 30px;
+}
+
+.antworten-karten.scroller {
+  /* erste Karte auf der Textkante, Rest läuft nach beiden Seiten aus dem Raster */
+  padding-left: var(--rand);
+  padding-right: var(--rand);
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* kein CSS-Snapping: das Einrasten übernimmt main.js, sonst wird vertikales Scrollen blockiert */
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.antworten-karten.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.antwort-karte {
+  flex: 0 0 var(--karte);
+  max-width: var(--karte);
+}
+
+.antwort-karte-bild {
+  display: block;
+  overflow: hidden;
+}
+
+.antwort-karte-bild img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 357 / 500;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+
+.antwort-karte:hover .antwort-karte-bild img {
+  transform: scale(1.08);
+}
+
+.antwort-karte-titel {
+  display: block;
+  margin-top: 25px;
+  font-size: var(--fontnormal);
+  line-height: 1.2;
+  color: var(--green);
+}
+
+.antwort-karte-titel {
+  transition: opacity .2s ease;
+}
+
+.antwort-karte:hover .antwort-karte-titel {
+  opacity: .7;
+}
+
+/*----------------------------------
     Nav
 -----------------------------------*/
 .header-bar {
@@ -501,6 +912,7 @@ header {
 }
 
 .side-menu li {
+  padding: 10px 0;
   transition: transform .35s ease, opacity 0.35s ease-in-out;
 }
 
@@ -1161,6 +1573,27 @@ button {
   /* termin */
   .termin-angebot {margin-top: 30px; flex-direction:column; max-width: 400px;}
 
+  /* antworten */
+  .antworten-hero {width: calc(100vw - 20px); margin-top: 30px;}
+  .antworten-hero-titel {left: 20px; right: 20px; bottom: 20px; font-size: var(--fontsub);}
+  .antworten-liste {width: calc(100vw - 40px); margin-top: 40px;}
+  .themen-filter {flex-wrap: wrap; gap: 10px; margin-bottom: 40px;}
+  .thema-pille {font-size: var(--fontsmall); padding: 8px 20px;}
+  .antworten-raster {grid-template-columns: 1fr; gap: 40px;}
+  .artikel {padding: 20px 20px 0;}
+  .artikel h1, .antworten-kopf h1 {font-size: 48px;}
+  .artikel-bild, .artikel-inlinebild {width: calc(100vw - 20px); margin-top: 45px; margin-bottom: 35px;}
+  .artikel-box {padding: 30px 20px; margin: 40px -20px; width: calc(100% + 40px); border-radius: 20px;}
+  .artikel-box h2 {font-size: var(--fontsub);}
+  .artikel-teilen {margin-top: 60px;}
+  .artikel-teilen-liste {gap: 25px;}
+  .weitere-antworten {margin-top: 60px;}
+  .weitere-kopf {flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px;}
+  .antworten-scroller {--karte: 260px; --rand: 20px;}
+  .scroller-pfeil img {width: 48px; height: 48px;}
+  .scroller-pfeil.links {left: 30px;}
+  .scroller-pfeil.rechts {right: 30px;}
+
   /* footer */
   .newsletter-grid {flex-direction: column; width: 100%;}
 
@@ -1193,6 +1626,9 @@ button {
   /* font */
   h1, h2 {letter-spacing: -0.5px;}
   .side-menu a {font-size: var(--fonttitle);}
+
+  /* antworten */
+  .artikel h1, .antworten-kopf h1 {font-size: 36px;}
 
   /* main */
     .cont-50-50 {margin-top: 20px;}

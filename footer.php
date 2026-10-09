@@ -21,13 +21,13 @@ $newsletterSuccess = ($newsletterStatus === 'success');
       <a class="footer-logo" href="/"><img src="/img/isabella-signer-logo-white.svg" alt="Isabella Signer – zur Startseite" width="283" height="49"></a>
       <div class="footer-icons">
           <a href="https://www.instagram.com/isabella.signer/" target="_blank" aria-label="Instagram">
-            <img src="/img/icon-instagram.svg" alt="Instagram Icon">
+            <img src="/img/icon-instagram.svg" alt="">
           </a>
           <a href="mailto:info@isabella-signer.ch" aria-label="E-Mail schreiben">
-            <img src="/img/icon-mail.svg" alt="E-Mail Icon">
+            <img src="/img/icon-mail.svg" alt="">
           </a>
           <a href="tel:+41787581912" aria-label="Anrufen">
-            <img src="/img/icon-phone.svg" alt="Telefon Icon">
+            <img src="/img/icon-phone.svg" alt="">
           </a>
       </div>
     </div>
