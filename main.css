@@ -1106,6 +1106,14 @@ header {
   width: 280px;
 }
 
+/* Logo füllt seinen Rahmen – sonst gilt die Bildgrösse aus dem SVG (283 px)
+   und das Logo läuft auf dem Handy über den Rahmen hinaus nach rechts */
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .menu {
   background-color: var(--purple);
   width: 50px;
