@@ -1923,6 +1923,12 @@ body.noscroll .termin-tab.is-visible {
   .cont-50-50 {flex-direction: column; padding: 0 30px;}
   .cont-50-50.revers {flex-direction: column;}
   .bild-text + .bild-text {margin-top: 90px;}
+  /* auf dem Handy liegen Bild und Text untereinander und der Parallax ist aus –
+     darum hier dieselben Abstände wie zwischen den Blöcken */
+  .begleitung .bild-text:first-of-type,
+  .ueber-mich .bild-text:first-of-type {margin-top: 60px;}
+  .begleitung .bild-text.letzter,
+  .ueber-mich .bild-text.letzter {margin-bottom: 90px;}
   .btn {margin-top: 40px;}
   .ta-cont {padding: 60px 20px 50px; margin-top: 20px;}
   .ta-cont.thema-gruen {padding-top: 80px; padding-bottom: 60px; margin-top: 20px;}
