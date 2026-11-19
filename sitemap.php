@@ -18,7 +18,7 @@ $stand = function (string $datei): string {
 
 $seiten = [
     ['/',             '1.00', 'monthly', $stand('index.php')],
-    ['/angebot',      '0.80', 'monthly', $stand('angebot.php')],
+    ['/begleitung',   '0.80', 'monthly', $stand('begleitung.php')],
     ['/antworten',    '0.80', 'weekly',  $stand('antworten.php')],
     ['/termin',       '0.80', 'monthly', $stand('termin.php')],
     ['/kontakt',      '0.80', 'monthly', $stand('kontakt.php')],
@@ -26,6 +26,18 @@ $seiten = [
     ['/impressum',    '0.30', 'yearly',  $stand('impressum.php')],
     ['/datenschutz',  '0.30', 'yearly',  $stand('datenschutz.php')],
 ];
+
+foreach (glob(__DIR__ . '/data/methoden/*.json') ?: [] as $datei) {
+    $m = json_decode((string)file_get_contents($datei), true);
+    if (!is_array($m) || empty($m['slug'])) continue;
+    $seiten[] = ['/begleitung/' . $m['slug'], '0.80', 'monthly', date('Y-m-d', (int)filemtime($datei))];
+}
+
+foreach (glob(__DIR__ . '/data/themen/*.json') ?: [] as $datei) {
+    $t = json_decode((string)file_get_contents($datei), true);
+    if (!is_array($t) || empty($t['slug'])) continue;
+    $seiten[] = ['/' . $t['slug'], '0.80', 'monthly', date('Y-m-d', (int)filemtime($datei))];
+}
 
 foreach (antworten_alle() as $beitrag) {
     $datum = !empty($beitrag['datum']) ? date('Y-m-d', (int)strtotime($beitrag['datum'])) : $stand('data/antworten/' . $beitrag['datei']);

@@ -176,6 +176,7 @@ header {
 
 .intro-img-cont img {
   width: 55%;
+  height: auto;
 }
 
 .overlap {
@@ -196,6 +197,7 @@ header {
 
 .img-cont img {
   width: 100%;
+  height: auto;
 }
 
 /*----------------------------------
@@ -226,9 +228,36 @@ header {
   margin-bottom: 15px;
 }
 .question-sec.cards > div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--back);
   border-radius: 25px;
   padding: 40px 30px;
+  transition: background-color .25s ease;
+}
+
+/* Ganze Karte klickbar, Link immer am unteren Rand */
+.karte-link {
+  margin-top: auto;
+  padding-top: 30px;
+}
+
+.karte-link a {
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 0;
+}
+
+.karte-link a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 25px;
+}
+
+.question-sec.cards > div:hover {
+  background-color: rgba(255, 255, 255, .1);
 }
 .question-sec.steps > div {
   display: flex;
@@ -240,11 +269,13 @@ header {
   height: 70px;
   flex-shrink: 0;
 }
-.question-cont .question-sec {
-  margin-top: 60px;
+.question-cont .question-sec,
+.thema-gruen .question-sec {
+  /* gleicher Abstand zwischen Titel und den drei Spalten */
+  margin-top: 90px;
 }
 .light-sec {
-  padding: 150px 20px 100px;
+  padding: 150px 20px 160px;
 }
 .intro-split {
   display: flex;
@@ -274,6 +305,13 @@ header {
   padding: 450px 20px 150px;
 }
 
+/* Grüner Block auf Themenseiten: weniger Vorlauf als auf der Startseite */
+.ta-cont.thema-gruen {
+  padding-top: 240px;
+  padding-bottom: 150px;
+  margin-top: 60px;
+}
+
 .gap-small {
   padding-top: 250px;
 }
@@ -286,23 +324,34 @@ header {
   padding-top: 100px;
 }
 
+/* «Deine Begleitung richtet sich nach dir.» – etwas mehr Luft nach oben */
+.begleitung-kopf {
+  padding-top: 170px;
+}
+
 .teaser-angebot {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  /* gleich hohe Spalten, damit die Buttons auf einer Linie sitzen */
+  align-items: stretch;
   gap: 60px;
   margin: 0 auto;
   text-align: center;
   max-width: 1200px;
-  margin-top: 150px;
+  /* Abstand vom Einleitungstext zu den drei runden Bildern */
+  margin-top: 80px;
 }
 
 .angebot {
   flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .angebot img {
   width: 100%;
+  /* nötig, damit die width/height-Attribute nur das Seitenverhältnis vorgeben */
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -423,11 +472,45 @@ header {
   align-items: center;
   max-width: 1600px;
   margin: 60px auto;
-  padding: 0 30px;
+  /* rechts mehr Luft: dort liegt der fixe «Termin buchen»-Button */
+  padding: 0 100px 0 30px;
+}
+
+/* Themen- und Methodenseiten: mehr Luft zwischen den zwei Bild/Text-Blöcken */
+.bild-text + .bild-text {
+  margin-top: 180px;
+}
+
+/* Button mit Kontur unter dem Text eines Bild/Text-Blocks */
+.copy .bild-text-link {
+  margin-top: 45px;
+}
+
+/* Begleitung: breiterer Einleitungstext und mehr Luft bis zum ersten Block */
+.begleitung-lead {
+  max-width: 1090px;
+}
+
+.begleitung .bild-text:first-of-type {
+  margin-top: 180px;
+}
+
+/* Über mich: Abstand vom Titel zum ersten Bild/Text-Block */
+.ueber-mich .bild-text:first-of-type {
+  margin-top: 140px;
+}
+
+/* Letztes Bild fährt durch den Parallax nach unten – genug Abstand, damit es
+   nicht in den farbigen Bereich darunter läuft */
+.begleitung .bild-text.letzter,
+.ueber-mich .bild-text.letzter {
+  margin-bottom: 300px;
 }
 
 .cont-50-50.revers {
   flex-direction: row-reverse;
+  /* Bild rechts: der seitliche Termin-Button stört hier nicht */
+  padding-right: 30px;
 }
 
 .photo img {
@@ -441,7 +524,159 @@ header {
   max-width: 560px;
 }
 
+.copy p {
+  margin-bottom: 25px;
+}
 
+.copy p:last-child {
+  margin-bottom: 0;
+}
+
+.copy h2.sub {
+  padding-bottom: 30px;
+}
+
+
+
+/*----------------------------------
+    Themenseiten
+-----------------------------------*/
+
+.kreis-cont {
+  display: flex;
+  margin: 120px auto 0;
+  margin-left: 0;
+  max-width: 1200px;
+  position: relative;
+}
+
+.kreis {
+  display: block;
+  /* gleiche Überlappung wie die beiden Bilder auf der Startseite */
+  width: 55%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.kreis.overlap {
+  position: absolute;
+  right: 0;
+}
+
+.btn a.btn-gelb {
+  background-color: var(--yellow);
+  color: var(--green);
+}
+
+/* Umrandeter Button, z. B. «Mehr dazu erfahren» */
+.btn-linie {
+  display: inline-block;
+  border: 1px solid var(--green);
+  border-radius: 60px;
+  padding: 8px 26px;
+  font-size: var(--fontsmall);
+  letter-spacing: 0;
+  color: var(--green);
+  transition: background-color .2s ease, color .2s ease;
+}
+
+.btn-linie:hover {
+  background-color: var(--green);
+  color: #fff;
+}
+
+.angebot-link {
+  /* schiebt den Button nach unten, damit alle drei auf einer Linie stehen */
+  margin-top: auto;
+  padding-top: 45px;
+}
+
+/* Terminkarten */
+
+.ta-cont.termine-sec {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.termine-label {
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin-bottom: 25px;
+}
+
+.termine-sec .termine-titel {
+  font-size: 62px;
+  line-height: 1.13;
+  letter-spacing: -1.24px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.termine-sec .termin-angebot {
+  margin-top: 70px;
+}
+
+.termin-karten {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  gap: 40px;
+  max-width: 1300px;
+  margin: 70px auto 0;
+  padding: 0 30px;
+}
+
+.termin-karte {
+  background-color: #cab8ef;
+  border-radius: 25px;
+  padding: 30px;
+  text-align: center;
+}
+
+.termin-karte h3 {
+  font-size: var(--fontsub);
+  line-height: 1.1;
+  letter-spacing: 0;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255,255,255,.6);
+}
+
+.termin-karte-text {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(255,255,255,.6);
+}
+
+.termin-karte-text p {
+  font-size: var(--fontsmall);
+  line-height: 1.35;
+  letter-spacing: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.termin-karte-text p + p {
+  margin-top: 14px;
+}
+
+.termin-karte-btn {
+  display: inline-block;
+  margin-top: 30px;
+  background: #fff;
+  color: #b9a2e9;
+  border-radius: 10px;
+  padding: 6px 22px;
+  font-size: var(--fontsmall);
+  letter-spacing: 0;
+  transition: opacity .2s ease;
+}
+
+.termin-karte-btn:hover {
+  opacity: .8;
+}
 
 /*----------------------------------
     Antworten (Blog)
@@ -913,11 +1148,12 @@ header {
 }
 
 .side-menu ul {
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .side-menu li {
-  padding: 10px 0;
+  padding: 4px 0;
   transition: transform .35s ease, opacity 0.35s ease-in-out;
 }
 
@@ -1529,6 +1765,116 @@ button {
 
 
 /*----------------------------------
+    Methodenseiten (/begleitung/<slug>)
+-----------------------------------*/
+
+.methode-hero {
+  max-width: 740px;
+  margin: 70px auto 0;
+}
+
+.methode-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btn a.btn-gruen {
+  background-color: var(--green);
+  color: #fff;
+}
+
+/* ohne Schritte davor: kein zusätzlicher Abstand über «Manchmal braucht es …» */
+.methode-weitere .begleitung-kopf {
+  padding-top: 0;
+}
+
+.teaser-angebot.zwei {
+  max-width: 800px;
+}
+
+/* Schriftgrössen, Bild/Text-Blöcke und grüner Bereich kommen aus den
+   gemeinsamen Bausteinen (bild-text.php, gruen-text.php) – keine eigenen Werte. */
+
+/*----------------------------------
+    Termin-Button (seitlich)
+-----------------------------------*/
+
+.termin-tab {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 22px 50px 18px;
+  background-color: var(--yellow);
+  color: var(--green);
+  border-radius: 40px 0 0 40px;
+  text-decoration: none;
+  font-family: rubislight;
+  font-size: var(--fontsmall);
+  white-space: nowrap;
+  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate(100%, -50%);
+  transition: transform .6s cubic-bezier(.22,1,.36,1), opacity .5s ease, visibility 0s linear .6s, padding-right .3s ease;
+}
+
+.termin-tab span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.termin-tab.is-visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translate(0, -50%);
+  transition: transform .6s cubic-bezier(.22,1,.36,1), opacity .5s ease, visibility 0s, padding-right .3s ease;
+}
+
+/* Navigation offen: Button ausblenden */
+body.noscroll .termin-tab.is-visible {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .4s ease, visibility 0s linear .4s;
+}
+
+.termin-tab.is-visible:hover,
+.termin-tab.is-visible:focus-visible {
+  padding-right: 30px;
+}
+
+.termin-tab:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .termin-tab, .termin-tab.is-visible {transition: opacity .3s ease, visibility 0s;}
+  .termin-tab {transform: translate(0, -50%);}
+}
+
+@media only screen and (max-width: 500px) {
+  /* schmaler, damit der Tab den Fliesstext am rechten Rand nicht überlagert */
+  .termin-tab {padding: 28px 6px 28px 5px; font-size: 13px; border-radius: 24px 0 0 24px;}
+
+  /* Icons im Footer und in der Navigation kleiner */
+  .footer-icons img {width: 22px; height: 22px;}
+  /* etwas nach links, damit das letzte Icon nicht am Termin-Tab klebt */
+  .footer-icons {gap: 16px; margin-right: 14px;}
+}
+
+
+/*----------------------------------
     Responsiv
 -----------------------------------*/
 
@@ -1566,10 +1912,12 @@ button {
   .step-icon {width: 50px; height: 50px;}
   .img-cont {flex-direction: column; margin-top: 50px;}
   .teaser-angebot {flex-direction: column; margin-top: 0; max-width: 400px;}
-  .cont-50-50 {flex-direction: column;}
+  .cont-50-50 {flex-direction: column; padding: 0 30px;}
   .cont-50-50.revers {flex-direction: column;}
+  .bild-text + .bild-text {margin-top: 90px;}
   .btn {margin-top: 40px;}
   .ta-cont {padding: 60px 20px 50px; margin-top: 20px;}
+  .ta-cont.thema-gruen {padding-top: 80px; padding-bottom: 60px; margin-top: 20px;}
   .container {margin-bottom: 50px; padding: 10px;}
 
   /* angebot */
@@ -1577,6 +1925,15 @@ button {
 
   /* termin */
   .termin-angebot {margin-top: 30px; flex-direction:column; max-width: 400px;}
+
+  .begleitung-kopf {padding-top: 70px;}
+  .termine-label {font-size: var(--fontnormal); margin-bottom: 15px;}
+  .termine-sec .termine-titel {font-size: var(--fontsub);}
+  .ta-cont.termine-sec {padding-top: 60px; padding-bottom: 50px;}
+  .termine-sec .termin-angebot {margin-top: 40px;}
+  /* themenseiten */
+  .kreis-cont {margin-top: 50px;}
+  .termin-karten {grid-template-columns: 1fr; gap: 25px; margin-top: 50px; max-width: 420px;}
 
   /* antworten */
   .antworten-hero {width: calc(100vw - 20px); margin-top: 30px;}

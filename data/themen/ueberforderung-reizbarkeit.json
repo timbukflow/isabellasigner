@@ -1,0 +1,83 @@
+{
+  "slug": "ueberforderung-reizbarkeit",
+  "tag": "Überforderung & Reizbarkeit",
+  "titel": "Überforderung & Reizbarkeit",
+  "seo_titel": "Überforderung & Reizbarkeit | Isabella Signer, Steinach",
+  "beschreibung": "Schnell gereizt und alles wird zu viel? Begleitung bei Überforderung in Steinach bei St. Gallen – mit Bodywork, Breathwork, Ayurveda und Coaching.",
+  "keywords": [
+    "Überforderung",
+    "Reizbarkeit",
+    "schnell gereizt",
+    "alles zu viel",
+    "Konzentrationsprobleme",
+    "Belastbarkeit",
+    "Grenzen",
+    "Nervensystem"
+  ],
+  "kreise": [
+    "#FDEB81",
+    "#8AA399"
+  ],
+  "einstieg": {
+    "titel": "Du willst nur fünf Minuten für dich. Doch schon will wieder jemand etwas von dir.",
+    "spalten": [
+      "Du merkst, wie deine Geduld immer dünner wird. Plötzlich wirst du laut, obwohl du das gar nicht möchtest. Und kaum ist es passiert, plagt dich das schlechte Gewissen.",
+      "Du gehst in die Küche und weisst nicht mehr, was du dort wolltest. Du liest denselben Satz dreimal und kannst dich kaum darauf konzentrieren.",
+      "Dein Posteingang quillt über, das Telefon klingelt und auf deinem Schreibtisch stapelt sich die Arbeit. Du sitzt davor und möchtest am liebsten einfach alles stehen lassen."
+    ]
+  },
+  "bloecke": [
+    {
+      "bild": "img/themen/ueberforderung-reizbarkeit-1.webp",
+      "bild_alt": "Hände vor der Brust zusammengelegt, ruhiger Atem",
+      "titel": "Früher hast du das doch auch alles geschafft. Oder?",
+      "absaetze": [
+        "Du warst immer diejenige, die organisiert, mitdenkt und alles zusammenhält. Auf dich war Verlass. Doch inzwischen fällt dir vieles schwerer. Statt dir einzugestehen, dass es gerade zu viel ist, fragst du dich, was eigentlich mit dir los ist. Warum bist du nicht mehr so belastbar? Und anstatt einen Gang zurückzuschalten, strengst du dich noch mehr an. Das muss doch wieder möglich sein."
+      ]
+    },
+    {
+      "bild": "img/themen/ueberforderung-reizbarkeit-2.webp",
+      "bild_alt": "Isabella Signer sitzt entspannt auf einem Sitzkissen in ihrem Praxisraum",
+      "bild_rechts": true,
+      "titel": "Warum wird dir plötzlich alles zu viel?",
+      "absaetze": [
+        "Wenn dein Nervensystem über längere Zeit auf Stress reagiert und Erholung zu kurz kommt, kann es schwieriger werden, gelassen zu bleiben. Selbst kleine Anforderungen können sich dann überwältigend anfühlen. Doch Reizbarkeit kann unterschiedliche Ursachen haben. Auch Schlafmangel, hormonelle Veränderungen, körperliche Beschwerden oder persönliche Belastungen können eine Rolle spielen."
+      ]
+    }
+  ],
+  "gruen": {
+    "titel": "Du musst nicht erst explodieren, um deine Grenzen ernst zu nehmen.",
+    "spalten": [
+      "Oft sind es die eigenen Ansprüche, die es schwer machen, etwas zu verändern. Du möchtest zuverlässig sein, niemanden enttäuschen und weiterhin alles schaffen. Auch wenn es längst zu viel geworden ist.",
+      "Verantwortung abzugeben bedeutet manchmal auch, Kontrolle loszulassen. Und das fällt nicht immer leicht. Besonders dann, wenn du gewohnt bist, dass alles bei dir zusammenläuft.",
+      "Selbst wenn du erkennst, was dich belastet, verändert sich dein Verhalten nicht automatisch. Vertraute Muster lassen sich nicht einfach abschalten. Neue Wege brauchen Zeit und Übung."
+    ]
+  },
+  "begleitung": [
+    {
+      "bild": "img/isabella-signer-begleitung-bodywork.webp",
+      "bild_alt": "Frau tanzt mit erhobenem Arm im sonnigen Wald",
+      "titel": "Emotional Bodywork & Breathwork",
+      "text": "Körperliche Reaktionen besser wahrnehmen und einordnen und über Körper und Atem neue Wege im Umgang mit Anspannung entwickeln.",
+      "link": "/begleitung/emotional-bodywork-breathwork"
+    },
+    {
+      "bild": "img/isabella-signer-begleitung-coaching.webp",
+      "bild_alt": "Isabella Signer im Gespräch mit einer Klientin am Tisch",
+      "titel": "Mindset & Coaching",
+      "text": "Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.",
+      "link": "/begleitung/mindset-coaching"
+    },
+    {
+      "bild": "img/isabella-signer-begleitung-ayurveda.webp",
+      "bild_alt": "Isabella Signer riecht an frisch gemörserten Kräutern",
+      "titel": "Ayurveda & Ernährung",
+      "text": "Ernährung und Gewohnheiten genauer betrachten und herausfinden, was deinen Körper und deine Energie im Alltag unterstützen kann.",
+      "link": "/begleitung/ayurveda-ernaehrung"
+    }
+  ],
+  "angebote": {
+    "titel": "Was passt gerade zu dir?",
+    "text": "Wenn dir immer öfter alles zu viel wird, musst du nicht warten, bis du an deine Grenze kommst. Entscheide in Ruhe, welcher nächste Schritt für dich passt."
+  }
+}

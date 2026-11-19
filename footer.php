@@ -21,13 +21,13 @@ $newsletterSuccess = ($newsletterStatus === 'success');
       <a class="footer-logo" href="/"><img src="/img/isabella-signer-logo-white.svg" alt="Isabella Signer – zur Startseite" width="283" height="49"></a>
       <div class="footer-icons">
           <a href="https://www.instagram.com/isabella.signer/" target="_blank" aria-label="Instagram">
-            <img src="/img/icon-instagram.svg" alt="">
+            <img src="/img/icon-instagram.svg" alt="" width="26" height="26">
           </a>
           <a href="mailto:info@isabella-signer.ch" aria-label="E-Mail schreiben">
-            <img src="/img/icon-mail.svg" alt="">
+            <img src="/img/icon-mail.svg" alt="" width="26" height="26">
           </a>
           <a href="tel:+41787581912" aria-label="Anrufen">
-            <img src="/img/icon-phone.svg" alt="">
+            <img src="/img/icon-phone.svg" alt="" width="26" height="26">
           </a>
       </div>
     </div>
@@ -181,3 +181,9 @@ $newsletterSuccess = ($newsletterStatus === 'success');
 
   </div>
 </footer>
+<?php $terminPfad = trim((string)parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH), '/'); ?>
+<?php if (!in_array($terminPfad, ['termin', 'termin.php'], true)): ?>
+<a href="/termin" class="termin-tab" id="terminTab" tabindex="-1">
+  <span>Termin buchen</span>
+</a>
+<?php endif; ?>

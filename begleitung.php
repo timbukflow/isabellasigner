@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Emotional Bodywork &amp; Breathwork, Mindset &amp; Coaching, Ayurveda &amp; Ernährung bei Stress und Erschöpfung – Einzel-Session oder Monatsbegleitung in Steinach (SG)." />
     <meta name="author" content="Isabella Signer" />
-    <link rel="canonical" href="https://isabella-signer.ch/angebot" />
+    <link rel="canonical" href="https://isabella-signer.ch/begleitung" />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="cache-control" content="public, max-age=3600" />
     <meta http-equiv="pragma" content="cache" />
@@ -23,7 +23,7 @@
     <meta property="og:title" content="Bodywork, Breathwork, Ayurveda &amp; Coaching | Isabella Signer" />
     <meta property="og:description" content="Emotional Bodywork &amp; Breathwork, Mindset &amp; Coaching, Ayurveda &amp; Ernährung bei Stress und Erschöpfung – Einzel-Session oder Monatsbegleitung in Steinach (SG)." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://isabella-signer.ch/angebot" />
+    <meta property="og:url" content="https://isabella-signer.ch/begleitung" />
     <meta property="og:image" content="https://isabella-signer.ch/img/og-image.jpg" />
     <meta property="og:locale" content="de_CH" />
 
@@ -47,8 +47,8 @@
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://isabella-signer.ch/angebot#webpage",
-  "url": "https://isabella-signer.ch/angebot",
+  "@id": "https://isabella-signer.ch/begleitung#webpage",
+  "url": "https://isabella-signer.ch/begleitung",
   "name": "Bodywork, Breathwork, Ayurveda & Coaching | Isabella Signer",
   "description": "Emotional Bodywork & Breathwork, Mindset & Coaching, Ayurveda & Ernährung bei Stress und Erschöpfung – Einzel-Session oder Monatsbegleitung in Steinach (SG).",
   "inLanguage": "de-CH",
@@ -122,8 +122,8 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Angebot",
-      "item": "https://isabella-signer.ch/angebot"
+      "name": "Begleitung",
+      "item": "https://isabella-signer.ch/begleitung"
     }
   ]
 }
@@ -133,94 +133,47 @@
 
 <body>
     <?php require_once 'nav.php'; ?>
-    <main>
+    <main class="begleitung">
 
     <header>
-        <p class="eyebrow">Mein Angebot</p>
-        <h1>Schritt für Schritt begleite ich dich auf deinem Weg zu mehr Klarheit, Leichtigkeit und gelebter Weiblichkeit.</h1>
+        <p class="eyebrow">Begleitung</p>
+        <h1>Deine Begleitung richtet sich nach dir.</h1>
+        <p class="lead begleitung-lead">Je nachdem, was du brauchst, verbinde ich unterschiedliche Ansätze miteinander. So entsteht eine individuelle Begleitung, die nicht nur einzelne Symptome betrachtet, sondern auch die Zusammenhänge zwischen Körper, Gedanken, Gefühlen und Lebensgewohnheiten berücksichtigt.</p>
     </header>
 
-    
-    <h2 class="fullscreen-text">Ayurveda</h2>
-    <section class="cont-50-50">
-        <div class="photo parallax fix" data-speed="0.025">
-            <img
-            src="img/isabella-signer-ayurveda.webp"
-            alt="Isabella Signer riecht an Kräutern in einem Mörser, daneben Kerzen und Keramik"
-            loading="lazy" decoding="async"
-            />
-        </div>
+    <?php
+    $bloecke = [
+        [
+            'bild'      => 'img/begleitung/emotional-bodywork-breathwork.webp',
+            'bild_alt'  => 'Frau tanzt mit erhobenem Arm im sonnigen Wald',
+            'titel'     => 'Emotional Bodywork & Breathwork',
+            'absaetze'  => ['Körperliche und emotionale Reaktionen besser wahrnehmen und verstehen. Durch achtsame Körper- und Atemarbeit können auch schwierige Gefühle Raum bekommen und neue Wege im Umgang mit Anspannung entstehen.'],
+            'link'      => '/begleitung/emotional-bodywork-breathwork',
+        ],
+        [
+            'bild'        => 'img/begleitung/mindset-coaching.webp',
+            'bild_alt'    => 'Isabella Signer im Gespräch mit einer Klientin am Tisch',
+            'bild_rechts' => true,
+            'titel'       => 'Mindset & Coaching',
+            'absaetze'    => ['Eigene Gedanken, Überzeugungen und Verhaltensmuster hinterfragen, die dich immer wieder an denselben Punkt bringen. Neue Perspektiven entdecken und lernen, bewusster zu entscheiden, anders zu reagieren und den eigenen Bedürfnissen mehr Raum zu geben.'],
+            'link'        => '/begleitung/mindset-coaching',
+        ],
+        [
+            'bild'      => 'img/begleitung/ayurveda-ernaehrung.webp',
+            'bild_alt'  => 'Isabella Signer riecht an frisch gemörserten Kräutern',
+            'titel'     => 'Ayurveda & Ernährung',
+            'absaetze'  => ['Ernährung, Gewohnheiten und körperliche Bedürfnisse aus einer ganzheitlichen Perspektive betrachten. Zusammenhänge erkennen und herausfinden, welche Veränderungen deinen Körper, deine Energie und dein Wohlbefinden im Alltag unterstützen können.'],
+            'link'      => '/begleitung/ayurveda-ernaehrung',
+        ],
+    ];
+    require __DIR__ . '/bild-text.php';
+    ?>
 
-        <div class="copy parallax fix" data-speed="0.05">
-            <h2 class="sub t-a-left">Ayurveda bringt dich zurück zu dir.</h2>
-            <p class="t-a-left">
-                Erlebe, wie du dich selbst wieder wahrnimmst – mit allem, was du bist und brauchst. Ayurveda begleitet dich mit seiner Einfachheit, Tiefe und Weisheit zurück in deine natürliche Balance, besonders dann, wenn dein Körper beginnt, Ungleichgewichte zu zeigen.
-            </p>
-            <p class="t-a-left">
-                Er unterstützt dich dabei, Signale wie Erschöpfung, innere Unruhe oder körperliches Unwohlsein besser zu verstehen, statt sie zu übergehen.
-            </p>
-            <p class="t-a-left">
-                Der Mensch wird ganzheitlich, individuell und in seinem eigenen Rhythmus betrachtet.
-                Der Fokus liegt auf der Erhaltung der Gesundheit – und darauf, wieder in Verbindung mit deinem Körper zu kommen, bevor Symptome lauter werden.
-            </p>
-        </div>
-    </section>
-
-    <h2 class="fullscreen-text purple" >Breathwork &amp; Emotional Bodywork</h2>
-    <section class="cont-50-50 revers">
-        <div class="photo parallax fix" data-speed="0.025">
-            <img
-            src="img/isabella-signer-breathwork.webp"
-            alt="Hände vor der Brust zusammengelegt, ruhiger Atem im Gegenlicht"
-            loading="lazy" decoding="async"
-            />
-        </div>
-        <div class="copy parallax fix" data-speed="0.05">
-            <h2 class="sub t-a-left purple">Atmen und Spüren – die ehrlichste Verbindung zu dir selbst.</h2>
-            <p class="t-a-left purple">
-                Bewusstsein dort, wo Worte nicht mehr reichen.
-            </p>
-            <p class="t-a-left purple">
-                Emotional Bodywork verbindet Breathwork, Bodywork, Hypnose und somatische Prozessarbeit.
-            </p>
-            <p class="t-a-left purple">
-                Denn im Atem und im Körper öffnen sich Räume, in denen Erfahrungen, Emotionen und Blockaden gespeichert sind.
-            </p>
-            <p class="t-a-left purple">
-                Genau hier darf sich zeigen, was gesehen werden will.
-                Wir schaffen Sicherheit, lösen innere Spannung und bringen wieder ins Fliessen, was zu lange festgehalten wurde. Für echte Veränderung auf körperlicher und emotionaler Ebene.
-            </p>
-        </div>
-    </section>
-
-    <h2 class="fullscreen-text yellow">Coaching</h2>
-    <section class="cont-50-50">
-        <div class="photo parallax fix" data-speed="0.025">
-            <img
-            src="img/isabella-signer-coaching.webp"
-            alt="Isabella Signer im Coaching-Gespräch am Tisch, Notizbuch vor sich"
-            loading="lazy" decoding="async"
-            />
-        </div>
-
-        <div class="copy parallax fix" data-speed="0.025">
-            <h2 class="sub t-a-left yellow-dark">Manchmal braucht es jemanden, der dich daran erinnert, wer du wirklich bist.</h2>
-            <p class="t-a-left yellow-dark">
-                Ein Gegenüber, das die richtigen Fragen stellt, damit du deine Antworten in dir findest – auch jene, die im Alltag und im Funktionieren oft überhört werden.
-            </p>
-            <p class="t-a-left yellow-dark">
-                Coaching eröffnet neue Sichtweisen, innere Klarheit und mutige Schritte in dein eigenes Leben, besonders dann, wenn Stress, innere Unruhe oder körperliche Signale zeigen, dass es Zeit ist, innezuhalten und neu auszurichten.
-            </p>
-        </div>
-    </section>
-
-    <section class="ta-cont gap-small">
-        <div class="container">
-            <h2 class="white sub">Du musst dich nicht zwischen Ayurveda, Coaching, Breathwork oder Emotional Bodywork entscheiden. Ich verbinde diese Qualitäten und gestalte eine vertiefende Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist – körperlich, emotional und mental.</h2>
-        </div>
-        <?php require_once 'termin-angebot.php'; ?> 
-    </section>   
-
+    <?php
+    $termineTitel = 'Meine Angebote';
+    $termineText  = 'Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden – ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.';
+    require __DIR__ . '/termine.php';
+    ?>
 
     </main>
 

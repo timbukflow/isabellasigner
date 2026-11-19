@@ -27,6 +27,18 @@ class LocalValetDriver extends BasicValetDriver
             return $sitePath . '/antwort.php';
         }
 
+        if (preg_match('#^/begleitung/([a-z0-9-]+)/?$#', $pfad, $t) && is_file($sitePath . '/data/methoden/' . $t[1] . '.json')) {
+            $_GET['slug'] = $t[1];
+            $_SERVER['SCRIPT_NAME'] = '/methode.php';
+            return $sitePath . '/methode.php';
+        }
+
+        if (preg_match('#^/([a-z0-9-]+)/?$#', $pfad, $t) && is_file($sitePath . '/data/themen/' . $t[1] . '.json')) {
+            $_GET['slug'] = $t[1];
+            $_SERVER['SCRIPT_NAME'] = '/thema.php';
+            return $sitePath . '/thema.php';
+        }
+
         if ($pfad === '/sitemap.xml') return $sitePath . '/sitemap.php';
         if ($pfad === '/llms.txt') return $sitePath . '/llms.php';
 

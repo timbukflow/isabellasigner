@@ -1,0 +1,79 @@
+{
+  "slug": "ayurveda-ernaehrung",
+  "titel": "Ayurveda & Ernährung",
+  "kurz": "Ayurveda",
+  "seo_titel": "Ayurveda & Ernährung | Isabella Signer, Steinach SG",
+  "beschreibung": "Ayurvedische Ernährungsberatung in Steinach bei St. Gallen: herausfinden, welche Lebensmittel und Gewohnheiten dich bei Stress und Müdigkeit unterstützen.",
+  "keywords": [
+    "Ayurveda",
+    "Ayurveda Ernährung",
+    "ayurvedische Ernährungsberatung",
+    "Ernährungsberatung Steinach",
+    "Verdauungsbeschwerden",
+    "Müdigkeit",
+    "Energie im Alltag"
+  ],
+  "hero": {
+    "bild": "img/methoden/ayurveda-ernaehrung-hero.webp",
+    "bild_alt": "Brokkoli, Avocado, Peperoni, Öl und ein Steinmörser auf einem Holzbrett in der Küche"
+  },
+  "einstieg": {
+    "titel": "Weil dein Körper keine Standardlösung braucht.",
+    "spalten": [
+      "Jeder Mensch ist anders. Was dir guttut, muss für jemand anderen nicht genauso funktionieren. Ayurveda berücksichtigt deine individuellen Eigenschaften und Bedürfnisse, statt auf allgemeine Empfehlungen zu setzen.",
+      "Nicht nur was du isst, sondern auch wie du Nahrung zubereitest, kombinierst und verdaust, spielt eine Rolle. Denn nicht alles, was vermeintlich gesund ist, bekommt deinem Körper auch gut.",
+      "Ayurveda betrachtet dich als Ganzes. Deine Gewohnheiten, deinen Lebensstil und deine aktuelle Lebenssituation. So können Zusammenhänge sichtbar werden, die bei einer isolierten Betrachtung leicht übersehen werden."
+    ]
+  },
+  "bloecke": [
+    {
+      "bild": "img/methoden/ayurveda-ernaehrung-1.webp",
+      "bild_alt": "Isabella Signer riecht an frisch gemörserten Kräutern",
+      "titel": "Was du isst, ist nur ein Teil der Geschichte.",
+      "absaetze": [
+        "Du achtest auf deine Ernährung und versuchst, gesund zu leben. Trotzdem fühlst du dich häufig müde, hast wenig Energie oder kämpfst mit Verdauungsbeschwerden. Vielleicht hast du bereits verschiedene Ernährungstipps ausprobiert, ohne herauszufinden, was dir wirklich guttut. Gerade wenn Stress, Erschöpfung oder innere Unruhe deinen Alltag prägen, lohnt es sich, genauer hinzuschauen. Denn manchmal braucht es mehr als allgemeine Ernährungsempfehlungen."
+      ]
+    },
+    {
+      "bild": "img/methoden/ayurveda-ernaehrung-2.webp",
+      "bild_alt": "Gewürzdose aus Messing mit Kurkuma, Chili, Koriander und Pfeffer",
+      "bild_rechts": true,
+      "titel": "Die kleinen Unterschiede machen oft den Unterschied.",
+      "absaetze": [
+        "Im Ayurveda spielen Eigenschaften wie warm und kühl, trocken und ölig oder leicht und schwer eine wichtige Rolle. Sie werden genutzt, um Lebensmittel und ihre Qualitäten zu beschreiben. Nach ayurvedischem Verständnis können bestimmte Eigenschaften einander verstärken oder ausgleichen. Deshalb spielt auch die Zubereitung eine Rolle: Durch Kochen, Würzen oder die Kombination verschiedener Zutaten lässt sich beeinflussen, welche Qualitäten eine Mahlzeit mitbringt."
+      ]
+    }
+  ],
+  "gruen": {
+    "titel": "Wie Ayurveda Teil deiner Begleitung wird",
+    "spalten": [
+      "Vielleicht bemerkst du, dass dir manche Mahlzeiten guttun und andere weniger. Oder dass sich deine Verdauung und dein Energiegefühl verändern, ohne dass du genau weisst, warum. Hier lohnt es sich, genauer hinzuschauen.",
+      "Mit Ayurveda können wir untersuchen, welche Rolle die Eigenschaften deiner Lebensmittel, ihre Zubereitung und deine Essgewohnheiten spielen. So entstehen neue Ansätze, um deine Ernährung bewusster zu gestalten.",
+      "Auf Basis deiner Bedürfnisse entwickeln wir konkrete Empfehlungen, die dich unterstützen. Dabei geht es nicht um Verbote oder starre Regeln, sondern um Veränderungen, die zu dir passen und sich in dein Leben integrieren lassen."
+    ]
+  },
+  "weitere": {
+    "titel": "Manchmal braucht es\nmehr als einen Ansatz.",
+    "text": "Je nachdem, was dich beschäftigt, kann es sinnvoll sein, auch auf emotionaler und gedanklicher Ebene genauer hinzuschauen. Deshalb verbinde ich unterschiedliche Methoden in deiner Begleitung.",
+    "karten": [
+      {
+        "bild": "img/isabella-signer-begleitung-bodywork.webp",
+        "bild_alt": "Frau tanzt mit erhobenem Arm im sonnigen Wald",
+        "titel": "Emotional Bodywork & Breathwork",
+        "text": "Körperliche Reaktionen besser wahrnehmen und einordnen und über Körper und Atem neue Wege im Umgang mit Anspannung entwickeln.",
+        "link": "/begleitung/emotional-bodywork-breathwork"
+      },
+      {
+        "bild": "img/isabella-signer-begleitung-coaching.webp",
+        "bild_alt": "Isabella Signer im Gespräch mit einer Klientin am Tisch",
+        "titel": "Mindset & Coaching",
+        "text": "Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.",
+        "link": "/begleitung/mindset-coaching"
+      }
+    ]
+  },
+  "angebote": {
+    "titel": "Was passt gerade zu dir?",
+    "text": "Du fragst dich, ob Ayurveda zu deiner Situation passt? Lass uns gemeinsam herausfinden, was dich gerade unterstützen kann."
+  }
+}

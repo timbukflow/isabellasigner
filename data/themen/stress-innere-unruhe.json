@@ -1,0 +1,83 @@
+{
+  "slug": "stress-innere-unruhe",
+  "tag": "Stress & innere Unruhe",
+  "titel": "Stress & innere Unruhe",
+  "seo_titel": "Stress & innere Unruhe | Isabella Signer, Steinach SG",
+  "beschreibung": "Du kommst nicht zur Ruhe? Begleitung bei Stress und innerer Unruhe in Steinach bei St. Gallen – mit Bodywork, Breathwork, Ayurveda und Coaching.",
+  "keywords": [
+    "Stress",
+    "innere Unruhe",
+    "nicht abschalten können",
+    "Daueranspannung",
+    "Nervensystem",
+    "Entspannung lernen",
+    "Stressbewältigung Steinach"
+  ],
+  "kreise": [
+    "#B9A2E9",
+    "#FDEB81"
+  ],
+  "einstieg": {
+    "titel": "Du brauchst Ruhe. Aber deine To-do-Liste hat andere Pläne.",
+    "spalten": [
+      "Kaum setzt du dich hin, fällt dir schon wieder ein, was noch alles zu erledigen ist. Einfach mal nichts tun? Gar nicht so einfach.",
+      "Du sehnst dich nach Zeit für dich. Doch selbst wenn du sie hast, fällt es dir schwer, abzuschalten und den Moment zu geniessen.",
+      "Abends bist du erschöpft. Aber dein Kopf arbeitet weiter. Was hast du heute nicht geschafft? Und was steht morgen schon wieder an?"
+    ]
+  },
+  "bloecke": [
+    {
+      "bild": "img/themen/stress-innere-unruhe-1.webp",
+      "bild_alt": "Barfuss über Steine im Bach, das Kleid leicht angehoben",
+      "titel": "Stress zeigt sich nicht immer dort, wo du ihn erwartest.",
+      "absaetze": [
+        "Vielleicht sind es die verspannten Schultern, der unruhige Schlaf oder die Verdauung, die plötzlich verrücktspielt. Du bist schneller gereizt, vergisst Dinge oder kannst dich schlechter konzentrieren. Dein Körper zeigt dir, dass etwas nicht stimmt. Doch im hektischen Alltag übergehst du diese Signale immer wieder.",
+        "Stress kann sich ganz unterschiedlich zeigen. Doch dass deine Beschwerden damit zusammenhängen, willst du dir vielleicht nicht eingestehen."
+      ]
+    },
+    {
+      "bild": "img/themen/stress-innere-unruhe-2.webp",
+      "bild_alt": "Hände in Gebetshaltung auf dem Waldboden",
+      "bild_rechts": true,
+      "titel": "Was hält dich immer wieder unter Spannung?",
+      "absaetze": [
+        "Es sind nicht nur die vielen Aufgaben, die dich unter Druck setzen. Oft sind es deine eigenen Ansprüche. Du möchtest alles schaffen, niemanden enttäuschen und am liebsten alles alleine bewältigen. Vielleicht hast du früh gelernt, dass Anerkennung mit Leistung verbunden ist. Und so treibst du dich immer weiter an. Selbst dann, wenn du längst eine Pause brauchst."
+      ]
+    }
+  ],
+  "gruen": {
+    "titel": "Genau deshalb lohnt es sich, genauer hinzuschauen.",
+    "spalten": [
+      "Vielleicht weisst du längst, dass du dir zu viel zumutest. Und trotzdem gelingt es dir nicht, im entscheidenden Moment etwas zu verändern.",
+      "Stress ist keine reine Kopfsache. Auch dein Körper reagiert sensibel auf Belastungen – und das oft ganz automatisch.",
+      "Deshalb reicht es nicht immer, sich einfach vorzunehmen, ruhiger zu werden oder besser abzuschalten."
+    ]
+  },
+  "begleitung": [
+    {
+      "bild": "img/isabella-signer-begleitung-bodywork.webp",
+      "bild_alt": "Frau tanzt mit erhobenem Arm im sonnigen Wald",
+      "titel": "Emotional Bodywork & Breathwork",
+      "text": "Körperliche Reaktionen besser wahrnehmen und einordnen und über Körper und Atem neue Wege im Umgang mit Anspannung entwickeln.",
+      "link": "/begleitung/emotional-bodywork-breathwork"
+    },
+    {
+      "bild": "img/isabella-signer-begleitung-coaching.webp",
+      "bild_alt": "Isabella Signer im Gespräch mit einer Klientin am Tisch",
+      "titel": "Mindset & Coaching",
+      "text": "Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.",
+      "link": "/begleitung/mindset-coaching"
+    },
+    {
+      "bild": "img/isabella-signer-begleitung-ayurveda.webp",
+      "bild_alt": "Isabella Signer riecht an frisch gemörserten Kräutern",
+      "titel": "Ayurveda & Ernährung",
+      "text": "Ernährung und Gewohnheiten genauer betrachten und herausfinden, was deinen Körper und deine Energie im Alltag unterstützen kann.",
+      "link": "/begleitung/ayurveda-ernaehrung"
+    }
+  ],
+  "angebote": {
+    "titel": "Was passt gerade zu dir?",
+    "text": "Wenn Stress und innere Unruhe immer wieder Teil deines Alltags werden, musst du nicht warten, bis es noch mehr wird. Entscheide in Ruhe, welcher nächste Schritt für dich passt."
+  }
+}

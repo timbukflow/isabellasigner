@@ -29,6 +29,7 @@ $schemaGraph = [
       '@type' => 'HealthAndBeautyBusiness',
       '@id' => $schemaBase . '/#praxis',
       'name' => 'Isabella Signer',
+      'alternateName' => 'Isabella Signer – be natural',
       'description' => 'Ganzheitliche Begleitung bei Stress, Erschöpfung und innerer Unruhe: Emotional Bodywork, Breathwork, Ayurveda & Ernährung und Mindset-Coaching in Steinach (SG) und online.',
       'url' => $schemaBase . '/',
       'logo' => $schemaBase . '/img/isabella-signer-logo.svg',
@@ -46,6 +47,20 @@ $schemaGraph = [
         'addressCountry' => 'CH',
       ],
       'geo' => ['@type' => 'GeoCoordinates', 'latitude' => 47.4995, 'longitude' => 9.4368],
+      'openingHoursSpecification' => [
+        [
+          '@type' => 'OpeningHoursSpecification',
+          'dayOfWeek' => ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          'opens' => '08:00',
+          'closes' => '12:00',
+        ],
+        [
+          '@type' => 'OpeningHoursSpecification',
+          'dayOfWeek' => ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          'opens' => '13:00',
+          'closes' => '17:00',
+        ],
+      ],
       'areaServed' => [
         ['@type' => 'City', 'name' => 'Steinach'],
         ['@type' => 'City', 'name' => 'St. Gallen'],
@@ -55,7 +70,11 @@ $schemaGraph = [
         ['@type' => 'AdministrativeArea', 'name' => 'Kanton Thurgau'],
       ],
       'founder' => ['@id' => $schemaBase . '/#isabella'],
-      'sameAs' => ['https://www.instagram.com/isabella.signer/'],
+      'hasMap' => 'https://maps.google.com/?cid=11283217326523794687',
+      'sameAs' => [
+        'https://www.instagram.com/isabella.signer/',
+        'https://maps.google.com/?cid=11283217326523794687',
+      ],
     ],
     [
       '@type' => 'WebSite',

@@ -1,0 +1,83 @@
+{
+  "slug": "schlaf-erschoepfung",
+  "tag": "Schlaf & Erschöpfung",
+  "titel": "Schlaf & Erschöpfung",
+  "seo_titel": "Schlaf & Erschöpfung | Isabella Signer, Steinach SG",
+  "beschreibung": "Du schläfst und bist trotzdem erschöpft? Begleitung bei Schlafproblemen in Steinach bei St. Gallen – mit Bodywork, Breathwork, Ayurveda und Coaching.",
+  "keywords": [
+    "Schlafprobleme",
+    "Erschöpfung",
+    "nicht einschlafen können",
+    "nachts aufwachen",
+    "Gedankenkarussell",
+    "Müdigkeit",
+    "Erholung",
+    "Nervensystem"
+  ],
+  "kreise": [
+    "#B9A2E9",
+    "#8AA399"
+  ],
+  "einstieg": {
+    "titel": "Du gehst müde ins Bett. Und stehst erschöpft wieder auf.",
+    "spalten": [
+      "Du bist todmüde. Doch kaum liegst du im Bett, beginnt dein Gedankenkarussell. An Schlaf ist vorerst nicht zu denken.",
+      "Du schläfst schnell ein. Doch mitten in der Nacht bist du plötzlich hellwach. Du wälzt dich hin und her, während deine Gedanken schon um den nächsten Tag kreisen.",
+      "Du hast acht Stunden geschlafen. Trotzdem quälst du dich morgens aus dem Bett, als hättest du die ganze Nacht kein Auge zugemacht."
+    ]
+  },
+  "bloecke": [
+    {
+      "bild": "img/themen/schlaf-erschoepfung-1.webp",
+      "bild_alt": "Frau steht barfuss auf einem Baumstrunk im Gegenlicht des Waldes",
+      "titel": "Müde sein gehört eben dazu. Oder?",
+      "absaetze": [
+        "Der Wecker klingelt. Ohne deinen ersten Kaffee kommst du kaum in die Gänge. Und dann beginnt dein Tag, als wäre alles ganz normal. Du hast dich längst daran gewöhnt, ständig müde zu sein. Schliesslich haben andere auch viel um die Ohren. Also machst du weiter und versuchst, dir nichts anmerken zu lassen. Dass du dich kaum noch richtig erholt fühlst, ist für dich fast schon selbstverständlich geworden."
+      ]
+    },
+    {
+      "bild": "img/themen/schlaf-erschoepfung-2.webp",
+      "bild_alt": "Isabella Signer im Wald, den Blick nach oben ins Licht gerichtet",
+      "bild_rechts": true,
+      "titel": "Warum findest du trotz Schlaf keine Erholung?",
+      "absaetze": [
+        "Stress und innere Anspannung können das Ein- und Durchschlafen erschweren. Dein Nervensystem ist an diesen Reaktionen beteiligt. Auch Sorgen können dazu führen, dass du nachts wieder wach wirst. Doch nicht jede Schlafstörung oder Erschöpfung hängt mit Stress zusammen. Hormonelle Veränderungen, körperliche Beschwerden oder andere gesundheitliche Ursachen können eine Rolle spielen."
+      ]
+    }
+  ],
+  "gruen": {
+    "titel": "Besser schlafen beginnt nicht erst am Abend.",
+    "spalten": [
+      "Vielleicht bist du es gewohnt, deine eigenen Bedürfnisse hintenanzustellen. Du bist für andere da, übernimmst Verantwortung und findest kaum Zeit für dich selbst. Daran etwas zu ändern, fällt nicht immer leicht.",
+      "Du schluckst Ärger herunter, machst dir ständig Gedanken oder verlangst mehr von dir, als du leisten kannst. Solche Gewohnheiten lassen sich nicht einfach ablegen, nur weil du dir mehr Ruhe wünschst.",
+      "Oft sind es viele kleine Belastungen, die sich über längere Zeit summieren. Deshalb reicht es nicht immer, nur deine Schlafgewohnheiten zu verändern. Auch das, was dich im Alltag belastet, verdient Aufmerksamkeit."
+    ]
+  },
+  "begleitung": [
+    {
+      "bild": "img/isabella-signer-begleitung-bodywork.webp",
+      "bild_alt": "Frau tanzt mit erhobenem Arm im sonnigen Wald",
+      "titel": "Emotional Bodywork & Breathwork",
+      "text": "Körperliche Reaktionen besser wahrnehmen und einordnen und über Körper und Atem neue Wege im Umgang mit Anspannung entwickeln.",
+      "link": "/begleitung/emotional-bodywork-breathwork"
+    },
+    {
+      "bild": "img/isabella-signer-begleitung-coaching.webp",
+      "bild_alt": "Isabella Signer im Gespräch mit einer Klientin am Tisch",
+      "titel": "Mindset & Coaching",
+      "text": "Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.",
+      "link": "/begleitung/mindset-coaching"
+    },
+    {
+      "bild": "img/isabella-signer-begleitung-ayurveda.webp",
+      "bild_alt": "Isabella Signer riecht an frisch gemörserten Kräutern",
+      "titel": "Ayurveda & Ernährung",
+      "text": "Ernährung und Gewohnheiten genauer betrachten und herausfinden, was deinen Körper und deine Energie im Alltag unterstützen kann.",
+      "link": "/begleitung/ayurveda-ernaehrung"
+    }
+  ],
+  "angebote": {
+    "titel": "Was passt gerade zu dir?",
+    "text": "Wenn du dich trotz Schlaf kaum noch erholt fühlst, musst du nicht warten, bis die Müdigkeit zum Dauerzustand wird. Entscheide in Ruhe, welcher nächste Schritt für dich passt."
+  }
+}

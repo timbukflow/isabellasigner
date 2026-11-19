@@ -2,7 +2,7 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Termin buchen – kostenloses Kennenlerngespräch | Isabella Signer</title>
+    <title>Termin buchen | Isabella Signer, Steinach SG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Starte mit einem kostenlosen 20-minütigen Kennenlerngespräch. Einzel-Session CHF 140.–, Monatsbegleitung CHF 880.– – in Steinach (SG) oder online." />
     <meta name="author" content="Isabella Signer" />
@@ -20,7 +20,7 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Termin buchen – kostenloses Kennenlerngespräch | Isabella Signer" />
+    <meta property="og:title" content="Termin buchen | Isabella Signer, Steinach SG" />
     <meta property="og:description" content="Starte mit einem kostenlosen 20-minütigen Kennenlerngespräch. Einzel-Session CHF 140.–, Monatsbegleitung CHF 880.– – in Steinach (SG) oder online." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/termin" />
@@ -29,7 +29,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Termin buchen – kostenloses Kennenlerngespräch | Isabella Signer" />
+    <meta name="twitter:title" content="Termin buchen | Isabella Signer, Steinach SG" />
     <meta name="twitter:description" content="Starte mit einem kostenlosen 20-minütigen Kennenlerngespräch. Einzel-Session CHF 140.–, Monatsbegleitung CHF 880.– – in Steinach (SG) oder online." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
@@ -49,7 +49,7 @@
   "@type": "WebPage",
   "@id": "https://isabella-signer.ch/termin#webpage",
   "url": "https://isabella-signer.ch/termin",
-  "name": "Termin buchen – kostenloses Kennenlerngespräch | Isabella Signer",
+  "name": "Termin buchen | Isabella Signer, Steinach SG",
   "description": "Starte mit einem kostenlosen 20-minütigen Kennenlerngespräch. Einzel-Session CHF 140.–, Monatsbegleitung CHF 880.– – in Steinach (SG) oder online.",
   "inLanguage": "de-CH",
   "isPartOf": {

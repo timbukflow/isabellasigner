@@ -2,7 +2,7 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Begleitung bei Stress &amp; Erschöpfung | Isabella Signer, Steinach SG</title>
+    <title>Begleitung bei Stress &amp; Erschöpfung | Isabella Signer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Müde und trotzdem immer an? Begleitung bei Stress, Erschöpfung und innerer Unruhe in Steinach bei St. Gallen – mit Bodywork, Breathwork, Ayurveda &amp; Coaching." />
     <meta name="author" content="Isabella Signer" />
@@ -51,7 +51,7 @@
   "@type": "WebPage",
   "@id": "https://isabella-signer.ch/#webpage",
   "url": "https://isabella-signer.ch/",
-  "name": "Begleitung bei Stress & Erschöpfung | Isabella Signer, Steinach SG",
+  "name": "Begleitung bei Stress & Erschöpfung | Isabella Signer",
   "inLanguage": "de-CH",
   "isPartOf": {
     "@id": "https://isabella-signer.ch/#website"
@@ -117,18 +117,30 @@
                 <div>
                     <h3 class="yellow">Stress &amp; innere Unruhe</h3>
                     <p class="white">Auch wenn eigentlich nichts mehr zu tun ist, läuft es in dir weiter.</p>
+                    <?php if (is_file(__DIR__ . '/data/themen/stress-innere-unruhe.json')): ?>
+                        <p class="karte-link"><a href="/stress-innere-unruhe">Mehr erfahren</a></p>
+                    <?php endif; ?>
                 </div>
                 <div>
                     <h3 class="yellow">Schlaf &amp; Erschöpfung</h3>
                     <p class="white">Du schaffst, was du musst – aber für dich selbst bleibt kaum noch Energie.</p>
+                    <?php if (is_file(__DIR__ . '/data/themen/schlaf-erschoepfung.json')): ?>
+                        <p class="karte-link"><a href="/schlaf-erschoepfung">Mehr erfahren</a></p>
+                    <?php endif; ?>
                 </div>
                 <div>
                     <h3 class="yellow">Überforderung &amp; Reizbarkeit</h3>
                     <p class="white">Deine Geduld ist schneller am Ende und selbst Kleinigkeiten bringen dich aus der Ruhe.</p>
+                    <?php if (is_file(__DIR__ . '/data/themen/ueberforderung-reizbarkeit.json')): ?>
+                        <p class="karte-link"><a href="/ueberforderung-reizbarkeit">Mehr erfahren</a></p>
+                    <?php endif; ?>
                 </div>
                 <div>
                     <h3 class="yellow">Essen bei Stress &amp; Gefühlen</h3>
                     <p class="white">Du isst nicht immer, weil du Hunger hast. Manchmal stecken Stress, Gefühle oder alte Muster dahinter.</p>
+                    <?php if (is_file(__DIR__ . '/data/themen/essen-bei-stress-gefuehlen.json')): ?>
+                        <p class="karte-link"><a href="/essen-bei-stress-gefuehlen">Mehr erfahren</a></p>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -137,71 +149,9 @@
 
     <section class="light-sec">
 
-        <div class="container">
-            <div class="intro-split">
-                <h2>Nicht alles lässt sich im Kopf lösen.</h2>
-                <p>Deshalb beginnt meine Arbeit nicht mit einer bestimmten Methode, sondern bei dir und dem, was gerade in deinem Leben passiert.</p>
-            </div>
-            <div class="question-sec two-col steps">
-                <div>
-                    <img class="step-icon" src="img/icon-wahrnehmen.svg" alt="" width="70" height="70" loading="lazy">
-                    <div>
-                        <h3>Wahrnehmen</h3>
-                        <p>Was passiert gerade bei dir? Erkennen, was in deinem Körper und deinen Gedanken abläuft, und was dich innerlich in Alarmbereitschaft hält.</p>
-                    </div>
-                </div>
-                <div>
-                    <img class="step-icon" src="img/icon-regulieren.svg" alt="" width="70" height="70" loading="lazy">
-                    <div>
-                        <h3>Regulieren</h3>
-                        <p>Was brauchst du jetzt? Deinen Körper gezielt unterstützen, um Druck abzubauen und wieder mehr innere Stabilität zu gewinnen.</p>
-                    </div>
-                </div>
-                <div>
-                    <img class="step-icon" src="img/icon-verstehen.svg" alt="" width="70" height="70" loading="lazy">
-                    <div>
-                        <h3>Verstehen</h3>
-                        <p>Warum passiert dir das immer wieder? Zusammenhänge, Erfahrungen und Muster aufdecken, die dein Denken, Fühlen und Handeln prägen.</p>
-                    </div>
-                </div>
-                <div>
-                    <img class="step-icon" src="img/icon-verankern.svg" alt="" width="70" height="70" loading="lazy">
-                    <div>
-                        <h3>Verankern</h3>
-                        <p>Was möchtest du künftig anders machen? Neue Entscheidungen und Verhaltensweisen Schritt für Schritt in deinen Alltag integrieren.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php require __DIR__ . '/schritte.php'; ?>
 
-        <div class="container gap-middle">
-            <h2>Deine Begleitung richtet sich nach dir.</h2>
-            <p class="lead">Je nachdem, was du brauchst, verbinde ich unterschiedliche Ansätze miteinander.</p>
-        </div>
-
-        <div class="teaser-angebot light">
-            <div class="angebot">
-                <img src="img/isabella-signer-begleitung-bodywork.webp" alt="Frau tanzt mit erhobenem Arm im sonnigen Wald" loading="lazy" />
-                <h3 class="center">Emotional Bodywork &amp; Breathwork</h3>
-                <p class="center">Dein Körper spricht längst mit dir. Anspannung lösen, körperliche Reaktionen besser einordnen und neue Wege im Umgang mit Stress entwickeln.</p>
-            </div>
-
-            <div class="angebot">
-                <img src="img/isabella-signer-begleitung-coaching.webp" alt="Isabella Signer im Gespräch mit einer Klientin am Tisch" loading="lazy" />
-                <h3 class="center">Mindset &amp; Coaching</h3>
-                <p class="center">Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.</p>
-            </div>
-
-            <div class="angebot">
-                <img src="img/isabella-signer-begleitung-ayurveda.webp" alt="Isabella Signer riecht an frisch gemörserten Kräutern" loading="lazy" />
-                <h3 class="center">Ayurveda &amp; Ernährung</h3>
-                <p class="center">Was du isst und wie du isst, beeinflusst, wie du dich fühlst. Die richtigen Lebensmittel und Gewohnheiten können deinen Körper gezielt im Alltag unterstützen.</p>
-            </div>
-        </div>
-
-        <div class="btn">
-            <a href="angebot">Begleitung entdecken</a>
-        </div>
+        <?php require __DIR__ . '/begleitung-teaser.php'; ?>
     </section>
 
     <section class="cont-50-50">

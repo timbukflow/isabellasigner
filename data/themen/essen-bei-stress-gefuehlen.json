@@ -1,0 +1,83 @@
+{
+  "slug": "essen-bei-stress-gefuehlen",
+  "tag": "Essen bei Stress & Gefühlen",
+  "titel": "Essen bei Stress & Gefühlen",
+  "seo_titel": "Essen bei Stress & Gefühlen | Isabella Signer, Steinach",
+  "beschreibung": "Heisshunger bei Stress oder gar kein Appetit? Begleitung bei emotionalem Essen in Steinach bei St. Gallen – mit Ayurveda, Bodywork und Coaching.",
+  "keywords": [
+    "emotionales Essen",
+    "Essen bei Stress",
+    "Heisshunger",
+    "Appetitlosigkeit",
+    "Essverhalten",
+    "Ayurveda Ernährung",
+    "Gewohnheiten",
+    "Nervensystem"
+  ],
+  "kreise": [
+    "#14523A",
+    "#FDEB81"
+  ],
+  "einstieg": {
+    "titel": "Na toll. Schon wieder nicht geschafft.",
+    "spalten": [
+      "Der Tag war anstrengend. Endlich sitzt du auf dem Sofa. Jetzt noch ein Stück Schokolade. Oder zwei. Irgendwie hast du dir das heute verdient.",
+      "Manchmal ist es genau umgekehrt. Du hast so viel im Kopf, dass du kaum Hunger verspürst. Erst am Abend fällt dir auf, dass du seit dem Frühstück nichts mehr gegessen hast.",
+      "Manchmal ist der Hunger kaum zu stillen, manchmal bleibt der Appetit aus. Beides kann frustrieren. Besonders wenn man nicht versteht, warum sich das Essverhalten verändert."
+    ]
+  },
+  "bloecke": [
+    {
+      "bild": "img/themen/essen-bei-stress-gefuehlen-1.webp",
+      "bild_alt": "Hand nimmt Gewürze aus einer Gewürzdose",
+      "titel": "Warum ist Essen manchmal so kompliziert?",
+      "absaetze": [
+        "Eigentlich möchtest du dich ausgewogen ernähren. Doch manchmal greifst du aus Frust zu etwas Süssem, während du an anderen Tagen das Essen ganz vergisst. Danach ärgerst du dich über dich selbst und nimmst dir vor, es morgen besser zu machen. Aber was, wenn fehlende Disziplin gar nicht dein Problem ist?"
+      ]
+    },
+    {
+      "bild": "img/themen/essen-bei-stress-gefuehlen-2.webp",
+      "bild_alt": "Isabella Signer riecht an frisch gemörserten Kräutern",
+      "bild_rechts": true,
+      "titel": "Stress und Gefühle beeinflussen deinen Appetit.",
+      "absaetze": [
+        "Stress kann die Signale von Hunger und Sättigung beeinflussen. Manche Menschen verlieren bei Stress den Appetit, während andere häufiger essen, um sich zu beruhigen oder abzulenken. Doch nicht jede Veränderung des Essverhaltens ist emotional bedingt. Unregelmässige Mahlzeiten, Schlafmangel, hormonelle Veränderungen oder körperliche Beschwerden können ebenfalls eine Rolle spielen."
+      ]
+    }
+  ],
+  "gruen": {
+    "titel": "Vielleicht ist Essen gar nicht dein eigentliches Problem.",
+    "spalten": [
+      "Du hast vielleicht schon versucht, dein Essverhalten zu verändern. Doch wenn Essen dir Trost oder Entspannung bietet oder du bei Stress kaum Hunger verspürst, reichen gute Vorsätze oft nicht aus.",
+      "Manche Gewohnheiten begleiten dich schon seit Jahren. Ob du automatisch zu etwas Essbarem greifst oder Mahlzeiten auslässt: Vertraute Muster lassen sich nicht von heute auf morgen verändern.",
+      "Auch der Druck, alles richtig machen zu wollen, kann Veränderungen erschweren. Statt mehr Regeln aufzustellen, kann es helfen, hinzuschauen und herauszufinden, was hinter dem eigenen Essverhalten steckt."
+    ]
+  },
+  "begleitung": [
+    {
+      "bild": "img/isabella-signer-begleitung-bodywork.webp",
+      "bild_alt": "Frau tanzt mit erhobenem Arm im sonnigen Wald",
+      "titel": "Emotional Bodywork & Breathwork",
+      "text": "Körperliche Reaktionen besser wahrnehmen und einordnen und über Körper und Atem neue Wege im Umgang mit Anspannung entwickeln.",
+      "link": "/begleitung/emotional-bodywork-breathwork"
+    },
+    {
+      "bild": "img/isabella-signer-begleitung-coaching.webp",
+      "bild_alt": "Isabella Signer im Gespräch mit einer Klientin am Tisch",
+      "titel": "Mindset & Coaching",
+      "text": "Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.",
+      "link": "/begleitung/mindset-coaching"
+    },
+    {
+      "bild": "img/isabella-signer-begleitung-ayurveda.webp",
+      "bild_alt": "Isabella Signer riecht an frisch gemörserten Kräutern",
+      "titel": "Ayurveda & Ernährung",
+      "text": "Ernährung und Gewohnheiten genauer betrachten und herausfinden, was deinen Körper und deine Energie im Alltag unterstützen kann.",
+      "link": "/begleitung/ayurveda-ernaehrung"
+    }
+  ],
+  "angebote": {
+    "titel": "Was passt gerade zu dir?",
+    "text": "Wenn dich dein Essverhalten immer wieder beschäftigt, musst du nicht warten, bis der Druck noch grösser wird. Entscheide in Ruhe, welcher nächste Schritt für dich passt."
+  }
+}

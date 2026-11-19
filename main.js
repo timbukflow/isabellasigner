@@ -166,3 +166,31 @@ document.addEventListener('DOMContentLoaded', function () {
     history.replaceState(null, '', thema ? '/antworten?thema=' + encodeURIComponent(thema) : '/antworten');
   });
 });
+
+// Termin-Button: ab 250px einblenden, 200px vor Seitenende ausblenden
+document.addEventListener('DOMContentLoaded', function () {
+  var tab = document.getElementById('terminTab');
+  if (!tab) return;
+
+  var START = 250;
+  var END_OFFSET = 200;
+  var ticking = false;
+
+  function update() {
+    var y = window.scrollY || window.pageYOffset;
+    var bottom = document.documentElement.scrollHeight - window.innerHeight - y;
+    var show = y > START && bottom > END_OFFSET;
+    tab.classList.toggle('is-visible', show);
+    tab.setAttribute('tabindex', show ? '0' : '-1');
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(update);
+    }
+  }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+});

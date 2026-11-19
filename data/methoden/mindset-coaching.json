@@ -1,0 +1,78 @@
+{
+  "slug": "mindset-coaching",
+  "titel": "Mindset & Coaching",
+  "seo_titel": "Mindset & Coaching | Isabella Signer, Steinach SG",
+  "beschreibung": "Mindset-Coaching in Steinach bei St. Gallen: einschränkende Überzeugungen erkennen, bewusster entscheiden und deinen eigenen Bedürfnissen mehr Raum geben.",
+  "keywords": [
+    "Mindset Coaching",
+    "Coaching",
+    "Glaubenssätze",
+    "Denkmuster verändern",
+    "Nein sagen lernen",
+    "Selbstzweifel",
+    "Coaching Steinach"
+  ],
+  "hero": {
+    "bild": "img/methoden/mindset-coaching-hero.webp",
+    "bild_alt": "Isabella Signer im Coachinggespräch mit einer Klientin"
+  },
+  "einstieg": {
+    "titel": "Nicht jeder Gedanke verdient es, geglaubt zu werden.",
+    "spalten": [
+      "Was du über dich selbst denkst, beeinflusst, wie du fühlst, entscheidest und handelst. Oft sind es tief verankerte Überzeugungen, die dich unbewusst leiten.",
+      "Du möchtest etwas verändern, triffst aber immer wieder ähnliche Entscheidungen oder reagierst wie bisher. Dahinter können vertraute Denk- und Verhaltensmuster stecken.",
+      "Ein Blick von aussen kann sichtbar machen, was du selbst längst nicht mehr erkennst. Denn oft sind wir so sehr in unseren eigenen Denkweisen gefangen, dass wir andere Möglichkeiten übersehen."
+    ]
+  },
+  "bloecke": [
+    {
+      "bild": "img/methoden/mindset-coaching-1.webp",
+      "bild_alt": "Hand schreibt «Alles beginnt mit einem ersten Schritt» in ein Notizbuch",
+      "titel": "Warum wir uns manchmal selbst im Weg stehen.",
+      "absaetze": [
+        "Du möchtest öfter Nein sagen, ohne ein schlechtes Gewissen zu haben. Entscheidungen treffen, ohne ständig an dir zu zweifeln. Oder endlich etwas wagen, das du schon lange vor dir herschiebst. Vielleicht stellst du hohe Erwartungen an dich selbst, vergleichst dich mit anderen oder versuchst, Vorstellungen zu erfüllen, die gar nicht deine eigenen sind. Manchmal wissen wir ziemlich genau, was wir uns wünschen. Und trotzdem fällt es uns schwer, danach zu handeln."
+      ]
+    },
+    {
+      "bild": "img/methoden/mindset-coaching-2.webp",
+      "bild_alt": "Isabella Signer sitzt lesend vor einem Regal mit Vasen",
+      "bild_rechts": true,
+      "titel": "Was früher geholfen hat, kann dich heute bremsen.",
+      "absaetze": [
+        "Viele unserer Denk- und Verhaltensmuster haben sich über Jahre entwickelt. Durch ständige Wiederholung werden sie zur Gewohnheit und beeinflussen unser Handeln, oft ohne dass wir es bemerken. Nur weil eine Strategie funktioniert, bedeutet das noch lange nicht, dass sie dir guttut. Was früher hilfreich war, kann dich heute zurückhalten. Und selbst wenn du das erkennst, ist es nicht immer einfach, vertraute Muster zu verändern."
+      ]
+    }
+  ],
+  "gruen": {
+    "titel": "Wie Mindset & Coaching Teil deiner Begleitung wird",
+    "spalten": [
+      "Dabei geht es nicht darum, einfach positiver zu denken. Mit gezielten Fragen und Coachingübungen schauen wir genauer hin: Welche Überzeugungen beeinflussen deine Entscheidungen? Was hält dich zurück?",
+      "Wir betrachten vertraute Denkweisen und Reaktionen aus einem anderen Blickwinkel. Dabei kannst du neue Möglichkeiten und vielleicht auch Wünsche und Träume wiederentdecken, die längst keinen Platz mehr hatten.",
+      "Neue Erkenntnisse allein verändern noch nichts. Gemeinsam finden wir Wege, wie du bewusster entscheiden, anders reagieren und deinen eigenen Bedürfnissen mehr Raum geben kannst."
+    ]
+  },
+  "weitere": {
+    "titel": "Manchmal braucht es\nmehr als einen Ansatz.",
+    "text": "Je nachdem, was dich beschäftigt, kann es sinnvoll sein, auch deinen Körper, deine Ernährung oder die Gewohnheiten deines Alltags genauer anzuschauen. Deshalb verbinde ich unterschiedliche Methoden in deiner Begleitung.",
+    "karten": [
+      {
+        "bild": "img/isabella-signer-begleitung-bodywork.webp",
+        "bild_alt": "Frau tanzt mit erhobenem Arm im sonnigen Wald",
+        "titel": "Emotional Bodywork & Breathwork",
+        "text": "Körperliche Reaktionen besser wahrnehmen und einordnen und über Körper und Atem neue Wege im Umgang mit Anspannung entwickeln.",
+        "link": "/begleitung/emotional-bodywork-breathwork"
+      },
+      {
+        "bild": "img/isabella-signer-begleitung-ayurveda.webp",
+        "bild_alt": "Isabella Signer riecht an frisch gemörserten Kräutern",
+        "titel": "Ayurveda & Ernährung",
+        "text": "Ernährung und Gewohnheiten genauer betrachten und herausfinden, was deinen Körper und deine Energie im Alltag unterstützen kann.",
+        "link": "/begleitung/ayurveda-ernaehrung"
+      }
+    ]
+  },
+  "angebote": {
+    "titel": "Was passt gerade zu dir?",
+    "text": "Jeder Mensch bringt andere Themen und Bedürfnisse mit. Gemeinsam schauen wir, wo du stehst und welche Form der Begleitung zu dir und deiner Situation passt."
+  }
+}

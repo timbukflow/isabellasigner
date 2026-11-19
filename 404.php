@@ -51,7 +51,7 @@ try {
         <p class="small" style="margin-top: 16px;">Das kannst du als Nächstes tun:</p>
         <ul style="margin-top: 10px; list-style: disc; padding-left: 20px;">
             <li><a href="/">Zur Startseite</a></li>
-            <li><a href="/angebot">Mein Angebot</a></li>
+            <li><a href="/begleitung">Meine Begleitung</a></li>
             <li><a href="/termin">Termin buchen</a></li>
             <li><a href="/kontakt">Kontakt</a></li>
         </ul>

@@ -24,12 +24,29 @@ Die Begleitung beginnt nicht mit einer Methode, sondern bei der Person und ihrer
 
 Isabella Signer ist Ayurveda Lifestyle- & Ernährungscoach, Expertin für Frauengesundheit, Holistic Breathwork Coach und Spiritual Lifecoach, ehemalige Führungskraft und Mutter von drei erwachsenen Kindern. Ihre Arbeit ersetzt keine medizinische oder psychotherapeutische Behandlung.
 
-## Angebot und Preise
+## Begleitung und Preise
 
 - [Kennenlerngespräch](<?= $base ?>/termin): 20 Minuten, kostenlos und unverbindlich.
 - [Einzel-Session](<?= $base ?>/termin): CHF 140.– pro Stunde; Breathwork, Emotional Bodywork oder Coaching je nach Thema.
 - [Monatsbegleitung](<?= $base ?>/termin): CHF 880.– pro Monat; 2-stündiges Anamnesegespräch, vier Beratungsstunden pro Monat, WhatsApp-Begleitung, persönliches Workbook, beliebig verlängerbar.
 - Absagen bis 24 Stunden vorher sind kostenlos.
+
+## Methoden
+
+<?php foreach (glob(__DIR__ . '/data/methoden/*.json') ?: [] as $datei):
+    $m = json_decode((string)file_get_contents($datei), true);
+    if (!is_array($m) || empty($m['slug'])) continue; ?>
+- [<?= $m['titel'] ?>](<?= $base ?>/begleitung/<?= $m['slug'] ?>): <?= $m['beschreibung'] ?>
+
+<?php endforeach; ?>
+## Themen
+
+<?php foreach (glob(__DIR__ . '/data/themen/*.json') ?: [] as $datei):
+    $t = json_decode((string)file_get_contents($datei), true);
+    if (!is_array($t) || empty($t['slug'])) continue; ?>
+- [<?= $t['titel'] ?>](<?= $base ?>/<?= $t['slug'] ?>): <?= $t['beschreibung'] ?>
+
+<?php endforeach; ?>
 
 ## Antworten auf häufige Fragen
 
@@ -51,7 +68,7 @@ Beiträge von Isabella Signer, jeweils mit persönlicher Erfahrung und Einordnun
 ## Seiten
 
 - [Startseite](<?= $base ?>/): Überblick, Themen und Arbeitsweise
-- [Angebot](<?= $base ?>/angebot): Emotional Bodywork, Breathwork, Ayurveda und Coaching im Detail
+- [Begleitung](<?= $base ?>/begleitung): Emotional Bodywork, Breathwork, Ayurveda und Coaching im Detail
 - [Antworten](<?= $base ?>/antworten): Beiträge zu Stress, Schlaf, Überforderung und Essen bei Stress
 - [Über mich](<?= $base ?>/ueber-mich): Werdegang und Ausbildungen von Isabella Signer
 - [Termin buchen](<?= $base ?>/termin): Formate, Preise und häufige Fragen
@@ -62,4 +79,6 @@ Beiträge von Isabella Signer, jeweils mit persönlicher Erfahrung und Einordnun
 - Adresse: Isabella Signer, Kornfeldstrasse 17b, 9323 Steinach, Schweiz
 - E-Mail: info@isabella-signer.ch
 - Telefon: +41 78 758 19 12
+- Öffnungszeiten: Montag bis Freitag, 08.00–12.00 und 13.00–17.00 Uhr
 - Instagram: https://www.instagram.com/isabella.signer/
+- Google-Unternehmensprofil: https://maps.google.com/?cid=11283217326523794687

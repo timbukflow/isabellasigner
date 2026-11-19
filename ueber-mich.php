@@ -2,7 +2,7 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="UTF-8" />
-    <title>Über mich – Isabella Signer | Ayurveda-, Breathwork- &amp; Lifecoach</title>
+    <title>Über mich – Isabella Signer | Ayurveda &amp; Breathwork Coach</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Ehemalige Führungskraft, Mutter und heute Ayurveda Lifestyle- &amp; Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG)." />
     <meta name="author" content="Isabella Signer" />
@@ -20,7 +20,7 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Über mich – Isabella Signer | Ayurveda-, Breathwork- &amp; Lifecoach" />
+    <meta property="og:title" content="Über mich – Isabella Signer | Ayurveda &amp; Breathwork Coach" />
     <meta property="og:description" content="Ehemalige Führungskraft, Mutter und heute Ayurveda Lifestyle- &amp; Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG)." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isabella-signer.ch/ueber-mich" />
@@ -29,7 +29,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Über mich – Isabella Signer | Ayurveda-, Breathwork- &amp; Lifecoach" />
+    <meta name="twitter:title" content="Über mich – Isabella Signer | Ayurveda &amp; Breathwork Coach" />
     <meta name="twitter:description" content="Ehemalige Führungskraft, Mutter und heute Ayurveda Lifestyle- &amp; Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG)." />
     <meta name="twitter:image" content="https://isabella-signer.ch/img/og-image.jpg" />
 
@@ -49,7 +49,7 @@
   "@type": "AboutPage",
   "@id": "https://isabella-signer.ch/ueber-mich#webpage",
   "url": "https://isabella-signer.ch/ueber-mich",
-  "name": "Über mich – Isabella Signer | Ayurveda-, Breathwork- & Lifecoach",
+  "name": "Über mich – Isabella Signer | Ayurveda & Breathwork Coach",
   "description": "Ehemalige Führungskraft, Mutter und heute Ayurveda Lifestyle- & Ernährungscoach, Holistic Breathwork Coach und Spiritual Lifecoach in Steinach (SG).",
   "inLanguage": "de-CH",
   "isPartOf": {
@@ -88,95 +88,65 @@
 
 <body>
     <?php require_once 'nav.php'; ?>
-    <main>
+    <main class="ueber-mich">
 
     <header>
         <p class="eyebrow">Über mich</p>
-        <h1>Deine Heraus&shy;forder&shy;ungen sind mir nicht fremd – ich habe sie selbst durchlebt.</h1>
+        <h1>Ich weiss, wie es sich anfühlt, wenn man alles schafft – und sich selbst dabei immer weniger spürt.</h1>
     </header>
 
-    <section class="cont-50-50">
-        <div class="photo parallax fix" data-speed="0.05">
-            <img
-            src="img/isabella-signer-ueber-mich-01.webp"
-            alt="Isabella Signer sitzt nachdenklich in ihrem Praxisraum zwischen Keramikgefässen"
-            loading="lazy"
-            />
-        </div>
+    <?php
+    $bloecke = [
+        [
+            'bild'     => 'img/ueber-mich/isabella-signer-01.webp',
+            'bild_alt' => 'Isabella Signer sitzt nachdenklich in ihrem Praxisraum zwischen Keramikgefässen',
+            'absaetze' => [
+                'Ich kenne die vielen Rollen, die Frauen im Leben einnehmen.',
+                'Als ehemalige Führungskraft, als Mutter von drei erwachsenen Kindern, als dreifache stolze Nana weiss ich, wie turbulent dein Alltag aussehen kann.',
+                'Als Frau mit einem vollen Leben und einem offenen Herzen, das immer weiter wachsen wollte.',
+            ],
+        ],
+        [
+            'bild'        => 'img/ueber-mich/isabella-signer-02.webp',
+            'bild_alt'    => 'Isabella Signer in ihrem Praxisraum in Steinach (SG)',
+            'bild_rechts' => true,
+            'absaetze'    => [
+                'Heute begleite ich Menschen mit all meiner Erfahrung und meinem Wissen als Ayurveda Lifestyle- & Ernährungscoach, Expertin für Frauengesundheit, Holistic Breathwork Coach und Spiritual Lifecoach auf ihrem Weg raus aus dem Funktionieren und hin zu einem bewussteren Leben.',
+                'Meine Leidenschaften: das Leben! Lesen, Tanzen, Natur, gutes Essen, Kochen, Yoga, Weiterentwicklung und ganz besonders – die magische Zeit mit meinen Enkelkindern und meiner Familie.',
+                'Was ich mache? Ich halte Räume, in denen Menschen aufhören, sich zu fragen, ob sie genug sind, und anfangen zu spüren, wie unfassbar grossartig sie sind.',
+            ],
+        ],
+    ];
+    require __DIR__ . '/bild-text.php';
+    ?>
 
-        <div class="copy parallax fix" data-speed="-0.05">
-            <p class="t-a-left">
-            Ich kenne die vielen Rollen, die Frauen im Leben einnehmen. <br> <br>
-            Als ehemalige Führungskraft, als Mutter von drei erwachsenen Kindern, als dreifache stolze Nana weiss ich, wie turbulent dein Alltag aussehen kann. <br> <br>
-            Als Frau mit einem vollen Leben und einem offenen Herzen, das immer weiter wachsen wollte.
-            </p>
-        </div>
+    <?php
+    $gruen = [
+        'titel'   => 'Glaubst du immer noch, dass Selbstfürsorge ein Luxus ist, der anderen etwas wegnimmt?',
+        'spalten' => [
+            'Vielleicht hast du gelernt, dich zurückzunehmen, um geliebt zu werden. Vielleicht denkst du, wenn du dir Zeit schenkst, kommt dadurch deine Familie zu kurz.',
+            'In Wahrheit nährst du dein Umfeld am besten, wenn du dich selbst nicht vergisst.',
+            'Dein innerer Raum muss nicht verhandelt werden. Du darfst da sein – ganz.',
+        ],
+    ];
+    $gruenButton = 'Lass uns darüber reden';
+    require __DIR__ . '/gruen-text.php';
+    ?>
+
+    <section class="light-sec">
+        <?php require __DIR__ . '/schritte.php'; ?>
+
+        <?php
+        $begleitungButton = false;
+        require __DIR__ . '/begleitung-teaser.php';
+        ?>
     </section>
 
-     <section class="cont-50-50 revers">
-        <div class="photo parallax fix" data-speed="0.1">
-            <img
-            src="img/isabella-signer-ueber-mich-02.webp"
-            alt="Isabella Signer im Praxisraum in Steinach (SG)"
-            loading="lazy"
-            />
-        </div>
-
-        <div class="copy parallax fix" data-speed="0.05">
-            <p class="t-a-left small">
-                Heute begleite ich Frauen mit all meiner Erfahrung und meinem Wissen als Ayurveda Lifestyle- & Ernährungscoach, Expertin für Frauengesundheit, Holistic Breathwork Coach und Spiritual Lifecoach auf ihrem Weg raus aus dem Funktionieren und rein ins echte Frausein.
-            </p>
-            <p class="t-a-left small">
-                Meine Leidenschaften: das Leben! Lesen, Tanzen, Natur, gutes Essen, Kochen, Yoga, Weiterentwicklung und ganz besonders - die magische Zeit mit meinen Enkelkindern und meiner Familie.
-            </p>
-            <p class="t-a-left small">
-                Was ich mache? Ich halte Räume, in denen Frauen aufhören, sich zu fragen, ob sie genug sind und anfangen zu spüren, wie unfassbar grossartig sie sind.
-            </p>
-        </div>
-    </section>
-
-    <section class="ta-cont">
-        <div class="container">
-            <h2 class="white">Glaubst du immer noch, dass Selbstfürsorge ein Luxus ist, der anderen etwas wegnimmt?</h2>
-            <div class="question-sec">
-                <p class="white">
-                    Vielleicht hast du gelernt, dich zurückzunehmen, um geliebt zu werden.
-                </p>
-                <p class="white">
-                    Vielleicht denkst du, wenn du dir Zeit schenkst, kommt dadurch deine Familie zu kurz.
-                    In Wahrheit nährst du dein Umfeld am besten, wenn du dich selbst nicht vergisst.
-                </p>
-                <p class="white">
-                    Dein innerer Raum muss nicht verhandelt werden.
-                    Du darfst da sein – ganz.
-                </p>
-            </div>
-        </div>
-
-        <div class="teaser-angebot">
-            <div class="angebot">
-                <img src="img/isabella-signer-begleitung-bodywork.webp" alt="Frau tanzt mit erhobenem Arm im sonnigen Wald" loading="lazy" />
-                <h3>Emotional Bodywork &amp; Breathwork</h3>
-                <p>Dein Körper spricht längst mit dir. Anspannung lösen, körperliche Reaktionen besser einordnen und neue Wege im Umgang mit Stress entwickeln.</p>
-            </div>
-            <div class="angebot">
-                <img src="img/isabella-signer-begleitung-coaching.webp" alt="Isabella Signer im Gespräch mit einer Klientin am Tisch" loading="lazy" />
-                <h3>Mindset &amp; Coaching</h3>
-                <p>Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.</p>
-            </div>
-            <div class="angebot">
-                <img src="img/isabella-signer-begleitung-ayurveda.webp" alt="Isabella Signer riecht an frisch gemörserten Kräutern" loading="lazy" />
-                <h3>Ayurveda &amp; Ernährung</h3>
-                <p>Was du isst und wie du isst, beeinflusst, wie du dich fühlst. Die richtigen Lebensmittel und Gewohnheiten können deinen Körper gezielt im Alltag unterstützen.</p>
-            </div>
-        </div>
-        <div class="btn">
-            <a href="angebot">Begleitung entdecken</a>
-        </div>
-    </section>
-
-    
-
+    <?php
+    $termineTitel = 'Meine Angebote';
+    $termineText  = 'Du musst dich nicht zwischen Ayurveda, Coaching oder Breathwork entscheiden – ich verbinde diese Qualitäten und gestalte für dich eine Begleitung, die ganz auf deine aktuellen Bedürfnisse abgestimmt ist.';
+    require __DIR__ . '/termine.php';
+    ?>
 
     </main>
 

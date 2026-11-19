@@ -1,0 +1,78 @@
+{
+  "slug": "emotional-bodywork-breathwork",
+  "titel": "Emotional Bodywork & Breathwork",
+  "seo_titel": "Emotional Bodywork & Breathwork | Isabella Signer",
+  "beschreibung": "Emotional Bodywork und Breathwork in Steinach bei St. Gallen: Körpersignale wahrnehmen, Anspannung lösen und dein Nervensystem bei Stress regulieren.",
+  "keywords": [
+    "Emotional Bodywork",
+    "Breathwork",
+    "Atemarbeit",
+    "Körperarbeit",
+    "Körpersignale wahrnehmen",
+    "Nervensystem regulieren",
+    "Breathwork Steinach"
+  ],
+  "hero": {
+    "bild": "img/methoden/emotional-bodywork-breathwork-hero.webp",
+    "bild_alt": "Beide Hände ruhen übereinander auf der Brust"
+  },
+  "einstieg": {
+    "titel": "Dein Kopf sucht noch nach einer Erklärung. Dein Körper hat längst reagiert.",
+    "spalten": [
+      "Dein Körper spricht mit dir. Durch Anspannung, Empfindungen und manchmal auch Beschwerden. Doch oft ist dein Kopf so laut, dass du seine Signale überhörst.",
+      "Prägende Erfahrungen und tief sitzende Emotionen können beeinflussen, wie du heute fühlst und reagierst. Auch dann, wenn dir diese Zusammenhänge gar nicht bewusst sind.",
+      "Dein Atem bietet dir eine Möglichkeit, Einfluss auf dein Nervensystem zu nehmen. Du kannst ihn gezielt nutzen, um zur Ruhe zu kommen, neue Energie zu gewinnen oder wieder präsenter zu sein."
+    ]
+  },
+  "bloecke": [
+    {
+      "bild": "img/methoden/emotional-bodywork-breathwork-1.webp",
+      "bild_alt": "Isabella Signer steht mit gefalteten Händen und geschlossenen Augen auf einem Waldweg",
+      "titel": "Du sagst Ja. Doch dein Körper sagt Nein.",
+      "absaetze": [
+        "Du stimmst etwas zu, obwohl es sich nicht richtig anfühlt. Deine Schultern spannen sich an, dein Bauch wird flau oder du spürst einen Druck in der Brust. Vielleicht merkst du erst später, dass du gerade deine persönliche Grenze überschritten hast. Unser Körper kann auf Situationen reagieren, bevor wir bewusst verstehen, was sie in uns auslösen. Solche Signale können Hinweise auf Gefühle, Bedürfnisse oder tief verankerte Erfahrungen sein, die uns bis heute beeinflussen."
+      ]
+    },
+    {
+      "bild": "img/methoden/emotional-bodywork-breathwork-2.webp",
+      "bild_alt": "Isabella Signer mit geschlossenen Augen im sonnigen Wald",
+      "bild_rechts": true,
+      "titel": "Wenn Gefühle keinen Raum bekommen.",
+      "absaetze": [
+        "Manchmal haben wir gelernt, Gefühle zurückzuhalten oder unsere eigenen Bedürfnisse zu übergehen. Mit der Zeit können daraus Reaktionsmuster entstehen, die wir wiederholen, selbst wenn wir sie längst erkannt haben. Emotional Bodywork setzt hier an: Durch achtsame Körperarbeit können wir solche Reaktionen bewusster wahrnehmen und neue Wege im Umgang mit ihnen erkunden. Breathwork ergänzt diesen Prozess durch gezielte Atemarbeit."
+      ]
+    }
+  ],
+  "gruen": {
+    "titel": "Wie Emotional Bodywork & Breathwork Teil deiner Begleitung werden",
+    "spalten": [
+      "Über Entspannung und gezielte Körperwahrnehmung findest du wieder Zugang zu deinem Körper. Du lernst, Empfindungen und Gefühle bewusst wahrzunehmen, ohne sie sofort verändern zu müssen.",
+      "In einem geschützten Rahmen gehen wir mit achtsamer Körper- und Atemarbeit dem nach, was sich zeigt. Auch schwierige Gefühle dürfen Raum bekommen, ohne dass du dich unter Druck setzen musst.",
+      "Mit unterschiedlichen Atemtechniken lernst du, deinen Atem bewusst einzusetzen. So erhältst du ein Werkzeug, das dir helfen kann, innere Unruhe zu regulieren, neue Energie zu gewinnen und im Alltag präsenter zu sein."
+    ]
+  },
+  "weitere": {
+    "titel": "Manchmal braucht es\nmehr als einen Ansatz.",
+    "text": "Je nachdem, was dich beschäftigt, kann es sinnvoll sein, auch deine Gedankenmuster oder die Gewohnheiten deines Alltags genauer anzuschauen. Deshalb verbinde ich unterschiedliche Methoden in deiner Begleitung.",
+    "karten": [
+      {
+        "bild": "img/isabella-signer-begleitung-ayurveda.webp",
+        "bild_alt": "Isabella Signer riecht an frisch gemörserten Kräutern",
+        "titel": "Ayurveda & Ernährung",
+        "text": "Ernährung und Gewohnheiten genauer betrachten und herausfinden, was deinen Körper und deine Energie im Alltag unterstützen kann.",
+        "link": "/begleitung/ayurveda-ernaehrung"
+      },
+      {
+        "bild": "img/isabella-signer-begleitung-coaching.webp",
+        "bild_alt": "Isabella Signer im Gespräch mit einer Klientin am Tisch",
+        "titel": "Mindset & Coaching",
+        "text": "Gedanken und Muster hinterfragen, die dich immer wieder an denselben Punkt bringen und neue Handlungsmöglichkeiten entwickeln.",
+        "link": "/begleitung/mindset-coaching"
+      }
+    ]
+  },
+  "angebote": {
+    "titel": "Was passt gerade zu dir?",
+    "text": "Du fragst dich, ob Emotional Bodywork & Breathwork zu deiner Situation passen? Lass uns gemeinsam herausfinden, welche Begleitung dich unterstützen kann."
+  }
+}
