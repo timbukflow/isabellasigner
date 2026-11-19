@@ -1923,6 +1923,8 @@ body.noscroll .termin-tab.is-visible {
   .cont-50-50 {flex-direction: column; padding: 0 30px;}
   .cont-50-50.revers {flex-direction: column;}
   .bild-text + .bild-text {margin-top: 90px;}
+  /* gestalterische Zeilenumbrüche aus dem JSON auf kleinen Schirmen weglassen */
+  .umbruch-gross {display: none;}
   /* auf dem Handy liegen Bild und Text untereinander und der Parallax ist aus –
      darum hier dieselben Abstände wie zwischen den Blöcken */
   .begleitung .bild-text:first-of-type,
@@ -1930,6 +1932,10 @@ body.noscroll .termin-tab.is-visible {
   .begleitung .bild-text.letzter,
   .ueber-mich .bild-text.letzter {margin-bottom: 90px;}
   .btn {margin-top: 40px;}
+  /* schmalere Polsterung, damit Beschriftungen wie «Lass uns darüber reden»
+     auch im engsten Container auf einer Zeile bleiben */
+  .btn a {padding: 12px 24px; font-size: var(--fontsmall);}
+  .btn a:hover {padding: 12px 30px;}
   .ta-cont {padding: 60px 20px 50px; margin-top: 20px;}
   .ta-cont.thema-gruen {padding-top: 80px; padding-bottom: 60px; margin-top: 20px;}
   .container {margin-bottom: 50px; padding: 10px;}

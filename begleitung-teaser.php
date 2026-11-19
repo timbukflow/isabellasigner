@@ -25,7 +25,8 @@ $begleitungText   = $begleitungText ?? 'Je nachdem, was du brauchst, verbinde ic
 if (!function_exists('e')) { function e(string $t): string { return htmlspecialchars($t, ENT_QUOTES, 'UTF-8'); } }
 ?>
         <div class="container gap-middle begleitung-kopf">
-            <h2><?= nl2br(e($begleitungTitel), false) ?></h2>
+            <?php /* Zeilenumbruch aus dem JSON gilt nur auf grossen Schirmen */ ?>
+            <h2><?= str_replace("\n", '<br class="umbruch-gross"> ', e($begleitungTitel)) ?></h2>
             <p class="lead"><?= e($begleitungText) ?></p>
         </div>
 
