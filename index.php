@@ -151,7 +151,9 @@
 
         <?php require __DIR__ . '/schritte.php'; ?>
 
-        <?php require __DIR__ . '/begleitung-teaser.php'; ?>
+        <?php
+        require __DIR__ . '/begleitung-teaser.php';
+        ?>
     </section>
 
     <section class="cont-50-50">

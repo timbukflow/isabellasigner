@@ -148,7 +148,6 @@ $breadcrumb = [
             $begleitungTitel  = $methode['weitere']['titel'] ?? null;
             $begleitungText   = $methode['weitere']['text'] ?? null;
             $begleitungKarten = $methode['weitere']['karten'] ?? null;
-            $begleitungButton = false;
             require __DIR__ . '/begleitung-teaser.php';
             ?>
         </section>

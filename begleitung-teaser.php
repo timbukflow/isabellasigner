@@ -2,7 +2,6 @@
 /*
  * «Deine Begleitung richtet sich nach dir.» – drei Angebote.
  * $begleitungKarten  (optional) eigene Texte je Karte, sonst die Standardtexte unten
- * $begleitungButton  (optional) [Beschriftung, Ziel] für den Button am Ende
  * $begleitungTitel / $begleitungText  (optional) eigene Überschrift und Einleitung
  */
 $begleitungKarten = $begleitungKarten ?? [
@@ -19,7 +18,6 @@ if (!function_exists('begleitung_ziel')) { function begleitung_ziel(string $ziel
     if (is_file(__DIR__ . '/' . $slug . '.php') || is_file(__DIR__ . '/data/themen/' . $slug . '.json')) return $ziel;
     return '/begleitung';
 } }
-$begleitungButton = $begleitungButton ?? ['Begleitung entdecken', '/begleitung'];
 $begleitungTitel  = $begleitungTitel ?? 'Deine Begleitung richtet sich nach dir.';
 $begleitungText   = $begleitungText ?? 'Je nachdem, was du brauchst, verbinde ich unterschiedliche Ansätze miteinander.';
 if (!function_exists('e')) { function e(string $t): string { return htmlspecialchars($t, ENT_QUOTES, 'UTF-8'); } }
@@ -47,8 +45,3 @@ if (!function_exists('e')) { function e(string $t): string { return htmlspecialc
             <?php endforeach; ?>
         </div>
 
-        <?php if ($begleitungButton): ?>
-            <div class="btn">
-                <a href="<?= e($begleitungButton[1]) ?>"><?= e($begleitungButton[0]) ?></a>
-            </div>
-        <?php endif; ?>

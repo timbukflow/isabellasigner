@@ -130,7 +130,6 @@ $breadcrumb = [
 
             <?php
             $begleitungKarten = $thema['begleitung'] ?? null;
-            $begleitungButton = false;
             require __DIR__ . '/begleitung-teaser.php';
             ?>
         </section>

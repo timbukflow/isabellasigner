@@ -137,7 +137,6 @@
         <?php require __DIR__ . '/schritte.php'; ?>
 
         <?php
-        $begleitungButton = false;
         require __DIR__ . '/begleitung-teaser.php';
         ?>
     </section>

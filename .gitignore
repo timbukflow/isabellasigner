@@ -1,3 +1,4 @@
 .htaccess
 logs/
 .playwright-mcp/
+.DS_Store
